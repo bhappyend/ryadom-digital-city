@@ -1,0 +1,10 @@
+import { spawnSync } from 'node:child_process';
+import { resolve } from 'node:path';
+import assert from 'node:assert/strict';
+const image = process.argv[2];
+assert.ok(image, 'Usage: node infra/docker/smoke-pilot.mjs TOOLS_IMAGE');
+const mounts = ['smolensk-replay.json','source-manifest.json','smolensk-initial.overpassql'].flatMap(name => ['--mount', `type=bind,source=${resolve('data/osm',name)},target=/import/${name},readonly`]);
+const code = `const {spawnSync}=require('node:child_process'); const fs=require('node:fs'); const r=spawnSync(process.execPath,['node_modules/tsx/dist/cli.mjs','packages/importer/src/cli.ts','--input','/import/smolensk-replay.json','--manifest','/import/source-manifest.json','--report','/tmp/pilot-check.json'],{encoding:'utf8'}); if(r.status!==0) process.exit(1); const x=JSON.parse(fs.readFileSync('/tmp/pilot-check.json')); if(x.mode!=='dry-run'||x.counts.accepted<1) process.exit(1); console.log(JSON.stringify({mode:x.mode,counts:x.counts,license:x.license}));`;
+const result = spawnSync('docker',['run','--rm','--read-only','--network','none','--cap-drop','ALL','--security-opt','no-new-privileges:true','--tmpfs','/tmp:rw,noexec,nosuid,size=32m',...mounts,'--entrypoint','node',image,'-e',code],{encoding:'utf8',timeout:90_000,maxBuffer:1024*1024});
+assert.equal(result.status,0,'Read-only, network-none pilot replay dry-run failed (output suppressed)');
+console.log(result.stdout.trim());

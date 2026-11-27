@@ -1,0 +1,26 @@
+{
+  "name": "@ryadom/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run src --passWithNoTests"
+  },
+  "dependencies": {
+    "@ryadom/types": "0.1.0",
+    "@ryadom/ui": "0.1.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "maplibre-gl": "6.19.0",
+    "zod": "4.6.7",
+    "@ryadom/accounts-types": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0"
+  }
+}

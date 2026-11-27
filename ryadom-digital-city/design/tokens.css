@@ -1,0 +1,28 @@
+:root {
+  color-scheme: dark;
+  --background: #061217;
+  --surface: #0B1B22;
+  --surface-raised: #10242E;
+  --surface-hover: #18313C;
+  --border: #25434D;
+  --text: #F4F9FA;
+  --text-muted: #A1B5BE;
+  --primary: #25F5B0;
+  --primary-hover: #5CFFD0;
+  --on-primary: #061217;
+  --secondary: #9D9BFF;
+  --info: #37B6FF;
+  --danger: #FF758B;
+  --warning: #F8CA7B;
+  --map-water: #0D4355;
+  --map-road: #2B424D;
+  --map-building: #193440;
+  --font-ui: Manrope, Onest, system-ui, sans-serif;
+  --radius-card: 18px;
+  --radius-input: 12px;
+  --shadow-card: 0 12px 40px rgb(0 0 0 / 24%);
+  --glow-mint: 0 0 24px rgb(37 245 176 / 18%);
+  --ease-out: cubic-bezier(.22,1,.36,1);
+  --duration-fast: 160ms;
+  --duration-normal: 280ms;
+}

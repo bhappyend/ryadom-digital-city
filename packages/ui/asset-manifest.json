@@ -1,0 +1,473 @@
+{
+  "source": "ryadom-digital-city/assets",
+  "files": [
+    {
+      "file": "backgrounds/hero-city-small.webp",
+      "bytes": 87196,
+      "sha256": "66f4746b3cf912c3a22f5a1b80a9b49d2e5380ff2abf6e1d779ee36558d32c03",
+      "dimensions": [
+        960,
+        540
+      ],
+      "format": "WEBP"
+    },
+    {
+      "file": "backgrounds/hero-city.webp",
+      "bytes": 269378,
+      "sha256": "dcea01d1be365176bad14c021734334b369e6b462f57d6da3b6816835e2b49a4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "WEBP"
+    },
+    {
+      "file": "brand/apple-touch-icon.png",
+      "bytes": 9137,
+      "sha256": "558b4cd3b9b84255bede7d200695b77730fad24e957fd928fb2485ce981959ee",
+      "dimensions": [
+        180,
+        180
+      ],
+      "format": "PNG"
+    },
+    {
+      "file": "brand/favicon.ico",
+      "bytes": 6668,
+      "sha256": "6fbc3293bded2cb383101887b4aa6b82713d135d81966b7c1d4c8e990f742097",
+      "dimensions": [
+        64,
+        64
+      ],
+      "format": "ICO"
+    },
+    {
+      "file": "brand/favicon.svg",
+      "bytes": 307,
+      "sha256": "c90dd291ed83a86479d3fd8456ccc7e8616190e6eafb61d09dbeff7caaafd2ab",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "brand/icon-192.png",
+      "bytes": 5933,
+      "sha256": "093537c9c36e19d785641851daaa294c4409f21fb7ea9b581000f13ee52c99f7",
+      "dimensions": [
+        192,
+        192
+      ],
+      "format": "PNG"
+    },
+    {
+      "file": "brand/icon-512.png",
+      "bytes": 17469,
+      "sha256": "3761737325b3c9a083d71cad1040548c9d6afd714e28f72e0c2c4cd487945e0f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG"
+    },
+    {
+      "file": "brand/logo-horizontal.svg",
+      "bytes": 530,
+      "sha256": "3bb481fad71db5705a8e984d0c290a47fe693acf4b8c117a51c0a6766943c31d",
+      "viewBox": "0 0 210 60"
+    },
+    {
+      "file": "brand/logo-mark.svg",
+      "bytes": 208,
+      "sha256": "20fc2128c81641981c593234710b8259f7c39d490641b42a335d6359844ee50e",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "brand/maskable-192.png",
+      "bytes": 3611,
+      "sha256": "3d471363d2e6d92d66e7139b63985a6d989cb9003df90e4d52a1f1803e77e2b7",
+      "dimensions": [
+        192,
+        192
+      ],
+      "format": "PNG"
+    },
+    {
+      "file": "brand/maskable-512.png",
+      "bytes": 10078,
+      "sha256": "73b10c9152ed50a213bb42aebc8163d24bfd3b18fe17fd68ddead1ffae781b21",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG"
+    },
+    {
+      "file": "icons/auto.svg",
+      "bytes": 243,
+      "sha256": "b3eacc03e647625f75ce1b46ad0d3e3a64457b1691add863c82f16500ee185a0",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/bank.svg",
+      "bytes": 247,
+      "sha256": "332eeb907c1ecab99aef540ea783af8eb00794712412f7e72b486125dad83038",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/beauty.svg",
+      "bytes": 276,
+      "sha256": "50c893a8083164fffbae9ea63ab802fc9770c403aa5f68c60881b3df7345c01b",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/cafe.svg",
+      "bytes": 272,
+      "sha256": "fc2d3a6f8469120c50f61dc33b12bcec687105987396ca31e6c44e163361565a",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/chart.svg",
+      "bytes": 217,
+      "sha256": "44c6f873e1939d1e3804561bbd9c4ee3b080b6cdd1261f3ca0bda9fa910ab769",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/check.svg",
+      "bytes": 201,
+      "sha256": "759c3bca3139acdea3aebb67b11298c17d977552f9c4c39032d28496152878e3",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/clock.svg",
+      "bytes": 229,
+      "sha256": "82d4e489b7a88ab2f1761e25305572f87fe586edad619a44228934e65c9d625c",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/download.svg",
+      "bytes": 221,
+      "sha256": "f2b84eacf8f24bf0ad9b6beea7cbb49dc51a73bb61b17d716e6072ca3dfaa8aa",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/education.svg",
+      "bytes": 231,
+      "sha256": "9bc6d445b1ce424341af9caf072885aa6ebccf179445b5e5a18605d6665deb19",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/entertainment.svg",
+      "bytes": 251,
+      "sha256": "34fa32b62cc471f451b46e2c431bae66c763c5eb96a3d59bdbf3556540ddb247",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/favorite.svg",
+      "bytes": 227,
+      "sha256": "4b1c8fc56718f05f269610b637c1c9d7f3c847a35ee42b54a057c1fc956e4d8b",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/filter.svg",
+      "bytes": 346,
+      "sha256": "22e7d378a84c953368410d8c0a15248baf034434707c328f3e6a03bea1a41bfb",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/fuel.svg",
+      "bytes": 264,
+      "sha256": "d86648dc703dbe25aa0ea856806cf91d65c6cae11732b641ee6911039f796f66",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/government.svg",
+      "bytes": 243,
+      "sha256": "81b848b553ff4d5a2808320be0e6afe99797bab1610009271a3ef99bdd59d9da",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/grid.svg",
+      "bytes": 367,
+      "sha256": "0ac48f76bb1c6ec28d5814581866c5d6ea88c7216b833a8d3a10b8a69dd31952",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/hotel.svg",
+      "bytes": 258,
+      "sha256": "563b22c96f6bf77d39dcbd446a2e0fb8afe226047c2aa691c998c8bfc200a4e8",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/location.svg",
+      "bytes": 264,
+      "sha256": "e0b5a53d8cabe3d426f0bc6cb8b77bda7b2465d9635394e9268372d11664da9a",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/map.svg",
+      "bytes": 235,
+      "sha256": "aefcdec813633819046e12805464126dcacaa6f0745033fd7fed92321a8e88ac",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/medicine.svg",
+      "bytes": 267,
+      "sha256": "1918120686ead9580dd1ae48e75794a056933dcc9381c15024a36ecd060f4d66",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/navigation.svg",
+      "bytes": 206,
+      "sha256": "04168272dbc6384f96a5c1a56d196e747e803619d5f2e8272023066a023b549c",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/pharmacy.svg",
+      "bytes": 216,
+      "sha256": "62ee0988d93b645b6e8796e2bd3a57e597eaa3938c72c371e6913cba8499859b",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/phone.svg",
+      "bytes": 242,
+      "sha256": "ce5c23b06e2e9430b6c640a64bdf0520ad0c163884265710022ce1b9406e2b19",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/route.svg",
+      "bytes": 294,
+      "sha256": "58d0ba50e87f9c8a47edafe0dffba61a26a7b04886ce5234047606238620afb0",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/search.svg",
+      "bytes": 234,
+      "sha256": "7c06355b415ed978c74c6cad04b435395b605bfc8ad42d649f97158b2c2a4778",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/services.svg",
+      "bytes": 295,
+      "sha256": "18f539bf476d1bfe262310746e6db4da12fbd409e2464fc08a911e56f308bdeb",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/shield.svg",
+      "bytes": 240,
+      "sha256": "63e2ddbb49d4dc487b0002e48e0634979dc2397a63c1aff84cb0a00b3af89afa",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/shopping.svg",
+      "bytes": 228,
+      "sha256": "524bc8eb4c82f913fa48e1b1fda9da3da2e34e706ea1cffeb209d44b97b78919",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/sport.svg",
+      "bytes": 249,
+      "sha256": "b49322b9de958f9a350a21a6c04ec70f087ff54c9398bc24758f2bcc702d9818",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "icons/tile-auto.svg",
+      "bytes": 382,
+      "sha256": "1cad748f2766ab31d2609b729164095126b168ef2538cdace85b5c84f442a2cf",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-bank.svg",
+      "bytes": 386,
+      "sha256": "7882929e65e10133f1202916c43661ced0a5c3b169e070abd8275646c77d18ba",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-beauty.svg",
+      "bytes": 415,
+      "sha256": "d8d74c98dda9a1c081cbdecf99515d8036f51a132d6570d136407dcd79a78d04",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-cafe.svg",
+      "bytes": 411,
+      "sha256": "2114874494b2c5cf68a52bf7349f2ece6a3561a61c07fc012f8438e1bfeb6af9",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-education.svg",
+      "bytes": 370,
+      "sha256": "c2adb95c21ae5cfe6afdac35173f309d0840912f1a143a2c626f4d4f4e073071",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-entertainment.svg",
+      "bytes": 390,
+      "sha256": "aa04874a6d3cae9fb2696e9d1c78c138bcdbdba0cf66d9a3c74f3b5994437d0f",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-fuel.svg",
+      "bytes": 403,
+      "sha256": "16a64a57e910667de59c72864dc17e751adb19dcffdd4e92a534a6b8c2c7092c",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-government.svg",
+      "bytes": 382,
+      "sha256": "3e976eae0c57154c33816327f696137f688f889b4e3cd7c8db1813d9968b887f",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-hotel.svg",
+      "bytes": 397,
+      "sha256": "c52c896e1141846d4174b78cc0fd8e4c74d6092a456d6aaaa47ee69dff8f2078",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-medicine.svg",
+      "bytes": 406,
+      "sha256": "6fe5893503f9a005a1ec93007d70d840bc3e9b8eda2dd612c9b93f0f7476af17",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-pharmacy.svg",
+      "bytes": 355,
+      "sha256": "852b269f9fc5d68a48bdcc72eb9269dbc709e39a5821dfb1aaa2506e696bc84a",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-services.svg",
+      "bytes": 434,
+      "sha256": "99bb9587f0c626a4f489c58ab5675cc71be2c6855a296378941e529439e580e5",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-shopping.svg",
+      "bytes": 367,
+      "sha256": "1c9aa95ecf897027202cdfab2dc8a1fd32b379c001a2bb90479654d1dc5d14da",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/tile-sport.svg",
+      "bytes": 388,
+      "sha256": "0912081c911effe3bd192aef9a8f42c45290de5ca035ab21e9d489ebfbd5d051",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "icons/users.svg",
+      "bytes": 295,
+      "sha256": "b13fae52d477c4ec89669b544a52c131f2cc73e5a9657d5dd8690489367c3c68",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "illustrations/map-demo.svg",
+      "bytes": 13297,
+      "sha256": "66ee580000b0b3105ef8af863cf07c147dec3e8cdc2d84b260c4778b8627b561",
+      "viewBox": "0 0 720 410"
+    },
+    {
+      "file": "illustrations/neon-wave.svg",
+      "bytes": 1357,
+      "sha256": "16e804948058d4c462f45c456793b5cf031bd4047d70fc43fa0c94bd68665757",
+      "viewBox": "0 0 600 180"
+    },
+    {
+      "file": "markers/auto.svg",
+      "bytes": 407,
+      "sha256": "82adb96410e7f4b24747ae00b7f68476297ba0f0312f16ca235db3ed892a2a8f",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/bank.svg",
+      "bytes": 411,
+      "sha256": "db9cebb84c512505245d270e2ecd307f3664e2a934c453a970f12922e2d0cfdb",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/beauty.svg",
+      "bytes": 440,
+      "sha256": "0b7b7950293ca8d27b6b8d33db4d6e943daa330c3edc58ffe007dda7bf076cd9",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/cafe.svg",
+      "bytes": 436,
+      "sha256": "780f2a87cbc5a972496071049ad1df634af1b0b09b4bebe31203816d7a96389c",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/education.svg",
+      "bytes": 395,
+      "sha256": "a88e244d4df7cd64cefd866a8202f6d077f23f5aafee909368ad9f8718b06e49",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/entertainment.svg",
+      "bytes": 415,
+      "sha256": "ae3809d0c005ef1c3d5da72aecc9d041da0c5319c0812cea63dc78385290fd2e",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/fuel.svg",
+      "bytes": 428,
+      "sha256": "5814da2fdc409a54ac2b654ba279cb055cef2f0da3df3def71f83b77d25cd289",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/government.svg",
+      "bytes": 407,
+      "sha256": "4ef5c5998a2e80b8a4b47c69febd52fcfe5189fe48a1c8570004e7dcd66ca530",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/hotel.svg",
+      "bytes": 422,
+      "sha256": "93c15fa6373477884b0f17b3f18e62ad3d6811fbec68df05c1ae08a7626a2481",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/medicine.svg",
+      "bytes": 431,
+      "sha256": "e46eea30729f74cde483047c80b7d7d00fdbc3ecdd138941bb442a1483f0c605",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/pharmacy.svg",
+      "bytes": 380,
+      "sha256": "7117615e41e957cbab66055f97cdd942055b20780eddd8e55cbab2b4440fd8e7",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/services.svg",
+      "bytes": 459,
+      "sha256": "c4d241c788671195ccf3dab42582f200523fc6274e10efe0a9a55ef63516ced1",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/shopping.svg",
+      "bytes": 392,
+      "sha256": "e97f38dedfa1f2c62b7a806f4e6205243e90f999b3f80925212fb508a511aa3c",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/sport.svg",
+      "bytes": 413,
+      "sha256": "c9c11c19527ab8da4c07f1d86c5c729dd16690614078f56414840b4a90c56ec1",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "markers/user-position.svg",
+      "bytes": 285,
+      "sha256": "496740a3f3fb83a27e2001a4a325fb9afa931eb167d55ab0c4edf92635d679a5",
+      "viewBox": "0 0 64 64"
+    },
+    {
+      "file": "reference/digital-city-mockup.png",
+      "bytes": 2164874,
+      "sha256": "5e0c2ea99786952879a4823ccb714507e80adad9bdea585d13585f21e75c157f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    }
+  ]
+}

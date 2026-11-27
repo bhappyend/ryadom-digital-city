@@ -1,0 +1,11 @@
+.scope{min-width:0;font-size:1rem;overflow-wrap:anywhere}
+.scope p{max-width:76ch}
+.evidence{white-space:pre-wrap;overflow-wrap:anywhere;border-left:3px solid var(--border);padding:.75rem 1rem;margin:.5rem 0;color:var(--text)}
+.record{border-bottom:1px solid var(--border);padding:1.25rem 0}
+.record:last-child{border-bottom:0}
+.facts{display:grid;grid-template-columns:minmax(6rem,10rem) minmax(0,1fr);gap:.4rem 1rem}
+.facts dt{color:var(--text-muted)}
+.facts dd{margin:0;min-width:0}
+.scope small{font-size:.875rem}
+.scope select,.scope textarea{max-width:100%;min-width:0}
+@media(max-width:479px){.facts{grid-template-columns:1fr;gap:.2rem}.facts dd{margin-bottom:.6rem}}

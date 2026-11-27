@@ -1,0 +1,275 @@
+{
+  "measuredAt": "2026-11-26T23:35:16.111Z",
+  "sourceHash": "44c370dcfb908341d485eee48b9b3cafd69b00d8d1833f536a733de3e15a2e56",
+  "status": "awaiting_reviewed_DB05_renormalization_API",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "corrections": [
+    {
+      "sourceRecordId": "node/1298189185",
+      "placeId": "b05922d6-b2d7-4400-992e-e75ed55e2a62",
+      "slug": "place-osm-node-1298189185",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "d1f1197f762e059e89527fe2bbf7b51a029e6ed63ee4cc4a09877aee47109d81",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1303468096",
+      "placeId": "daff597d-d056-48a6-b813-426e087ce592",
+      "slug": "place-osm-node-1303468096",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "75f4b108570109b56289c78b959b0a6f6b600c5eece62e2246a5977f3abce4e4",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1305215809",
+      "placeId": "461156a7-0688-426c-a869-9151f481dc32",
+      "slug": "place-osm-node-1305215809",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "b947be537cff596b3b328f610aea10ddb8bb7db8d7165df0f039fd889f19fe59",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1307907946",
+      "placeId": "5fbf3ee3-9148-471e-92df-c20a996ebe90",
+      "slug": "place-osm-node-1307907946",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "d06efe2f9abe589d93e4c746d3f1f44b508bb5278e0acdb51f49c1d334cfc706",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1333986331",
+      "placeId": "47be564d-e83b-4b5f-8591-a9eace6a6798",
+      "slug": "place-osm-node-1333986331",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "e3173be16fda4e1030e1ca74361150768120ff22772fc592c1dc02f6d4e87ef4",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1333986353",
+      "placeId": "1459bd38-c25d-4def-9f08-899162dabaf6",
+      "slug": "place-osm-node-1333986353",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "ad0a2457086e8a953942e75201f5a5d1ec06d4f66fe5e6b74322be1607084bc3",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1341672364",
+      "placeId": "093a9fdb-a88a-4f86-a64a-30508ec25dbe",
+      "slug": "place-osm-node-1341672364",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "591d12608418c7d93286af0e59344915ff6854e2ff2e05ec5efe9cf74a4947ca",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/1341672568",
+      "placeId": "5644c853-dd71-4fc4-a37a-435ca2c856e6",
+      "slug": "place-osm-node-1341672568",
+      "sourceUpdatedAt": "2023-10-24T01:43:38Z",
+      "expectedOldContentHash": "c62f98d4f104c1e1d476db3487e20cd8309f645cda81e00533e276060d079132",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/2514752779",
+      "placeId": "2974e87c-098f-40cb-93bc-f64d211df4fe",
+      "slug": "place-osm-node-2514752779",
+      "sourceUpdatedAt": "2026-08-18T09:42:50Z",
+      "expectedOldContentHash": "8d628a90609b22378667abe059b62bf244be7e437272907edf4ce92704b027b6",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/3014332389",
+      "placeId": "943fcd33-0e17-42f2-912f-6631700fbea2",
+      "slug": "place-osm-node-3014332389",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "257c7ea77c7af5f543f102a0d8b7e2a9f85b3d9cd004d7449cc2df371740e6de",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/3765265330",
+      "placeId": "4625ba76-b793-462f-a072-c2e0344fd7db",
+      "slug": "place-osm-node-3765265330",
+      "sourceUpdatedAt": "2024-09-05T20:30:26Z",
+      "expectedOldContentHash": "4ced928c5f42f9b9cb2e4c2801ebe4b390763911f48cd0a755330efcaae207b2",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/5112979149",
+      "placeId": "18ba3379-8ea9-4960-bf36-074feca0a057",
+      "slug": "place-osm-node-5112979149",
+      "sourceUpdatedAt": "2024-09-04T19:09:02Z",
+      "expectedOldContentHash": "43e885336e1c711e9fc95ba68452bff42830ae2d011f450a9c50812733c29e7b",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/6002922472",
+      "placeId": "6b8d1a1d-ca99-456b-91ed-a81ea84960d1",
+      "slug": "place-osm-node-6002922472",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "273222d43b2d7eef45fc414319eb3b8ae7bb52fc0c0513ae42e3544fa735a5ef",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/10676166387",
+      "placeId": "5f1675ae-21ad-4968-8241-7df52bbe9bf1",
+      "slug": "place-osm-node-10676166387",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "c6f14d1dce9dc492f640751c62fcfd0600187e57ae0af0d9810bd26d4940f9dc",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/11116645054",
+      "placeId": "681ab111-9bd1-48a4-abd8-4f232ca77ce0",
+      "slug": "place-osm-node-11116645054",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "5e0506211f73f76658165de68cebb0930e8c262001d048609466dbf99ad7e2c4",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "node/11966748571",
+      "placeId": "f95f2b71-0f7f-4c34-b45f-38bf052e63f9",
+      "slug": "place-osm-node-11966748571",
+      "sourceUpdatedAt": "2024-06-09T15:33:32Z",
+      "expectedOldContentHash": "d968828dd9639f9896651e129605775ff50e78f4eff6f97fc95de9dafe9c69a4",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "way/100451674",
+      "placeId": "d5440c82-b52b-49b1-b04e-509c4f147e8a",
+      "slug": "place-osm-way-100451674",
+      "sourceUpdatedAt": "2024-09-05T20:30:26Z",
+      "expectedOldContentHash": "702fe96672d1541c50a085292f91d6ea565314f5d734a19461e8bab03fd3d3c0",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "way/372980481",
+      "placeId": "c2171ea6-242d-4016-9d83-375df0ff5bdf",
+      "slug": "place-osm-way-372980481",
+      "sourceUpdatedAt": "2024-09-05T20:30:26Z",
+      "expectedOldContentHash": "e9668bbc6926695f6ad48e2a0a3435ad59f99c1fb42dfd8c45b1e488e2b1c35a",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    },
+    {
+      "sourceRecordId": "way/777836070",
+      "placeId": "6fef26de-a9e0-41f4-957e-a41b19da1c03",
+      "slug": "place-osm-way-777836070",
+      "sourceUpdatedAt": "2023-10-24T04:01:41Z",
+      "expectedOldContentHash": "e602d36a9cd00e69ff9e253438b32c955a5dcc210957b0da5011e6c04b609e65",
+      "currentCategoryIds": [
+        "pharmacy"
+      ],
+      "desiredCategoryIds": [
+        "shopping"
+      ],
+      "reason": "shop=chemist sells household/hygiene/cosmetics; pharmacy requires amenity=pharmacy"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://download.geofabrik.de/russia/north-caucasus-fed-district-latest.osm.pbf",
+  "resolvedUrl": "https://download.geofabrik.de/russia/north-caucasus-fed-district/north-caucasus-fed-district-261125.osm.pbf",
+  "fetchedAt": "2026-11-26T23:55:02.775Z",
+  "sourceLastModified": "Thu, 26 Nov 2026 17:37:49 GMT",
+  "bytes": 129857958,
+  "sha256": "9eff4448d41c2a486e850e285449cd0da259c184d002952cb094bf32c828db7e",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

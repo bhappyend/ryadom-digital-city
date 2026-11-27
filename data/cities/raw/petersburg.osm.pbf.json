@@ -1,0 +1,12 @@
+{
+  "url": "https://download.bbbike.org/osm/bbbike/SanktPetersburg/SanktPetersburg.osm.pbf",
+  "resolvedUrl": "https://download.bbbike.org/osm/bbbike/SanktPetersburg/SanktPetersburg.osm.pbf",
+  "fetchedAt": "2026-11-26T23:57:23.907Z",
+  "sourceLastModified": "Sat, 21 Nov 2026 16:34:10 GMT",
+  "bytes": 53832608,
+  "sha256": "b2e91740817eec7fffc92d27ae5d2aaedd5a2feddbde086abee1ef90e9d0dc42",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

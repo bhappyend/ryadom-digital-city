@@ -1,0 +1,419 @@
+{
+  "measuredAt": "2026-11-26T23:30:29.318Z",
+  "sourceHash": "44c370dcfb908341d485eee48b9b3cafd69b00d8d1833f536a733de3e15a2e56",
+  "inputHash": "2e16c1efea174f522e47244d6a5f3bf70816f309065279c8bd7d0fbda6e331e4",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "sourceUpdatedAt": "2026-11-26T23:23:05Z",
+  "boundaryRecordId": "relation/3339993",
+  "counts": {
+    "places": 2339,
+    "osm_source_records": 2339,
+    "duplicate_identities": 0
+  },
+  "inputCounts": {
+    "input": 2734,
+    "accepted": 2339,
+    "rejected": 390,
+    "warnings": 1955,
+    "skipped": 4,
+    "matchCandidates": 56
+  },
+  "issuesByCode": {
+    "address_unknown": 1858,
+    "missing_or_invalid_name": 390,
+    "discarded_website": 10,
+    "discarded_phone": 87,
+    "unsupported_or_unavailable": 4
+  },
+  "categoryCounts": [
+    {
+      "category_id": "auto",
+      "count": 122
+    },
+    {
+      "category_id": "bank",
+      "count": 44
+    },
+    {
+      "category_id": "beauty",
+      "count": 85
+    },
+    {
+      "category_id": "cafe",
+      "count": 191
+    },
+    {
+      "category_id": "education",
+      "count": 187
+    },
+    {
+      "category_id": "entertainment",
+      "count": 105
+    },
+    {
+      "category_id": "fuel",
+      "count": 32
+    },
+    {
+      "category_id": "government",
+      "count": 94
+    },
+    {
+      "category_id": "hotel",
+      "count": 42
+    },
+    {
+      "category_id": "medicine",
+      "count": 115
+    },
+    {
+      "category_id": "pharmacy",
+      "count": 83
+    },
+    {
+      "category_id": "services",
+      "count": 91
+    },
+    {
+      "category_id": "shopping",
+      "count": 1116
+    },
+    {
+      "category_id": "sport",
+      "count": 33
+    }
+  ],
+  "jobs": [
+    {
+      "id": "3831aeed-c331-4202-9df1-aab1e84079b3",
+      "status": "completed",
+      "started_at": "2026-11-26T23:27:09.202Z",
+      "finished_at": "2026-11-26T23:27:48.354Z",
+      "imported_count": 2339,
+      "skipped_count": 0,
+      "failed_count": 390,
+      "error_code": null
+    },
+    {
+      "id": "896591cd-0db4-4ba8-8d10-24e3b335b96a",
+      "status": "completed",
+      "started_at": "2026-11-26T23:28:28.100Z",
+      "finished_at": "2026-11-26T23:28:45.693Z",
+      "imported_count": 0,
+      "skipped_count": 2339,
+      "failed_count": 390,
+      "error_code": null
+    }
+  ],
+  "firstActions": {
+    "inserted": 2339,
+    "updated": 0,
+    "unchanged": 0,
+    "stale": 0
+  },
+  "rerunActions": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 2339,
+    "stale": 0
+  },
+  "controlAddress": {
+    "label": "Смоленск, улица Ленина, 8",
+    "verification": "docs/GIS.md; one manual Nominatim request 2026-11-26T23:16:58.972Z; OSM way/99066474"
+  },
+  "query": {
+    "page": 1,
+    "limit": 5,
+    "city": "smolensk",
+    "lon": 32.049985,
+    "lat": 54.7823535,
+    "radius": 1500,
+    "category": "cafe",
+    "openNow": false
+  },
+  "pagination": {
+    "page": 1,
+    "limit": 5,
+    "total": 109,
+    "hasMore": true
+  },
+  "sample": [
+    {
+      "slug": "place-osm-node-11451701263",
+      "name": "Искатели",
+      "address": "Ленина, 10",
+      "coordinates": {
+        "lon": 32.0505195,
+        "lat": 54.7824334
+      },
+      "distanceMeters": 35.52132337,
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/11451701263",
+          "sourceUrl": "https://www.openstreetmap.org/node/11451701263",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2023-12-25T08:50:22+00:00",
+          "importedAt": "2026-11-26T23:27:08.713+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "place-osm-node-12023063495",
+      "name": "Дикари",
+      "address": "Адрес не указан в OSM",
+      "coordinates": {
+        "lon": 32.049334,
+        "lat": 54.7823427
+      },
+      "distanceMeters": 41.90263779,
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12023063495",
+          "sourceUrl": "https://www.openstreetmap.org/node/12023063495",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-07-03T23:20:33+00:00",
+          "importedAt": "2026-11-26T23:27:08.713+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "place-osm-node-12006390849",
+      "name": "Coffee Like",
+      "address": "Адрес не указан в OSM",
+      "coordinates": {
+        "lon": 32.0492139,
+        "lat": 54.7823234
+      },
+      "distanceMeters": 49.72566245,
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12006390849",
+          "sourceUrl": "https://www.openstreetmap.org/node/12006390849",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-04-10T23:29:28+00:00",
+          "importedAt": "2026-11-26T23:27:08.713+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "place-osm-node-10039004573",
+      "name": "Surf Coffee",
+      "address": "Ленина, 6",
+      "coordinates": {
+        "lon": 32.049071,
+        "lat": 54.7823072
+      },
+      "distanceMeters": 59.03228351,
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/10039004573",
+          "sourceUrl": "https://www.openstreetmap.org/node/10039004573",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2025-11-24T08:09:39+00:00",
+          "importedAt": "2026-11-26T23:27:08.713+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "place-osm-node-1147346818",
+      "name": "Пироговая лавка \"Самоваръ\"",
+      "address": "Адрес не указан в OSM",
+      "coordinates": {
+        "lon": 32.0509026,
+        "lat": 54.7824402
+      },
+      "distanceMeters": 59.82206777,
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/1147346818",
+          "sourceUrl": "https://www.openstreetmap.org/node/1147346818",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2023-10-24T04:08:53+00:00",
+          "importedAt": "2026-11-26T23:27:08.713+00:00"
+        }
+      ]
+    }
+  ],
+  "explain": [
+    {
+      "Plan": {
+        "Node Type": "Limit",
+        "Parallel Aware": false,
+        "Async Capable": false,
+        "Startup Cost": 2821.67,
+        "Total Cost": 2821.68,
+        "Plan Rows": 1,
+        "Plan Width": 24,
+        "Actual Startup Time": 1.298,
+        "Actual Total Time": 1.3,
+        "Actual Rows": 5,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 590,
+        "Shared Read Blocks": 0,
+        "Shared Dirtied Blocks": 0,
+        "Shared Written Blocks": 0,
+        "Local Hit Blocks": 0,
+        "Local Read Blocks": 0,
+        "Local Dirtied Blocks": 0,
+        "Local Written Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0,
+        "Plans": [
+          {
+            "Node Type": "Sort",
+            "Parent Relationship": "Outer",
+            "Parallel Aware": false,
+            "Async Capable": false,
+            "Startup Cost": 2821.67,
+            "Total Cost": 2821.68,
+            "Plan Rows": 1,
+            "Plan Width": 24,
+            "Actual Startup Time": 1.297,
+            "Actual Total Time": 1.298,
+            "Actual Rows": 5,
+            "Actual Loops": 1,
+            "Sort Key": [
+              "(st_distance(p.\"position\", '0101000020E6100000312592E865064040A034D42824644B40'::geography, true))",
+              "p.id"
+            ],
+            "Sort Method": "top-N heapsort",
+            "Sort Space Used": 25,
+            "Sort Space Type": "Memory",
+            "Shared Hit Blocks": 590,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Dirtied Blocks": 0,
+            "Local Written Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0,
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Parent Relationship": "Outer",
+                "Parallel Aware": false,
+                "Async Capable": false,
+                "Join Type": "Inner",
+                "Startup Cost": 0.28,
+                "Total Cost": 2821.66,
+                "Plan Rows": 1,
+                "Plan Width": 24,
+                "Actual Startup Time": 0.085,
+                "Actual Total Time": 1.266,
+                "Actual Rows": 109,
+                "Actual Loops": 1,
+                "Inner Unique": true,
+                "Shared Hit Blocks": 590,
+                "Shared Read Blocks": 0,
+                "Shared Dirtied Blocks": 0,
+                "Shared Written Blocks": 0,
+                "Local Hit Blocks": 0,
+                "Local Read Blocks": 0,
+                "Local Dirtied Blocks": 0,
+                "Local Written Blocks": 0,
+                "Temp Read Blocks": 0,
+                "Temp Written Blocks": 0,
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Parent Relationship": "Outer",
+                    "Parallel Aware": false,
+                    "Async Capable": false,
+                    "Relation Name": "place_categories",
+                    "Alias": "pc",
+                    "Startup Cost": 0,
+                    "Total Cost": 46.25,
+                    "Plan Rows": 191,
+                    "Plan Width": 16,
+                    "Actual Startup Time": 0.011,
+                    "Actual Total Time": 0.238,
+                    "Actual Rows": 191,
+                    "Actual Loops": 1,
+                    "Filter": "(category_id = 'cafe'::text)",
+                    "Rows Removed by Filter": 2149,
+                    "Shared Hit Blocks": 17,
+                    "Shared Read Blocks": 0,
+                    "Shared Dirtied Blocks": 0,
+                    "Shared Written Blocks": 0,
+                    "Local Hit Blocks": 0,
+                    "Local Read Blocks": 0,
+                    "Local Dirtied Blocks": 0,
+                    "Local Written Blocks": 0,
+                    "Temp Read Blocks": 0,
+                    "Temp Written Blocks": 0
+                  },
+                  {
+                    "Node Type": "Index Scan",
+                    "Parent Relationship": "Inner",
+                    "Parallel Aware": false,
+                    "Async Capable": false,
+                    "Scan Direction": "Forward",
+                    "Index Name": "places_pkey",
+                    "Relation Name": "places",
+                    "Alias": "p",
+                    "Startup Cost": 0.28,
+                    "Total Cost": 14.39,
+                    "Plan Rows": 1,
+                    "Plan Width": 48,
+                    "Actual Startup Time": 0.004,
+                    "Actual Total Time": 0.004,
+                    "Actual Rows": 1,
+                    "Actual Loops": 191,
+                    "Index Cond": "(id = pc.place_id)",
+                    "Rows Removed by Index Recheck": 0,
+                    "Filter": "(active AND (city_id = 'smolensk'::text) AND st_dwithin(\"position\", '0101000020E6100000312592E865064040A034D42824644B40'::geography, '1500'::double precision, true))",
+                    "Rows Removed by Filter": 0,
+                    "Shared Hit Blocks": 573,
+                    "Shared Read Blocks": 0,
+                    "Shared Dirtied Blocks": 0,
+                    "Shared Written Blocks": 0,
+                    "Local Hit Blocks": 0,
+                    "Local Read Blocks": 0,
+                    "Local Dirtied Blocks": 0,
+                    "Local Written Blocks": 0,
+                    "Temp Read Blocks": 0,
+                    "Temp Written Blocks": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Planning": {
+        "Shared Hit Blocks": 12,
+        "Shared Read Blocks": 0,
+        "Shared Dirtied Blocks": 0,
+        "Shared Written Blocks": 0,
+        "Local Hit Blocks": 0,
+        "Local Read Blocks": 0,
+        "Local Dirtied Blocks": 0,
+        "Local Written Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      "Planning Time": 1.534,
+      "Triggers": [],
+      "Execution Time": 1.392
+    }
+  ],
+  "limitations": [
+    "Record-level transaction rollback; earlier successful records remain committed on job failure",
+    "56 same-name proximity pairs await manual review; no merges",
+    "Hours unknown, ratings null, photos empty",
+    "Future schema migrations block importer pending owner-field policy review"
+  ]
+}

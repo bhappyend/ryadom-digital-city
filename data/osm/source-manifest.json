@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "osm",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "sourceUrl": "https://overpass-api.de/api/interpreter",
+  "sourceUpdatedAt": "2026-11-26T23:23:05Z",
+  "fetchedAt": "2026-11-26T23:24:48.987Z",
+  "rawFile": "raw/smolensk-initial.json",
+  "rawBytes": 1304942,
+  "rawSha256": "44c370dcfb908341d485eee48b9b3cafd69b00d8d1833f536a733de3e15a2e56",
+  "queryFile": "smolensk-initial.overpassql",
+  "querySha256": "246cf781e344616748cc8468f9b8b5da9ee4478232887a01d96e068f851c59bb",
+  "elementCount": 2734,
+  "acquisition": "single bounded city-area query, OSM relation/3339993; no automatic retries",
+  "replayFile": "smolensk-replay.json",
+  "replayBytes": 775615,
+  "replaySha256": "2e16c1efea174f522e47244d6a5f3bf70816f309065279c8bd7d0fbda6e331e4",
+  "replayTransform": "Retained type/id/timestamp/lat/lon/center/bounds/tags and osm3s. Removed contributor uid/user, versions, changesets and geometry members; no POI values invented."
+}

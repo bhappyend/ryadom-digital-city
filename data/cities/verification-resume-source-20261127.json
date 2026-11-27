@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-11-27T00:42:07.706Z",
+  "showcaseSha256": "0ac8cbf591ca900634e7823f06ea6d107e1b9f96ecdc4d8f237c06ab0f194a04",
+  "uniqueIdsVerified": 35,
+  "currentDbFieldsAndProvenanceMatch": true,
+  "lineageHashesVerified": 8,
+  "counts": {
+    "places": 2753,
+    "cities": 85,
+    "smolensk": 2339
+  },
+  "adminMetadataTablePresent": false,
+  "repositoryCheck": "blocked: SQLSTATE 42P01, pending migration003; no migration attempted",
+  "scope": "Runtime role SELECT only; no downloads, imports, owner or payment mutations"
+}

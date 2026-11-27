@@ -1,0 +1,76 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  application:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22.22.2
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run contracts:check
+      - run: npm run contracts:accounts:check
+      - run: npm test
+      - run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+
+  postgis:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22.22.2
+          cache: npm
+      - run: node infra/scripts/init-env.mjs
+      - run: node infra/scripts/check-config.mjs
+      - run: node --test infra/tests/backup-safety.test.mjs infra/tests/production-env.test.mjs infra/tests/deployment.test.mjs
+      - name: Validate the production proxy offline
+        run: >-
+          docker run --rm --network none
+          --env SITE_HOST=example.invalid --env ACME_EMAIL=operations@example.invalid
+          --volume "$PWD/infra/proxy/Caddyfile:/etc/caddy/Caddyfile:ro"
+          caddy:2.10.2-alpine@sha256:4c6e91c6ed0e2fa03efd5b44747b625fec79bc9cd06ac5235a779726618e530d
+          caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
+      - run: docker compose --env-file infra/.env.local up -d --wait --wait-timeout 180 db redis
+      - run: node infra/scripts/smoke.mjs
+      - run: npm ci
+      - name: Migrate and test the real PostGIS database
+        shell: bash
+        run: |
+          set -a
+          source infra/.env.local
+          set +a
+          export TEST_DATABASE_URL="$DATABASE_URL"
+          npm run build:shared
+          npm run migrate --workspace=@ryadom/db
+          npm run grant-runtime --workspace=@ryadom/db
+          node node_modules/tsx/dist/cli.mjs packages/db/src/cli.ts grant-admin-runtime
+          npm run test:integration --workspace=@ryadom/db
+      - run: node infra/scripts/db.mjs backup ci.dump
+      - run: node infra/scripts/db.mjs restore-check ci.dump
+      - name: Stop only this job's infrastructure
+        if: always()
+        run: docker compose --env-file infra/.env.local down

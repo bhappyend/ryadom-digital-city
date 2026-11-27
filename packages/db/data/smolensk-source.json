@@ -1,0 +1,18 @@
+{
+  "verification": "One manual Nominatim request and one OSM relation metadata request, 2026-11-26 UTC",
+  "queryUrl": "https://nominatim.openstreetmap.org/search?q=Smolensk%2C+Russia&format=jsonv2&limit=1",
+  "metadataUrl": "https://www.openstreetmap.org/api/0.6/relation/3339993.json",
+  "sourceUrl": "https://www.openstreetmap.org/relation/3339993",
+  "osmType": "relation",
+  "osmId": 3339993,
+  "osmVersion": 24,
+  "osmTimestamp": "2026-05-22T17:00:43Z",
+  "name": "Смоленск",
+  "displayName": "Смоленск, Смоленская область, Центральный федеральный округ, Россия",
+  "center": { "lat": 54.7789701, "lon": 32.0471812 },
+  "boundsWestSouthEastNorth": [31.7883262, 54.7075603, 32.2095639, 54.8503780],
+  "nominatimBoundingboxSouthNorthWestEast": [54.7075603, 54.8503780, 31.7883262, 32.2095639],
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "caveat": "Nominatim city label/extent for viewport; not a legal administrative boundary polygon. Metadata timestamp applies to the relation, not every boundary member. No organization data. Timezone Europe/Moscow is application configuration."
+}

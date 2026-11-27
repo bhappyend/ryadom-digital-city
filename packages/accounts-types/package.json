@@ -1,0 +1,18 @@
+{
+  "name": "@ryadom/accounts-types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.js" } },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run src",
+    "contracts:generate": "node scripts/openapi.mjs",
+    "contracts:check": "node scripts/openapi.mjs --check"
+  },
+  "dependencies": { "@ryadom/types": "0.1.0", "zod": "4.6.7" }
+}

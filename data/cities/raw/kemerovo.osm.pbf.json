@@ -1,0 +1,12 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/siberian_federal_district/kemerovo_oblast-latest.osm.pbf",
+  "resolvedUrl": "https://download.openstreetmap.fr/extracts/russia/siberian_federal_district/kemerovo_oblast-latest.osm.pbf",
+  "fetchedAt": "2026-11-27T00:01:33.179Z",
+  "sourceLastModified": "Wed, 25 Nov 2026 00:14:18 GMT",
+  "bytes": 38117873,
+  "sha256": "959d5843afd55fb5a87ceac060b586de2ff5734c210189c9a81d7543633868cd",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

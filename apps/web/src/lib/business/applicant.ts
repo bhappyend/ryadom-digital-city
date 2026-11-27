@@ -1,0 +1,2 @@
+export const listingStates = { 'pending-quote': 'Ожидает месячного предложения', 'pending-payment': 'Ожидает согласования и оплаты', 'pending-review': 'Ожидает независимой проверки', published: 'Опубликована', rejected: 'Отклонена', withdrawn: 'Отозвана' };
+export const applicantClaimStates = { pending: 'Ожидает проверки', verified: 'Права на организацию подтверждены', rejected: 'Отклонена', withdrawn: 'Отозвана заявителем', revoked: 'Подтверждение отозвано' };

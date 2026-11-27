@@ -1,0 +1,20 @@
+import { z } from 'zod';
+import { DateTimeSchema, IdSchema, responseSchema } from '@ryadom/types';
+import { ConsentRecordSchema, PolicyConsentRequestSchema, VersionSchema, pageSchema, plainText } from './common';
+
+export const ReviewStatusSchema = z.enum(['draft', 'pending', 'published', 'rejected', 'deleted']);
+export const ReviewBodySchema = z.strictObject({ rating: z.number().int().min(1).max(5), text: plainText(3000, 10) });
+export const PlaceReviewCreateRequestSchema = ReviewBodySchema;
+export const ReviewEditRequestSchema = ReviewBodySchema.extend({ expectedVersion: VersionSchema });
+export const PlatformReviewCreateRequestSchema = ReviewBodySchema.extend({ publicationConsent: PolicyConsentRequestSchema });
+export const PlatformReviewEditRequestSchema = ReviewEditRequestSchema.extend({ publicationConsent: PolicyConsentRequestSchema });
+export const ReviewParamsSchema = z.strictObject({ reviewId: IdSchema });
+export const PlaceIdParamsSchema = z.strictObject({ placeId: IdSchema });
+export const ReviewRecordSchema = z.strictObject({ id: IdSchema, authorId: IdSchema, kind: z.enum(['place', 'platform']), placeId: IdSchema.nullable(), rating: z.number().int().min(1).max(5), text: plainText(3000, 10), status: ReviewStatusSchema, version: VersionSchema, verification: z.literal('unverified'), publicationConsent: ConsentRecordSchema.nullable(), createdAt: DateTimeSchema, updatedAt: DateTimeSchema, publishedAt: DateTimeSchema.nullable() }).refine(v => (v.kind === 'place') === (v.placeId !== null) && (v.kind !== 'platform' || (v.publicationConsent !== null && v.publicationConsent.document === 'platform_review_publication')) && (v.status !== 'published' || (v.publishedAt !== null && (v.kind !== 'platform' || v.publicationConsent?.withdrawnAt === null))), 'Review target, consent, or publication state invalid');
+export const PublicPlaceReviewSchema = z.strictObject({ id: IdSchema, authorName: plainText(100), rating: z.number().int().min(1).max(5), text: plainText(3000, 10), publishedAt: DateTimeSchema, verification: z.literal('unverified') });
+export const PlaceRatingAggregateSchema = z.strictObject({ value: z.number().min(1).max(5), count: z.number().int().positive(), source: z.literal('ryadom-published-user-reviews') });
+export const PlaceReviewsPageSchema = pageSchema(PublicPlaceReviewSchema).extend({ aggregate: PlaceRatingAggregateSchema.nullable() });
+export const PlaceReviewsResponseSchema = responseSchema(PlaceReviewsPageSchema);
+export const ReviewResponseSchema = responseSchema(ReviewRecordSchema);
+export const MyReviewsResponseSchema = responseSchema(pageSchema(ReviewRecordSchema));
+export type ReviewRecord = z.infer<typeof ReviewRecordSchema>;

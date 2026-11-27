@@ -1,0 +1,14 @@
+{
+  "name": "@ryadom/city-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "catalog": "tsx src/cli.ts",
+    "test": "tsx --test test/selection.test.ts test/showcase.test.ts",
+    "test:integration": "tsx --test test/integration.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {"@ryadom/types":"0.1.0","@ryadom/db":"0.1.0","@ryadom/importer":"0.1.0"},
+  "devDependencies": {"tsx":"4.23.15"}
+}

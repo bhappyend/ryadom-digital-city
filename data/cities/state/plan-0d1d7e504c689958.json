@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-26T23:56:41.617Z",
+  "registryHash": "21e000f5905c224f3d22b8468ef5361c5f8b3aaa67029c5a7c268318887cf997",
+  "officialDenominator": null,
+  "provisionalDenominator": 1117,
+  "cities": [
+    {
+      "id": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+      "dataset": "moscow.json",
+      "datasetHash": "11feb66f3f11b2de97ccaaf6c88f8cce6c6723290d033db53c3fbb8ab9eb0da3",
+      "selectedIds": [
+        "node/4913053321",
+        "node/1808891736",
+        "node/7375258176",
+        "node/6547191227",
+        "node/7227008968"
+      ],
+      "selected": [
+        {
+          "id": "84f4323f-5270-5738-afd1-ad861e271ee2",
+          "slug": "place-osm-node-4913053321",
+          "name": "Аспектрум",
+          "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+          "categoryIds": [
+            "services"
+          ],
+          "address": "410055, Дзержинское шоссе, 37",
+          "coordinates": {
+            "lon": 37.8660426,
+            "lat": 55.6572531
+          },
+          "description": null,
+          "phone": "+7 495 2368898",
+          "website": "https://aspectrum.ru/",
+          "openingState": "unknown",
+          "openingHours": "Mo-Su 09:00-19:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/4913053321",
+              "sourceUrl": "https://www.openstreetmap.org/node/4913053321",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2023-10-15T15:31:52Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "b000bbc8-c739-5f13-aef6-0c758ad79c0b",
+          "slug": "place-osm-node-1808891736",
+          "name": "Мастер отель Котельники",
+          "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+          "categoryIds": [
+            "hotel"
+          ],
+          "address": "Новорязанское шоссе, 5А",
+          "coordinates": {
+            "lon": 37.8664099,
+            "lat": 55.6669435
+          },
+          "description": null,
+          "phone": "+7 495 3967416",
+          "website": "http://master-hotel.ru",
+          "openingState": "unknown",
+          "openingHours": "24/7",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/1808891736",
+              "sourceUrl": "https://www.openstreetmap.org/node/1808891736",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2022-01-19T20:48:49Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "f7292df3-6d29-55d3-a021-8df5c248d882",
+          "slug": "place-osm-node-7375258176",
+          "name": "Robinzon",
+          "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+          "categoryIds": [
+            "shopping"
+          ],
+          "address": "Котельники, Новоегорьевское шоссе, 8",
+          "coordinates": {
+            "lon": 37.8809198,
+            "lat": 55.660733
+          },
+          "description": null,
+          "phone": "+7 495 2151885",
+          "website": "https://robinzon.ru/",
+          "openingState": "unknown",
+          "openingHours": "Mo-Su 10:00-22:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/7375258176",
+              "sourceUrl": "https://www.openstreetmap.org/node/7375258176",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2020-04-07T11:29:45Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "ace91e45-d380-5474-a731-39786ad30077",
+          "slug": "place-osm-node-6547191227",
+          "name": "Автомир",
+          "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+          "categoryIds": [
+            "auto"
+          ],
+          "address": "Котельники, Новорязанское шоссе, 5В",
+          "coordinates": {
+            "lon": 37.8692293,
+            "lat": 55.6697028
+          },
+          "description": null,
+          "phone": "+7 800 7072625",
+          "website": "http://bogemia-skd.ru/",
+          "openingState": "unknown",
+          "openingHours": "Mo-Su 09:00-21:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/6547191227",
+              "sourceUrl": "https://www.openstreetmap.org/node/6547191227",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2026-04-22T12:02:28Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "f04f6d42-3c59-520b-aeeb-c1f2dd20bb56",
+          "slug": "place-osm-node-7227008968",
+          "name": "Планета Здоровья",
+          "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+          "categoryIds": [
+            "pharmacy"
+          ],
+          "address": "Сосновая улица, 1 к2",
+          "coordinates": {
+            "lon": 37.8548666,
+            "lat": 55.6715035
+          },
+          "description": null,
+          "phone": null,
+          "website": "https://planetazdorovo.ru",
+          "openingState": "unknown",
+          "openingHours": "Mo-Su 08:00-22:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/7227008968",
+              "sourceUrl": "https://www.openstreetmap.org/node/7227008968",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2024-05-21T23:33:30Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        }
+      ],
+      "issueCount": 80
+    },
+    {
+      "id": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+      "dataset": "moscow.json",
+      "datasetHash": "11feb66f3f11b2de97ccaaf6c88f8cce6c6723290d033db53c3fbb8ab9eb0da3",
+      "selectedIds": [
+        "node/4973492823",
+        "node/9635520297",
+        "node/5668656021",
+        "node/14296710986",
+        "node/4646736294"
+      ],
+      "selected": [
+        {
+          "id": "d72a815c-3461-5973-af5f-f215bf0739e1",
+          "slug": "place-osm-node-4973492823",
+          "name": "Пятёрочка",
+          "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+          "categoryIds": [
+            "shopping"
+          ],
+          "address": "Дзержинский, улица Лермонтова, 23",
+          "coordinates": {
+            "lon": 37.8529433,
+            "lat": 55.628611
+          },
+          "description": null,
+          "phone": "+7 800 5555505",
+          "website": "https://5ka.ru",
+          "openingState": "unknown",
+          "openingHours": "Mo-Su 08:00-23:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/4973492823",
+              "sourceUrl": "https://www.openstreetmap.org/node/4973492823",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2025-11-02T22:43:34Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "85f3c7ea-001e-51f5-a380-bd434653ae65",
+          "slug": "place-osm-node-9635520297",
+          "name": "Bkf",
+          "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+          "categoryIds": [
+            "auto"
+          ],
+          "address": "140091, Дзержинский, Угрешская улица, 17",
+          "coordinates": {
+            "lon": 37.8520176,
+            "lat": 55.6348163
+          },
+          "description": null,
+          "phone": "+7 800 7006034",
+          "website": "https://bkfcarwash.ru/",
+          "openingState": "unknown",
+          "openingHours": "24/7",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/9635520297",
+              "sourceUrl": "https://www.openstreetmap.org/node/9635520297",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2023-09-17T00:03:46Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "503e50af-64ae-55e8-a84a-d07e3447c809",
+          "slug": "place-osm-node-5668656021",
+          "name": "pizza express",
+          "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+          "categoryIds": [
+            "cafe"
+          ],
+          "address": "Томилинская улица, 20А",
+          "coordinates": {
+            "lon": 37.8639908,
+            "lat": 55.6274033
+          },
+          "description": null,
+          "phone": "+7 926 6526850",
+          "website": "https://pizzaexpress24.com/",
+          "openingState": "unknown",
+          "openingHours": "24/7",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/5668656021",
+              "sourceUrl": "https://www.openstreetmap.org/node/5668656021",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2026-05-13T02:36:51Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "7c8f0a68-c699-56f2-aef9-e50d52a33525",
+          "slug": "place-osm-node-14296710986",
+          "name": "Дива",
+          "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+          "categoryIds": [
+            "beauty"
+          ],
+          "address": "Поклонная улица, 2",
+          "coordinates": {
+            "lon": 37.8513527,
+            "lat": 55.6323857
+          },
+          "description": null,
+          "phone": null,
+          "website": null,
+          "openingState": "unknown",
+          "openingHours": "10:00-20:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "limited",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/14296710986",
+              "sourceUrl": "https://www.openstreetmap.org/node/14296710986",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2026-10-18T12:56:23Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        },
+        {
+          "id": "babeeb3a-b245-5f22-aaa2-442fd45b37c1",
+          "slug": "place-osm-node-4646736294",
+          "name": "Автосервис у Олега",
+          "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+          "categoryIds": [
+            "auto"
+          ],
+          "address": "140090, улица Овиновка, 41",
+          "coordinates": {
+            "lon": 37.8683761,
+            "lat": 55.6239082
+          },
+          "description": null,
+          "phone": "+7 917 5700912",
+          "website": "https://www.uolega.ru/",
+          "openingState": "unknown",
+          "openingHours": "Mo-Fr 10:00-20:00",
+          "hoursVerifiedAt": null,
+          "accessibility": "unknown",
+          "rating": null,
+          "photos": [],
+          "provenance": [
+            {
+              "sourceId": "osm",
+              "sourceRecordId": "node/4646736294",
+              "sourceUrl": "https://www.openstreetmap.org/node/4646736294",
+              "license": "ODbL-1.0",
+              "attribution": "© OpenStreetMap contributors",
+              "sourceUpdatedAt": "2023-09-17T00:00:57Z",
+              "importedAt": "2026-11-26T23:56:41.617Z"
+            }
+          ],
+          "updatedAt": "2026-11-26T23:56:41.617Z"
+        }
+      ],
+      "issueCount": 2
+    }
+  ]
+}

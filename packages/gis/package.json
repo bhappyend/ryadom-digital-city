@@ -1,0 +1,15 @@
+{
+  "name": "@ryadom/gis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.js" },
+    "./map": { "types": "./dist/map-style.d.ts", "import": "./dist/map-style.js", "require": "./dist/map-style.js" }
+  },
+  "files": ["dist"],
+  "scripts": { "build": "tsc -p tsconfig.build.json", "typecheck": "tsc --noEmit -p tsconfig.json", "test": "vitest run src" },
+  "dependencies": { "@ryadom/types": "0.1.0", "@maplibre/maplibre-gl-style-spec": "26.11.0" }
+}

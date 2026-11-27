@@ -1,0 +1,12 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/far_eastern_federal_district/amur_oblast-latest.osm.pbf",
+  "resolvedUrl": "https://download.openstreetmap.fr/extracts/russia/far_eastern_federal_district/amur_oblast-latest.osm.pbf",
+  "fetchedAt": "2026-11-26T23:59:57.806Z",
+  "sourceLastModified": "Mon, 23 Nov 2026 00:07:35 GMT",
+  "bytes": 22520921,
+  "sha256": "b60dfeab20b4735aa6cac4d1547be4fdbcb570279557bf299deb010fee84cfe0",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

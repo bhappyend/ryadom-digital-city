@@ -1,0 +1,43 @@
+.scene {
+  min-width: 0;
+  align-self: stretch;
+  --dc-demo-scale: 1;
+  --dc-demo-markers: 1;
+  --dc-demo-selection: 1;
+  --dc-demo-route: 1;
+}
+
+.figure { margin: 0; min-width: 0; }
+.viewport { overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); pointer-events: none; }
+.canvas { position: relative; transform: scale(var(--dc-demo-scale)); transform-origin: 48% 42%; }
+.map { display: block; width: 100%; height: auto; aspect-ratio: 720 / 410; }
+.overlay { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.route { fill: none; stroke: var(--primary); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: calc(1 - var(--dc-demo-route)); opacity: var(--dc-demo-route); }
+.routeOrigin { fill: var(--info); stroke: var(--text); stroke-width: 3; opacity: var(--dc-demo-route); }
+.selection { fill: none; stroke: var(--primary); stroke-width: 2; opacity: var(--dc-demo-selection); }
+.marker { position: absolute; width: 5.55%; height: auto; opacity: var(--dc-demo-markers); transform: translate(-50%, -100%); }
+.markerOne { left: 47.22%; top: 40%; }
+.markerTwo { left: 32%; top: 65%; }
+.markerEnd { left: 79.16%; top: 13.41%; }
+.example { position: absolute; left: 54%; top: 21%; max-width: 44%; padding: .375rem .5rem; border: 1px solid var(--border); border-radius: .375rem; background: var(--surface); color: var(--text); font-size: .875rem; opacity: var(--dc-demo-selection); }
+.caption { margin-top: .875rem; color: var(--text-muted); font-size: .875rem; }
+.steps { display: flex; flex-wrap: wrap; gap: .5rem 1rem; padding: 0; margin: 1rem 0 0; list-style: none; color: var(--text-muted); font-size: .875rem; }
+.steps li { border-bottom: 2px solid transparent; padding-bottom: .25rem; }
+
+/* Class is local; JS sets the enhancement attribute only after hydration. */
+@media (min-width: 64rem) and (min-height: 40rem) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .scene[data-dc-motion="full"] { min-height: calc(100svh + 16rem); }
+  .scene[data-dc-motion="full"] .figure { position: sticky; top: var(--dc-motion-sticky-top, 7rem); }
+  .scene[data-dc-step="0"] [data-dc-demo-label="0"],
+  .scene[data-dc-step="1"] [data-dc-demo-label="1"],
+  .scene[data-dc-step="2"] [data-dc-demo-label="2"],
+  .scene[data-dc-step="3"] [data-dc-demo-label="3"] { color: var(--text); border-bottom-color: var(--primary); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene { min-height: 0 !important; }
+  .scene .figure { position: static !important; }
+  .scene .canvas { transform: none; }
+  .scene .marker, .scene .selection, .scene .example, .scene .route, .scene .routeOrigin { opacity: 1; }
+  .scene .route { stroke-dashoffset: 0; }
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/ural_federal_district/kurgan_oblast-latest.osm.pbf",
+  "resolvedUrl": "https://download.openstreetmap.fr/extracts/russia/ural_federal_district/kurgan_oblast-latest.osm.pbf",
+  "fetchedAt": "2026-11-27T00:01:51.970Z",
+  "sourceLastModified": "Mon, 23 Nov 2026 00:06:15 GMT",
+  "bytes": 30045959,
+  "sha256": "4445fe18f3cea7993fe79b09e0d116273f8536ed3f9ee485459c2f91ff2ea321",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

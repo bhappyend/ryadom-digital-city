@@ -1,0 +1,15 @@
+{
+  "name": "@ryadom/qa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:list": "playwright test --list",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": { "@ryadom/types": "0.1.0" },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@axe-core/playwright": "4.14.1"
+  }
+}

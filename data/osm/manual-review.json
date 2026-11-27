@@ -1,0 +1,344 @@
+{
+  "sourceHash": "44c370dcfb908341d485eee48b9b3cafd69b00d8d1833f536a733de3e15a2e56",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "status": "pending_manual_review",
+  "candidates": [
+    {
+      "left": "node/1205446733",
+      "right": "node/1321505590",
+      "distanceMeters": 25.14243298915808,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1333986357",
+      "right": "node/1333986358",
+      "distanceMeters": 4.967209525219137,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1342552305",
+      "right": "node/1342552306",
+      "distanceMeters": 4.429662917946325,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1341672595",
+      "right": "node/2266104688",
+      "distanceMeters": 11.93597187178787,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/3746461974",
+      "right": "node/4101292289",
+      "distanceMeters": 4.072356723996513,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1307907607",
+      "right": "node/4440615163",
+      "distanceMeters": 9.321881549939956,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/4472658834",
+      "right": "node/4472706282",
+      "distanceMeters": 18.165289183253034,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/4748660821",
+      "right": "node/4975076729",
+      "distanceMeters": 4.091888329759665,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/6003055102",
+      "right": "node/6003055453",
+      "distanceMeters": 21.05826971345538,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1321445498",
+      "right": "node/7444340227",
+      "distanceMeters": 20.322400749342766,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1927201204",
+      "right": "node/7444702410",
+      "distanceMeters": 11.70284323279597,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/4772215122",
+      "right": "node/7796003085",
+      "distanceMeters": 4.762409658123566,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/7819803835",
+      "right": "node/7819803836",
+      "distanceMeters": 32.14616753290887,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/7816010278",
+      "right": "node/7819803837",
+      "distanceMeters": 20.49812449660831,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/7816050681",
+      "right": "node/7819803838",
+      "distanceMeters": 28.994053963222246,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/5514695531",
+      "right": "node/7819803849",
+      "distanceMeters": 29.7715027095896,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/5514695535",
+      "right": "node/7819803850",
+      "distanceMeters": 38.63890977765299,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/5514695529",
+      "right": "node/7819803852",
+      "distanceMeters": 30.056820950987124,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/5514695530",
+      "right": "node/7819803853",
+      "distanceMeters": 11.231829273446147,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/7821342494",
+      "right": "node/7821342495",
+      "distanceMeters": 24.447929744020882,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/7831813368",
+      "right": "node/7831867974",
+      "distanceMeters": 22.08554906103215,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/8154428023",
+      "right": "node/8154429327",
+      "distanceMeters": 22.31035625567229,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/9224995017",
+      "right": "node/9234629217",
+      "distanceMeters": 3.282579461032364,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/10807417251",
+      "right": "node/10807417267",
+      "distanceMeters": 47.548278145346345,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/10636707509",
+      "right": "node/10880130305",
+      "distanceMeters": 8.24912145834843,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/6316724869",
+      "right": "node/11137813970",
+      "distanceMeters": 40.658836528355565,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/13005746501",
+      "right": "node/13005747101",
+      "distanceMeters": 0,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/9919203175",
+      "right": "node/13096782573",
+      "distanceMeters": 37.85243697121717,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/12638676503",
+      "right": "node/13575083978",
+      "distanceMeters": 6.088964206857308,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/9612453875",
+      "right": "node/13658167027",
+      "distanceMeters": 47.327716815230964,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/9524507517",
+      "right": "way/97886909",
+      "distanceMeters": 22.000523174816593,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/1141382314",
+      "right": "way/98657961",
+      "distanceMeters": 8.039428128528172,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/4408731600",
+      "right": "way/100187998",
+      "distanceMeters": 9.895316340042086,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/78394128",
+      "right": "way/101251548",
+      "distanceMeters": 20.066250969310204,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/100717538",
+      "right": "way/112082180",
+      "distanceMeters": 7.59735430388761,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/100703118",
+      "right": "way/113850690",
+      "distanceMeters": 34.98729770574295,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/112065578",
+      "right": "way/115864998",
+      "distanceMeters": 5.398759324101732,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/11025809799",
+      "right": "way/239853792",
+      "distanceMeters": 17.37461190523457,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/3765265330",
+      "right": "way/372980481",
+      "distanceMeters": 9.201061149791563,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/636574746",
+      "right": "way/636574823",
+      "distanceMeters": 6.409228250367208,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/6350226432",
+      "right": "way/636590512",
+      "distanceMeters": 24.570632579703325,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/636600904",
+      "right": "way/636601106",
+      "distanceMeters": 7.398845038508459,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/636608577",
+      "right": "way/636608599",
+      "distanceMeters": 26.07840303979488,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/6350226432",
+      "right": "way/724110753",
+      "distanceMeters": 26.22309169342128,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/636590512",
+      "right": "way/724110753",
+      "distanceMeters": 27.220286211729054,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/98528113",
+      "right": "way/1074502516",
+      "distanceMeters": 20.450962849481368,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/236854681",
+      "right": "way/1085428619",
+      "distanceMeters": 27.423100228319427,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/98345078",
+      "right": "way/1100555274",
+      "distanceMeters": 34.3551954924656,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/98350792",
+      "right": "way/1100555275",
+      "distanceMeters": 30.575267441684463,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/98350792",
+      "right": "way/1100555276",
+      "distanceMeters": 38.88505490000508,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/98350752",
+      "right": "way/1101007820",
+      "distanceMeters": 20.468189037982174,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/98350782",
+      "right": "way/1101007823",
+      "distanceMeters": 9.057918292322729,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/103281420",
+      "right": "way/1104739856",
+      "distanceMeters": 19.778451338083034,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "way/237967212",
+      "right": "way/1167972976",
+      "distanceMeters": 37.13610427258219,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/14253540901",
+      "right": "way/1570210401",
+      "distanceMeters": 17.414864226698512,
+      "reason": "same_name_within_50m"
+    },
+    {
+      "left": "node/4528257142",
+      "right": "way/1570210597",
+      "distanceMeters": 34.20827790195872,
+      "reason": "same_name_within_50m"
+    }
+  ]
+}

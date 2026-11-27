@@ -1,0 +1,1017 @@
+{
+  "verifiedAt": "2026-11-27T00:06:42.581Z",
+  "scope": "Read-only runtime-role PostGIS checks, not HTTP/browser QA",
+  "showcaseCount": 35,
+  "showcaseCurrentFieldsAndProvenanceMatch": true,
+  "selectedBusinessCount": 414,
+  "selectedCities": 84,
+  "visibleCities": 85,
+  "citiesResponseSchemaLimit2000": true,
+  "totalPlaces": 2753,
+  "smolenskPreserved": 2339,
+  "idsUnchangedSinceApply": true,
+  "selectedCitiesEvidence": [
+    {
+      "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+      "count": 5,
+      "ids": [
+        "5853b5d7-7874-4e0f-a2c1-0609e8b947e1",
+        "6eb5bf11-c38d-46bd-b3c5-8d92ad77f74d",
+        "ad438b3e-a088-42c0-9c1d-7c8fd864dc73",
+        "ea1da7e0-a007-44d7-be16-14126e60a766",
+        "fbf94132-a84a-4d7b-9a19-cd66556af709"
+      ],
+      "maxDistanceMeters": 1403.39229421
+    },
+    {
+      "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+      "count": 5,
+      "ids": [
+        "09c2307d-2e75-4121-aecf-e7f183b8cce7",
+        "b7b19f4c-f0f3-420a-aa00-d4499a61c65e",
+        "bcb80b58-9d87-4c0b-b26f-4cc53648e1bd",
+        "f06ff6c8-befc-4f62-acc3-56a881392bbe",
+        "fb31de63-a25a-43b1-92a0-d91ea020c168"
+      ],
+      "maxDistanceMeters": 1534.01555925
+    },
+    {
+      "cityId": "city-04950f38-5c4c-4989-8b7a-6224795a2b59",
+      "count": 5,
+      "ids": [
+        "11566273-9ebe-400d-a244-b6c12c82911e",
+        "4239e74b-e937-4d11-a951-3aa23670695e",
+        "70ccc542-c996-4428-ba0e-f3a5d236a6b2",
+        "9ca19a2d-19aa-4eec-92d7-80f7fca3922b",
+        "f4c4770b-ed6d-4e4e-848c-31bcb23d21b8"
+      ],
+      "maxDistanceMeters": 744.70827526
+    },
+    {
+      "cityId": "city-180fcdbd-95b4-41f5-90f5-cbe9b9c83da7",
+      "count": 5,
+      "ids": [
+        "022e7361-a236-48f8-826f-0c9841718ea6",
+        "08190440-4981-473e-a839-5ab31aca975b",
+        "5e5effe0-239d-4b0f-b998-1a94343fe433",
+        "77a98bcf-6d27-415b-8b8b-8b36a014a246",
+        "de3a20ea-c87b-40d3-8f84-4f9f951ecb3a"
+      ],
+      "maxDistanceMeters": 933.02276111
+    },
+    {
+      "cityId": "city-19436029-357a-435b-8156-b01fba4ea8a5",
+      "count": 5,
+      "ids": [
+        "300465ee-6f98-4e35-8aba-be891271f88f",
+        "599d4c6c-40b8-4f45-a899-09c31cec3fc2",
+        "a039ee90-f248-4558-b416-29f72b2597d4",
+        "a8eb05b0-aef0-4720-a378-e7f3c8ea71e0",
+        "f1674ced-7924-4066-ac10-714e8fbdb5fc"
+      ],
+      "maxDistanceMeters": 1638.6782368
+    },
+    {
+      "cityId": "city-19620317-39e8-4a09-af7e-67b136ef61fe",
+      "count": 5,
+      "ids": [
+        "00d236e2-6445-41c0-862d-5857d4b06768",
+        "7293764a-2f16-4386-82c6-32da7c9633cc",
+        "870a0459-704e-485a-a25b-e5ed3f839efb",
+        "b51ac4bc-f148-4a51-bdc8-76d8438fca31",
+        "bef66794-e29a-47a2-8b7f-af2d3c372590"
+      ],
+      "maxDistanceMeters": 485.85827317
+    },
+    {
+      "cityId": "city-27bc7f09-4593-4972-950b-231f2a49d44b",
+      "count": 5,
+      "ids": [
+        "6866d901-41b6-4624-b95c-493ad5cd4ff9",
+        "832c2271-9acc-4e6f-9b15-a3851ba226bd",
+        "9104d467-934a-4fa8-ad5a-a9f876fbd9c0",
+        "9ae00790-5b63-40aa-9235-c564bca71e7d",
+        "a71f059a-e3a2-4934-9063-b441c385ebbf"
+      ],
+      "maxDistanceMeters": 2133.49601506
+    },
+    {
+      "cityId": "city-27fd5628-fbd7-4641-abed-b213af6029b8",
+      "count": 5,
+      "ids": [
+        "696aae0f-7416-4884-86b3-31cbc1e718bb",
+        "bb5cad5c-6f60-4180-95a6-af8c0bd366d4",
+        "be685227-ca02-41d8-a65a-73864916d9c7",
+        "f28f8bfb-de1e-4e27-9217-c9e632319cd9",
+        "fe257313-db37-41d3-98f2-3c87fe180e36"
+      ],
+      "maxDistanceMeters": 783.50260753
+    },
+    {
+      "cityId": "city-2942ef2d-01b0-4137-8f46-5228e9eedd7f",
+      "count": 5,
+      "ids": [
+        "1389e0e4-2d76-4086-aaf6-c5e2a46ed25a",
+        "45d9d9fe-ccff-47ac-a7f1-d0ff6dedac93",
+        "460fa494-e885-4595-89fa-c2462a8d3202",
+        "569afa11-9f8c-44dc-93aa-37d2cc551f48",
+        "ea95761c-c414-4708-bb17-eb0eaae39761"
+      ],
+      "maxDistanceMeters": 809.72577276
+    },
+    {
+      "cityId": "city-2b3f4c49-0e5b-44c8-bf56-a335eb551c23",
+      "count": 5,
+      "ids": [
+        "53d2c3a8-ee90-4843-a67e-8683e334cd18",
+        "7e9b3299-0b88-43a2-b155-7804b3575fe9",
+        "8ffd2c29-4944-40ab-bdc0-35eae24e5a61",
+        "956700d5-5bc8-4b16-bb47-ede42da712fd",
+        "c88ef16a-2c7e-416c-a2f2-80ed434e75dc"
+      ],
+      "maxDistanceMeters": 769.86108303
+    },
+    {
+      "cityId": "city-40c2a58b-8f84-4b30-8a22-038efe4f059a",
+      "count": 5,
+      "ids": [
+        "2a42d164-fd42-439b-964d-dc50eb9accee",
+        "5bb1c001-41c9-4cbb-8180-f389e2122c0a",
+        "cd86ff71-5e59-40b8-bfac-04266ae656ad",
+        "e3dc2f28-db64-4133-8fe5-9404f4eb4a6d",
+        "e93b77b5-aaf8-4802-8495-4e0861636bf6"
+      ],
+      "maxDistanceMeters": 1219.43417404
+    },
+    {
+      "cityId": "city-427dc561-3277-43bd-a310-7c1953a3c8bd",
+      "count": 5,
+      "ids": [
+        "0952f65e-2da4-4f1b-b2e7-d3f91151162e",
+        "4d98f67a-2dcf-4943-862b-7500794c7ecc",
+        "8958424b-de6e-49de-bd48-7f6928509791",
+        "ced3a3db-6788-4a2f-b6e9-3232dfd19f79",
+        "ffb1298d-42a0-4673-afee-47a04daefcbd"
+      ],
+      "maxDistanceMeters": 1716.66699764
+    },
+    {
+      "cityId": "city-448d8a42-8ebf-4ca5-a9f2-98efb532630f",
+      "count": 5,
+      "ids": [
+        "35541a2d-8271-49c6-b084-ce8f7009974f",
+        "53a634b4-c909-4f91-ae71-7a9a143afccb",
+        "ad498f65-4616-41bc-ae90-90510b847961",
+        "b4038fc0-b8f7-47d7-97c7-cbccf1acbc08",
+        "d123e9a6-d084-40cb-a02f-1482f5059c91"
+      ],
+      "maxDistanceMeters": 1413.24419668
+    },
+    {
+      "cityId": "city-4fb71afc-f221-454e-9edf-d6fd9ee07418",
+      "count": 5,
+      "ids": [
+        "23d77ab7-26d4-40ed-8d60-905eaf40a18a",
+        "670d487d-dc07-47d1-9a4d-915c920b9abe",
+        "6a7b3b58-2611-4865-9820-182585dd81bf",
+        "6eedfb89-be5a-4f1f-b837-63839cf59199",
+        "b4c2e167-32d7-4cc4-8fb0-b8e1e38a624b"
+      ],
+      "maxDistanceMeters": 1048.7654119
+    },
+    {
+      "cityId": "city-5f19f5f2-55b1-4796-9610-8a73eeefcaf1",
+      "count": 2,
+      "ids": [
+        "1c9c98a4-42ee-470a-9dea-7719cf977e2c",
+        "23d72e69-3402-4c01-883e-cf6ba8f1c33c"
+      ],
+      "maxDistanceMeters": 614.54636223
+    },
+    {
+      "cityId": "city-66cb21da-0212-4d22-a2a3-f1badcd3a9d4",
+      "count": 5,
+      "ids": [
+        "00d723d4-a164-43ef-a33e-45d821d0a67e",
+        "0efd3d8a-cf61-497b-b845-5d1a30f13805",
+        "46bbf9dd-ed43-4885-bc89-68b9ec0692d5",
+        "567b5f1a-f1a4-4539-adde-3858c530ea3f",
+        "ba99c53e-2961-4a9a-833a-558e3998879d"
+      ],
+      "maxDistanceMeters": 1360.79734661
+    },
+    {
+      "cityId": "city-6d379259-b8d5-4cca-9412-1ded0849fd1a",
+      "count": 5,
+      "ids": [
+        "63a6ea2a-e356-4446-99b2-41ce69aeccf3",
+        "6dff290f-cb58-4a21-ae88-55fd4e7077ce",
+        "79f2c839-b963-40be-81ad-6df83c7aee1e",
+        "a5f60195-f5b5-4ba8-a9a3-3a7ccfd31b6a",
+        "ca3b0da5-1ed3-4873-91d8-7df86229b89f"
+      ],
+      "maxDistanceMeters": 2419.46384672
+    },
+    {
+      "cityId": "city-8f9e9cc0-711f-470a-9fff-2a65c00c8439",
+      "count": 5,
+      "ids": [
+        "54924bb3-d3cd-4aa8-8e78-5f9b387167ac",
+        "9be906a4-4fc5-4a8f-b341-85b2fc35c910",
+        "9ecebd98-00d5-4d84-88cf-cb2860a6aa39",
+        "b1921c6b-c020-4555-9632-30e86a6a1acb",
+        "cab67d74-c972-40fe-adf9-9ec43aeec2fe"
+      ],
+      "maxDistanceMeters": 2202.8298918
+    },
+    {
+      "cityId": "city-97323948-09db-411c-8e9a-43ad2ec25687",
+      "count": 5,
+      "ids": [
+        "17b2b84b-e239-447b-9eb3-f045b8eefe1f",
+        "58be9896-f0df-49f1-ac23-d6716f72541a",
+        "78262282-2245-45f1-90ac-b403c99dcbea",
+        "9e70c567-4865-4342-b309-86052876458e",
+        "a3b4a7ce-b1a4-4fd1-abd8-b06063491f75"
+      ],
+      "maxDistanceMeters": 1667.95920663
+    },
+    {
+      "cityId": "city-9fee1c1b-9d14-42ea-8ff9-2e903501d43d",
+      "count": 5,
+      "ids": [
+        "7f8bc2c4-cd8d-4abc-b549-ba7d178f928c",
+        "8d1a6aeb-5c38-41a5-8c46-87b4e819e3a7",
+        "a5333ec0-b401-442a-b217-cc133c855a10",
+        "c0f4e8de-b9ee-4932-b1b0-7115f6cb122f",
+        "f1078d60-6a37-49e3-80c4-a34f91377896"
+      ],
+      "maxDistanceMeters": 213.95931128
+    },
+    {
+      "cityId": "city-acde8f61-fd56-4cec-a4df-1f033e2a63ee",
+      "count": 5,
+      "ids": [
+        "460e511c-958a-4896-86fd-db11311653a1",
+        "86c19abe-0596-4065-8d34-09f3ae64b4f7",
+        "a1a4467d-0a35-41d9-abc9-43e80ff19cc8",
+        "da0f6c09-6f7a-459b-a433-60a0445ee833",
+        "f9f43b8a-5c19-499a-be75-a9635acfef75"
+      ],
+      "maxDistanceMeters": 1819.89457306
+    },
+    {
+      "cityId": "city-df679694-d505-4dd3-b514-4ba48c8a97d8",
+      "count": 5,
+      "ids": [
+        "402f6ce1-0131-4563-9cd1-0ab05f731b1c",
+        "67e9863b-db5b-4e4e-bc9e-9690baf5ab2d",
+        "6ba57130-18c3-42b4-b7fc-e6bd3853dcd6",
+        "6f9efb2d-5b62-4169-a4cb-60ee7bf6a86d",
+        "dea89138-8079-4096-a962-1ffcd7669a99"
+      ],
+      "maxDistanceMeters": 1090.50865316
+    },
+    {
+      "cityId": "city-e401208f-3469-403f-910b-bba057cf70b2",
+      "count": 5,
+      "ids": [
+        "15cfdfc3-cfe5-4297-88bb-0740e7859896",
+        "214b37b6-a0fb-4472-9cae-325d4381cab4",
+        "3e18b3f0-7495-477b-ad18-a103cb6dfd62",
+        "9d864414-12ae-4ff7-8f6e-a693305c0c2f",
+        "e7a5f974-fc9c-4289-9add-1f5951ba24cb"
+      ],
+      "maxDistanceMeters": 508.97467164
+    },
+    {
+      "cityId": "city-f731c104-431c-494c-b4e8-f97ccaaf71b9",
+      "count": 5,
+      "ids": [
+        "54c0d979-5a36-4166-83e8-78a383940526",
+        "9ef3f5d7-b7f9-413c-aa3a-03c9d4dca6d2",
+        "b7deaeaf-4672-40ec-9351-c69a9fca4c81",
+        "e5e0366f-9cd1-4b01-8f24-83cb924646b1",
+        "ecbfd143-cd4a-420c-afcc-5fa436b510a6"
+      ],
+      "maxDistanceMeters": 1067.48426084
+    },
+    {
+      "cityId": "city-019979ae-6056-4ed8-98ef-48bded318dd2",
+      "count": 5,
+      "ids": [
+        "7456eef8-52b0-4d71-846b-f54305f8640d",
+        "9b367e96-9576-45ab-92fa-687544f8616f",
+        "a62cfe13-e96b-4ff1-90af-e4b8ee7fa71a",
+        "e233f212-1c31-4a93-9990-1a13108c15fd",
+        "f95fb20a-4bf5-4ff5-8375-2b3ba89a50d6"
+      ],
+      "maxDistanceMeters": 3026.34423301
+    },
+    {
+      "cityId": "city-0be84f75-bbb5-4471-9d0c-dfa932f5df7d",
+      "count": 5,
+      "ids": [
+        "1c1d48a7-8da4-4ef6-a04a-e236cec7e981",
+        "4af10031-c098-495d-9728-3a746b17296e",
+        "d7f9e250-418b-4338-9fc1-0847218de0ac",
+        "dad48a81-2ce7-4a1f-965a-c4301056c761",
+        "f94ed938-f628-4e51-97fc-6d2413b49c5f"
+      ],
+      "maxDistanceMeters": 2351.03653094
+    },
+    {
+      "cityId": "city-0ca8280c-89cb-4c81-8a99-ae10a98416bc",
+      "count": 5,
+      "ids": [
+        "1fe535a6-e08e-497e-9860-9e40473c7429",
+        "8db66c7c-02dc-46a1-8750-78da4c0026c7",
+        "aa91f382-2d2f-4762-8bf3-ce8f1cb82c76",
+        "b05ed651-05ad-45bd-ab9a-a64b802b90bd",
+        "e4f9f95d-2518-43fe-acbe-3d1653ac0902"
+      ],
+      "maxDistanceMeters": 1877.70498274
+    },
+    {
+      "cityId": "city-0e527607-a1cd-462c-9b85-f33ddea64ad0",
+      "count": 5,
+      "ids": [
+        "482e6bb9-08fd-4137-a8fb-94fa17ab14e8",
+        "4aa34ff6-d7a8-40ac-ae1e-d9d1c31e3cf8",
+        "8036d109-29ac-4553-9cc2-f9cdb05df88f",
+        "dbed45a4-e26d-40e3-b181-93abb3ac0b83",
+        "f3d0e7bc-c4a6-4f9a-a616-17ea76a121d7"
+      ],
+      "maxDistanceMeters": 2468.70020356
+    },
+    {
+      "cityId": "city-0effcc07-1b12-4570-9951-23523c06c858",
+      "count": 5,
+      "ids": [
+        "43d35852-46c9-43ce-92da-38c1a2fdd580",
+        "63026a3d-2d9f-412c-96c8-105aa3db0479",
+        "6c12bbff-7aeb-4df2-95f4-cab50430ce6c",
+        "c4f34154-c285-4e05-ac48-285b082313a8",
+        "e5a0077c-d3c6-4473-b3ee-8feb1fd986ca"
+      ],
+      "maxDistanceMeters": 2625.99373147
+    },
+    {
+      "cityId": "city-17bfd906-04ef-45f2-abbb-fcf801d0ba84",
+      "count": 5,
+      "ids": [
+        "8497e2f3-78f0-495e-a806-e8bc6b34a5f5",
+        "aa12bc94-0a21-4ae2-9df9-0b5f3886e1e8",
+        "befcb765-92ed-44f0-9ac8-69a4d627449b",
+        "d90bb17c-4d4c-4274-9527-a84debbdf306",
+        "f01496e4-9690-4a51-9bfa-9d72c2592d50"
+      ],
+      "maxDistanceMeters": 573.35767192
+    },
+    {
+      "cityId": "city-1bde5cf4-7943-4b17-9718-2c1d96742be5",
+      "count": 5,
+      "ids": [
+        "09f2f008-2c0a-46c6-9615-a062bb19f522",
+        "38d1cf4f-b9e4-4b77-87b7-a984b147b074",
+        "792782ac-e8bf-409a-80ca-3aab9dd1f977",
+        "e7ace6ea-a0e2-4a02-af92-f6505869c563",
+        "ea7e114c-6184-4f34-a044-009f17fdf814"
+      ],
+      "maxDistanceMeters": 1639.55906212
+    },
+    {
+      "cityId": "city-20ea2341-4f49-4c5c-a9dc-a54688c8cc61",
+      "count": 5,
+      "ids": [
+        "0386b215-1c89-4864-a455-9c217350fab7",
+        "6db6d9e2-15eb-438d-a752-1255a4081002",
+        "92b1b2dd-51ee-4603-a370-c27173561047",
+        "bb32e4cf-d938-41c5-a02c-86804e95a0ac",
+        "e5ca75b9-283e-47b8-a19e-599641795c27"
+      ],
+      "maxDistanceMeters": 4292.5094852
+    },
+    {
+      "cityId": "city-22973a33-7a1c-449d-9535-def88bd91ed3",
+      "count": 5,
+      "ids": [
+        "07098594-e11b-450d-9f57-d0ab8b04a475",
+        "2f346966-2548-4625-9f0c-aaba333e808d",
+        "6ae77a1b-a65f-4fbd-990f-c434182e1dd7",
+        "954f4b26-5a5c-485f-81c8-e6ee9ae5769b",
+        "bdac1923-453f-44f0-b37d-eddd3968edf0"
+      ],
+      "maxDistanceMeters": 1204.24125379
+    },
+    {
+      "cityId": "city-2a1c7bdb-05ea-492f-9e1c-b3999f79dcbc",
+      "count": 5,
+      "ids": [
+        "2830d44d-f8f7-4306-a4ea-7155839744cf",
+        "3fef76e8-ab50-4377-be6e-d8779099a911",
+        "6d8a6aed-7043-4f93-8507-466486363864",
+        "b3201545-3d2b-448b-8611-8abf25e5aa5a",
+        "f8e56793-1537-44b6-b717-0f9ebf9567cc"
+      ],
+      "maxDistanceMeters": 230.01285963
+    },
+    {
+      "cityId": "city-2a4a7c93-f3f8-4042-8cbf-e04ab64f5e08",
+      "count": 5,
+      "ids": [
+        "2513b5cb-e66e-491d-ab58-e8989f84b79c",
+        "29bbc1d2-41d1-4eda-95d7-5b5056988735",
+        "2b81678d-c758-4797-b9ba-b94959962a3f",
+        "89b68b18-9131-4174-8469-95ecb84bf70f",
+        "f2f71726-9645-448a-9926-7a757083f3fe"
+      ],
+      "maxDistanceMeters": 810.29753502
+    },
+    {
+      "cityId": "city-2c33c72e-642b-4a7e-afe5-982f5adf6b17",
+      "count": 5,
+      "ids": [
+        "1c4e81a9-a6d4-406d-89c2-586a3eae4f4f",
+        "2f0a312e-c909-429f-b582-7ea15675e182",
+        "4b1b8d41-b71f-4b99-8ce4-276b7ddef44a",
+        "b8f6e414-844b-4918-b2c5-11c81b719733",
+        "bfa542df-1d61-4147-866e-34f4d1d301df"
+      ],
+      "maxDistanceMeters": 1962.36472036
+    },
+    {
+      "cityId": "city-2edbb310-a924-44a8-a6d0-c9b825214fcf",
+      "count": 5,
+      "ids": [
+        "1b308337-957b-4fb9-83b8-d4e70408c122",
+        "35b411bc-dcda-41b8-b755-d0f869f4cb60",
+        "d0dcbf51-99f7-41e4-b7bb-0a7a88c3d441",
+        "dbf3588e-25bf-4c43-a322-17f4c275af0d",
+        "e577b728-06fa-469b-8b71-556c2be9c4ae"
+      ],
+      "maxDistanceMeters": 4286.0687617
+    },
+    {
+      "cityId": "city-3672454d-2697-4ce1-9666-cc9c744ba5c5",
+      "count": 5,
+      "ids": [
+        "1d72e7e8-f8d1-4020-9294-294f0b6d1a1b",
+        "6dbeec7a-180b-40cf-becd-1893e03519f6",
+        "c523caf9-6fb2-4e8a-8677-132b2ee4c9d3",
+        "c9caa20d-112c-4c68-9c9d-66f737c01604",
+        "df62d0fb-e382-472a-8969-2a1ab9d20719"
+      ],
+      "maxDistanceMeters": 5451.75538346
+    },
+    {
+      "cityId": "city-37464bf9-053a-4c84-bc16-b9f202749794",
+      "count": 5,
+      "ids": [
+        "1d545474-9e1c-4cd3-b46b-6f3e6fc00514",
+        "298429d0-9307-4e3f-a89d-fbfb7d66797d",
+        "7a171414-5f8d-4c03-a00c-124d3674af26",
+        "aba1e6fa-1a2b-4eea-a4f8-e2b2ac57d72c",
+        "fe634846-d1b9-4bb7-a25d-e2ac16ae73a9"
+      ],
+      "maxDistanceMeters": 955.12875555
+    },
+    {
+      "cityId": "city-3808db7f-f793-40d0-ad74-691c158bc2de",
+      "count": 5,
+      "ids": [
+        "08a4383c-a8cf-4a7a-b5fc-0b861af26631",
+        "378d4d9a-915c-4245-9ed6-001bed5ee662",
+        "49515b3d-5c9e-445b-9e78-a290e7facc37",
+        "9917459c-b360-4969-856b-d68adf3515c6",
+        "dde1f3c4-67d9-47f3-8e26-f523ee0908f4"
+      ],
+      "maxDistanceMeters": 1022.23686712
+    },
+    {
+      "cityId": "city-47a5b97a-5cc1-4fa4-893f-0041590dd823",
+      "count": 5,
+      "ids": [
+        "89590823-517d-4ce7-a21e-a8f210b84133",
+        "b5f81387-917a-4ed2-b979-a75e5ec94444",
+        "e56209a4-a67f-4d00-80ec-2e3319b9d849",
+        "f836a65d-485a-495e-ab36-679ea5a4e429",
+        "fbc12ab9-ad0e-42d2-83cd-98da14bd3a7d"
+      ],
+      "maxDistanceMeters": 1583.04630163
+    },
+    {
+      "cityId": "city-51007e5c-e430-4f18-912c-f88c7e73698d",
+      "count": 5,
+      "ids": [
+        "1b96981a-041b-4555-b292-f232bf997bea",
+        "2cff5c0b-755d-40b3-ae70-d13a54eebcec",
+        "33a10b2c-3d5a-4683-9f29-f47c0f414745",
+        "6c75ef94-4010-4639-85de-443b7f4c61c8",
+        "c99e8c7a-d557-4e5f-a8f5-981fcc431d12"
+      ],
+      "maxDistanceMeters": 1713.49887036
+    },
+    {
+      "cityId": "city-589a16ac-fb2e-46f9-b59a-98c18d34d908",
+      "count": 5,
+      "ids": [
+        "150b75e1-a373-49de-a874-b8044dc1cf1f",
+        "2e722b74-1f53-44c2-887d-5a5587db34a8",
+        "6b4766d3-f5af-4783-a672-38c3d21d77e1",
+        "903362f4-f713-4d0f-8831-37ae264cb3dd",
+        "ef29de7a-9e5f-4c4e-9960-a7dff297ba8b"
+      ],
+      "maxDistanceMeters": 1487.1434203
+    },
+    {
+      "cityId": "city-5c318987-0763-4822-9c57-0d55e40fb9d7",
+      "count": 5,
+      "ids": [
+        "06a11925-f39e-4154-94c9-559b3e3298bc",
+        "5e9db418-c779-41f9-ba90-0251481564f8",
+        "66503b82-fe8b-48d1-9775-ef6bebec711f",
+        "ac99a331-5577-4619-836b-568155e50655",
+        "d426f6c7-b057-4474-813e-45856900b6e6"
+      ],
+      "maxDistanceMeters": 585.05131072
+    },
+    {
+      "cityId": "city-5de40749-195c-445b-b65a-fd1c397d1440",
+      "count": 5,
+      "ids": [
+        "634aa95b-7e90-4daa-8894-86bb364e5a4b",
+        "6fea6524-98a3-48d0-9b73-e2fc936aef7b",
+        "7aadb8f9-bb82-44c9-9a69-16de71764d76",
+        "b5bd2691-4bcb-43f6-8bc3-ace7e0c23a86",
+        "c4bc1cab-f171-48e3-89f4-62ddb4d187a0"
+      ],
+      "maxDistanceMeters": 3445.91016931
+    },
+    {
+      "cityId": "city-654ce513-3c99-414d-88b8-846097cc9ae3",
+      "count": 5,
+      "ids": [
+        "0f16ccb5-c7f8-48ee-8c1e-0072e011d578",
+        "17c7173e-88ae-45a8-9224-727a63159b91",
+        "60139b1b-1e1f-43c1-9eb1-d0060d1ff9cf",
+        "74dbbfa7-84f7-492c-9c2a-9709d03b8ef4",
+        "b8a92b24-5815-4c2f-af36-7fbf0dece2f4"
+      ],
+      "maxDistanceMeters": 2295.12297194
+    },
+    {
+      "cityId": "city-67851dfd-e142-451a-b6b1-ea5e9bc7f0c1",
+      "count": 5,
+      "ids": [
+        "2d881286-496c-4cfc-9af4-e4d573ac76ab",
+        "63675a49-f236-479d-ab68-906332bc9a9e",
+        "ada51913-8889-4825-86eb-c3e7b998baf3",
+        "b71e511d-ebc2-46b6-bc06-951649010e1f",
+        "d993713f-bf9f-49c7-985b-94cb83392858"
+      ],
+      "maxDistanceMeters": 789.9356933
+    },
+    {
+      "cityId": "city-727cdf1e-1b70-4e07-8995-9bf7ca9abefb",
+      "count": 5,
+      "ids": [
+        "1c5c97de-35dd-4552-8dd3-6e77956d1d08",
+        "3a9aecfc-8ac9-4c90-a417-2e4386e523cd",
+        "e13e7d2a-fe55-40ed-9007-9aceaffee201",
+        "e84fb501-a267-4938-a093-04cf7b38bfe6",
+        "ec01fb45-8871-47ca-80fd-6325dbbf8ae4"
+      ],
+      "maxDistanceMeters": 1615.35186919
+    },
+    {
+      "cityId": "city-733221a2-f789-4dda-a3f4-e41c88b6cfbd",
+      "count": 2,
+      "ids": [
+        "493f9269-8b41-4803-b18e-9d8ccef1f287",
+        "af74b040-1025-453e-8c02-c8701cee3fe9"
+      ],
+      "maxDistanceMeters": 535.9984608
+    },
+    {
+      "cityId": "city-815566a1-04ea-44a9-b34b-25b70ac9aa9a",
+      "count": 5,
+      "ids": [
+        "52f856cf-babb-438b-aa05-2bae0624fd9b",
+        "747c0dda-2b8b-4bfa-aa35-2c3f5301967b",
+        "b1e67a7b-b128-4d8a-a000-da96455cd724",
+        "ba3a6d76-5432-42f1-a965-e75ea1bf9b2d",
+        "c6885f07-78de-4e0a-b2f2-31dc31396ea3"
+      ],
+      "maxDistanceMeters": 1795.89329434
+    },
+    {
+      "cityId": "city-82551e9e-14a4-4414-ad60-6cc944763ff3",
+      "count": 5,
+      "ids": [
+        "0f1c5d47-1c52-45a5-b027-c516a7f4c811",
+        "6bf63357-1ba0-4f00-ac0a-d21eb5e221c2",
+        "af4c1835-ea69-49e9-acb2-3ef9246f7e78",
+        "bc125058-5531-47c1-a011-90c9a816fa09",
+        "e590446b-863b-45fd-8a2a-e9f6e966f843"
+      ],
+      "maxDistanceMeters": 1061.21029558
+    },
+    {
+      "cityId": "city-82d67979-76e6-4c48-b5b0-18c0b969114c",
+      "count": 5,
+      "ids": [
+        "0b350f39-823f-4bfd-9006-3b3cd467672c",
+        "406a7410-1081-4afe-9ab7-6e8502ef622c",
+        "969161b2-6b2c-497d-af8c-cdddfbd1f69a",
+        "dccb518f-1cc8-4881-966f-aaa081bda6ce",
+        "e6e8463b-bba5-455d-a50c-71dc579c2bc9"
+      ],
+      "maxDistanceMeters": 2222.01174195
+    },
+    {
+      "cityId": "city-8b4a997b-1e70-402a-a56a-e93c81d0ff20",
+      "count": 5,
+      "ids": [
+        "1ef83db0-d9e0-4165-9ee2-9423a3dea3d7",
+        "6f515c4e-d460-4a23-9a44-4584d68505a9",
+        "7aee2f10-4374-4cb2-b02a-51350487e323",
+        "e7223aa1-ec3f-4529-a8da-570f193ad1fc",
+        "fbc6b629-8dcb-4ce7-a8cf-e716be6e4ddf"
+      ],
+      "maxDistanceMeters": 1037.92695282
+    },
+    {
+      "cityId": "city-913a82e3-b671-43d5-97b4-8a08b8ee2d28",
+      "count": 5,
+      "ids": [
+        "2f0b066b-d472-4bc2-86c4-81d391571030",
+        "601e0a04-aa2d-47a1-9c5b-bf6b640cfcd8",
+        "6e62516e-3abc-42d4-b015-b8b3608b3394",
+        "75f9cd93-aff8-4ae4-a8d2-96fda9acab3c",
+        "9a3a7278-c465-4e2a-9de6-d54aa8b31ded"
+      ],
+      "maxDistanceMeters": 695.47175457
+    },
+    {
+      "cityId": "city-9886a048-8715-4526-80b1-2f0fd8dd7bdf",
+      "count": 5,
+      "ids": [
+        "119582a1-2f0d-435f-b873-112541cb256e",
+        "3366324f-f39d-4b25-9fb9-7bf277301ee5",
+        "430f60b0-45cb-491a-9194-be9ae1486d40",
+        "49dc9623-e850-4c11-8256-b9af62660bff",
+        "ad0bb151-2ef1-46a1-9e7a-1bb26af5bbcd"
+      ],
+      "maxDistanceMeters": 1269.8948672
+    },
+    {
+      "cityId": "city-9b0efbd0-22bb-400d-86db-ddc69b9939d9",
+      "count": 5,
+      "ids": [
+        "04e150e7-20e6-45a4-be1e-76e8cafb2046",
+        "3ba3788b-1960-4698-a239-f69a35d2d282",
+        "3d9d0cda-1411-4bb2-ab5d-d46fc29dd018",
+        "7121b691-61c8-41e9-a255-236142e7f2ee",
+        "faeb2f58-c258-4a45-b5a2-f15dfeef6228"
+      ],
+      "maxDistanceMeters": 657.67699002
+    },
+    {
+      "cityId": "city-a0194045-d9a6-4593-9502-133cae983a3f",
+      "count": 5,
+      "ids": [
+        "3cd1a189-4b3f-44a7-b21f-73c93ddbc2ed",
+        "7c1bbe61-d9cd-4a1d-b1fe-5ce308acaacc",
+        "99027374-e79d-4669-bd3f-02a3dfc1f34f",
+        "c2daf677-4582-4d86-9f0c-0a697405276b",
+        "ee06f189-ceef-4a96-8ec2-edcaa66332ee"
+      ],
+      "maxDistanceMeters": 1406.51362488
+    },
+    {
+      "cityId": "city-a2072dc5-45be-4db3-ab13-10784ba8b2ae",
+      "count": 5,
+      "ids": [
+        "2b5081af-7129-4246-b185-10f714d60cb3",
+        "64d28172-1782-4ad8-b6a8-050dd7e87fa6",
+        "aed4bfb8-d814-4a3b-82c1-d17298db0d6f",
+        "b3e42b47-8b18-471d-94bf-ab07c72d9208",
+        "ecf44f7e-dad6-47f6-b119-5309492e87c5"
+      ],
+      "maxDistanceMeters": 1940.33982802
+    },
+    {
+      "cityId": "city-a8695cce-c623-4451-bb47-2d69ab22092a",
+      "count": 5,
+      "ids": [
+        "30fd4b5b-d405-4750-a0da-2bde8763d75b",
+        "59289883-0e6a-4fa8-a2e5-404ce51dbf6e",
+        "6397834c-0aba-4e7f-be5b-dcc0f491b90d",
+        "9669c21a-9fbe-4410-90d2-d69975460f49",
+        "dc565c67-24d3-4c81-8d12-dc251e663570"
+      ],
+      "maxDistanceMeters": 616.17523081
+    },
+    {
+      "cityId": "city-aa883f13-ea3c-4b7f-9f3c-309a2b38db04",
+      "count": 5,
+      "ids": [
+        "4126c687-453c-4903-b39d-d232ddc34dfa",
+        "8147cb88-f5c1-4c49-85f1-2f56c72b58a6",
+        "bc28ecb1-7064-4b81-baae-aa545a9b9a1d",
+        "c428d66d-2296-4665-9035-84a50423536d",
+        "f5bef8f6-19d8-4248-85fe-dd85424249ed"
+      ],
+      "maxDistanceMeters": 1115.80546289
+    },
+    {
+      "cityId": "city-ab370c6d-8fd0-4e6b-9491-d83daaa829c9",
+      "count": 5,
+      "ids": [
+        "3cb36fd1-4d0d-441d-85d0-e8fbb28e9283",
+        "7fccf2e6-1513-4cae-836a-bc5ec66f3f4f",
+        "beaefc81-5a2e-4ec9-9fe6-1136e3bbd76a",
+        "d9cfbd65-d043-4bf6-81e9-78d3a3fb45fd",
+        "ef4e9959-d3cd-4f25-aac9-f55f755284ae"
+      ],
+      "maxDistanceMeters": 1211.81516337
+    },
+    {
+      "cityId": "city-b10ca6a7-e9c0-4382-b939-4787aaf43a58",
+      "count": 5,
+      "ids": [
+        "074bae66-50e2-495f-9f92-2133fe694fb7",
+        "1cabbff7-9f9b-41d2-b3cb-cf9529571688",
+        "1d562575-8bc9-464e-bba7-55a081d4e939",
+        "ab926d7e-efb6-49f3-b19c-4afd106fc154",
+        "d679e0c4-48d9-4d87-a105-a34c1c517793"
+      ],
+      "maxDistanceMeters": 3102.30564235
+    },
+    {
+      "cityId": "city-bcca8fda-282d-4a90-9303-7a37a8197242",
+      "count": 5,
+      "ids": [
+        "5cc41ca6-319f-4098-b133-abca7ac34856",
+        "9441f8f4-8a80-4da0-b5d6-90a222b4bcbc",
+        "960d3a3c-4887-4256-a028-ff69483163e7",
+        "a41e16bb-a228-4ee2-bea6-122df32197f3",
+        "fc56f6c4-ddee-481c-a57b-98061927457f"
+      ],
+      "maxDistanceMeters": 634.4723047
+    },
+    {
+      "cityId": "city-bf14786f-6c0e-4369-8907-57f9d3fd93ac",
+      "count": 5,
+      "ids": [
+        "287de933-72ea-437c-851a-851168bd0d2b",
+        "29713d5e-deb3-4d86-85dc-2433ccdba255",
+        "581be056-36ab-4e8b-a412-6d7a771f291f",
+        "9d44aa55-91dd-4620-ab3a-b2685e6e2c93",
+        "fc000236-53c9-47a9-b24d-65db9a9fea01"
+      ],
+      "maxDistanceMeters": 2459.59537884
+    },
+    {
+      "cityId": "city-c801edb4-aba2-4e1d-9ab2-69fcbf0aeb9c",
+      "count": 5,
+      "ids": [
+        "00d40b0a-ceed-4865-a964-f6f9ea8b69f6",
+        "1fc3fe42-2c9a-4df4-a87c-e226f29d7368",
+        "2745fe9d-1493-4618-b31c-ede454ecafae",
+        "8ca75305-e5e7-4975-bef6-dba34457d16f",
+        "9ab7b987-b61f-4a94-ae12-0207bd9f28f5"
+      ],
+      "maxDistanceMeters": 900.1082438
+    },
+    {
+      "cityId": "city-cb0f531d-4831-41c0-a859-3ad1f2e0f70b",
+      "count": 5,
+      "ids": [
+        "0fe2e335-135d-4773-ae6e-bb75f71924b4",
+        "24d28201-00b6-4b2b-bed4-322887824771",
+        "526facbb-1129-4e60-9474-01873385b532",
+        "a62230f5-ddf0-4784-8817-e926c337dc4e",
+        "f6f54d47-2ba5-4bfa-9dc0-841cc6c3f669"
+      ],
+      "maxDistanceMeters": 1513.10336001
+    },
+    {
+      "cityId": "city-cb390fbd-3149-4ac9-b9fb-6af069d51b71",
+      "count": 5,
+      "ids": [
+        "0b2fd032-6731-43cb-b4e6-ef1725489e8d",
+        "2609dc28-5106-48a8-87a8-cb8c56c2f166",
+        "6dd9c704-3043-4863-8e62-2dacbfbd20bb",
+        "8f185f77-7227-41ff-a134-273394ca0f37",
+        "adf4bdb5-3ece-44aa-8465-3f43e17a8e7c"
+      ],
+      "maxDistanceMeters": 1414.32294663
+    },
+    {
+      "cityId": "city-cbf3eb9d-f86c-4dbb-ba9e-f9f6521b096f",
+      "count": 5,
+      "ids": [
+        "216a790a-f610-483f-90dc-e2b978d3caaf",
+        "6eaf989f-d53b-4944-9c38-ee1ff2f0fd29",
+        "c29cc738-c2fb-4d05-8848-61f535ae971f",
+        "f2189a71-bdf4-4182-ad18-3118ab5f2e4f",
+        "fe5384a5-d85b-4678-b8bb-515d48d1965b"
+      ],
+      "maxDistanceMeters": 3006.81817046
+    },
+    {
+      "cityId": "city-d72c4e6c-59e6-4c02-9372-61f980f79cbd",
+      "count": 5,
+      "ids": [
+        "021fb999-152f-4e54-a558-219bab812376",
+        "6734b529-0a15-4b70-963c-e9ac2c255525",
+        "68da3e1f-2228-4ed8-91cc-feaa3f3010c1",
+        "70ad82ac-aa86-48f1-8130-62f583332bc5",
+        "d9337090-2490-4fd6-95d3-cbd2bc9b71c7"
+      ],
+      "maxDistanceMeters": 1558.36713993
+    },
+    {
+      "cityId": "city-dcfa008b-e058-4be1-a409-18fc2b2e570f",
+      "count": 5,
+      "ids": [
+        "0ac1dfc9-5586-4be1-9914-d5f35256c21f",
+        "65c3e778-8901-4ab7-9d6e-56d9167653a7",
+        "6794441c-a9ce-4ec0-a728-7af6b133a9ba",
+        "d2dd1bab-fde5-41d4-bab2-4ce2c002a290",
+        "e5a6cc8e-afbe-45d8-8ffe-5ec7c99d13d7"
+      ],
+      "maxDistanceMeters": 2426.87246825
+    },
+    {
+      "cityId": "city-e0ee885d-786e-457e-9568-2def04ee83b0",
+      "count": 5,
+      "ids": [
+        "0b99052c-f6e9-49de-97cd-2ad99feeb51d",
+        "2d16a552-79fd-4610-a821-8b70d1769ef7",
+        "8d8ffec1-b351-46be-9661-d9f6a33f8389",
+        "ab8468a9-8f26-47f9-8318-758ad60304b5",
+        "f3892c5d-66a1-4536-8f0d-427e1629e82f"
+      ],
+      "maxDistanceMeters": 1344.31315746
+    },
+    {
+      "cityId": "city-e18e67f7-e62a-4abe-853c-ffb8e5ab57e1",
+      "count": 5,
+      "ids": [
+        "5da8356b-7203-4e80-bb16-d8815a628f1a",
+        "601ddd6a-253a-421a-bf6e-da99a013d5b9",
+        "68994d47-44ae-4b2c-9f34-12dcfc75fd14",
+        "7911e898-4ab5-45de-ac58-cfdbf601598c",
+        "ba5b45d5-0249-4ed6-aecd-73f2f0df357e"
+      ],
+      "maxDistanceMeters": 1511.45474331
+    },
+    {
+      "cityId": "city-e6dcf985-09c1-4ede-ba3d-de714f0a5787",
+      "count": 5,
+      "ids": [
+        "3b2a50e5-1785-4e70-aac8-2c4edd3acf7e",
+        "6a928ff8-add3-45b4-a56f-ae8d947e9647",
+        "a29641b5-0ab3-4850-93bd-457dd1c2f1f1",
+        "dcb7e2fc-a920-43c0-962b-d5dd3f16a6ee",
+        "ee1b08b5-9217-40c2-882a-77c750612567"
+      ],
+      "maxDistanceMeters": 2327.32978626
+    },
+    {
+      "cityId": "city-e9f48c52-6cc4-47d9-ba6d-e7b12e8e0871",
+      "count": 5,
+      "ids": [
+        "0a94ee6d-885e-467e-a0ba-5d484c2d8ef4",
+        "695a3621-9f7f-41b5-aae3-4813e1ca7a5d",
+        "ac446edd-a2ad-4f90-afb4-ec36ae3f984c",
+        "c22ae496-0a66-433b-9bd5-f60a037bea22",
+        "f39fc8de-39d0-447e-bcd9-f2dada8fc034"
+      ],
+      "maxDistanceMeters": 1033.58201366
+    },
+    {
+      "cityId": "city-ea88bcba-c562-438a-9115-8b32426b0c8e",
+      "count": 5,
+      "ids": [
+        "269c2214-726f-4d77-80fa-e669207df76a",
+        "31f7f81e-9646-42ec-bdd9-bd0f2237dafe",
+        "54546bce-c61c-4455-8dc5-d3286f5088ef",
+        "befc6d93-9330-42cc-b2d0-383efcd42129",
+        "d7d73128-b37b-407c-854a-b0683ec6d6ea"
+      ],
+      "maxDistanceMeters": 2532.0486153
+    },
+    {
+      "cityId": "city-eb208b95-1f50-4290-a9c9-46909aea49a0",
+      "count": 5,
+      "ids": [
+        "4fe5788c-a938-431c-9863-63561962988f",
+        "759751fc-cb7d-4df7-b9b9-88c0a581dba9",
+        "a3cab208-caee-4c3c-a8e9-2ad65f2daf6f",
+        "ead5734c-48ab-4adc-b71e-53e79c91711a",
+        "f02202cb-ee31-4872-9968-444bcfbe11bb"
+      ],
+      "maxDistanceMeters": 3326.61667282
+    },
+    {
+      "cityId": "city-efc8a6e2-ffab-4d69-a35b-019bfe89745e",
+      "count": 5,
+      "ids": [
+        "158836a4-9837-433b-b807-08975c00f100",
+        "4206cc08-2577-4efd-b92a-15132ed2dbfb",
+        "5932b0c6-e841-4d83-8462-d33682d6d660",
+        "95119bbb-28b0-4fbe-b846-91bed8201e57",
+        "cc55f65a-62a6-4b97-a832-be61edae0b74"
+      ],
+      "maxDistanceMeters": 1528.97332633
+    },
+    {
+      "cityId": "city-f206e5a7-d074-44cf-a0f3-a9ca855969d2",
+      "count": 5,
+      "ids": [
+        "11de318f-0f3e-43af-b092-e9256b650fee",
+        "87440dd9-0f33-4d96-b808-2eb1b9bed7e1",
+        "b58a736f-c737-467a-8799-32fa2521c8a2",
+        "ce67b1f0-cc7c-48b5-8ddd-228fcc27499c",
+        "e6d93b13-22f0-4e76-8a76-4a6f3e1f38fc"
+      ],
+      "maxDistanceMeters": 3026.97646589
+    },
+    {
+      "cityId": "city-f231a6e9-5631-44a6-80bf-585e9491165e",
+      "count": 5,
+      "ids": [
+        "284ee774-8d7a-4263-85e1-208921899209",
+        "55bfdf67-b737-49ca-a14c-a5ceabf771fc",
+        "9a5e9a3c-652c-450c-af76-f300dd2dfbf5",
+        "ea1ffb03-8e67-41bb-bf62-14947d7e1e48",
+        "ff394987-3b8f-42f9-8328-625a07c12e02"
+      ],
+      "maxDistanceMeters": 2115.55748749
+    },
+    {
+      "cityId": "city-fab58303-fb09-422e-aeb7-6fdb5dfe7941",
+      "count": 5,
+      "ids": [
+        "1690d5e6-e852-411b-b507-4e0719d6a07c",
+        "72d01bbc-3431-4711-991a-647accd4a9d9",
+        "8e647000-90ea-4fd4-8a97-ff70aa0e2408",
+        "b4c392fa-22d6-47a7-aad4-8f368dd0a370",
+        "ee9c8180-a1b2-4e17-9947-7eda06047510"
+      ],
+      "maxDistanceMeters": 1717.09030742
+    },
+    {
+      "cityId": "city-fc26547e-11ce-464b-b4f2-96b37df6f23f",
+      "count": 5,
+      "ids": [
+        "2d86f0b4-de60-4e1b-b48a-f3f659353201",
+        "31d8530d-d110-45d0-8977-482824482635",
+        "60cabed3-794a-4492-8d84-fbfb9c9733b1",
+        "ae723ea1-4aa2-414e-80c4-7feed8fce753",
+        "c6e428c1-acf0-49a6-b1ff-aee5eaa9cb3e"
+      ],
+      "maxDistanceMeters": 1531.09222499
+    },
+    {
+      "cityId": "city-ff894fb7-acb4-4edf-bb48-c5349d89579b",
+      "count": 5,
+      "ids": [
+        "0a1545c7-1646-4240-b781-d32662cd7e1f",
+        "477683e5-5e07-46d5-b4aa-5ccc22bf3a01",
+        "5fe7e7bf-ef55-48e2-b309-f3de781be19b",
+        "7167cb20-4568-490b-876b-87917196ebb1",
+        "d7e1546a-70cd-4716-a103-21b85e3c9928"
+      ],
+      "maxDistanceMeters": 1979.18014693
+    },
+    {
+      "cityId": "city-98cd19c4-e172-4fa3-a81d-7caedeec669b",
+      "count": 5,
+      "ids": [
+        "39ef63b6-accc-429d-ac40-9624dc50f630",
+        "51ded2d3-2748-4b87-b1c9-8e934ed7fdce",
+        "5f4a9020-b9c8-4248-b268-62bae2d4aec7",
+        "8fae2a5e-81aa-4053-b23b-133d2bd181e3",
+        "e48e16ac-fdca-45f3-952e-7586a4b34bfa"
+      ],
+      "maxDistanceMeters": 1323.09291499
+    },
+    {
+      "cityId": "city-d73506c5-015c-4c39-929a-696ea8144e16",
+      "count": 5,
+      "ids": [
+        "13fa0364-cdfb-4d35-a6dc-913e757d8449",
+        "1770b85a-01c4-496e-87b6-083cea679a9c",
+        "54dba869-bae1-4e6b-b9be-0e5af5cf476f",
+        "bd85d8cb-f98c-4c5e-bf5f-1a86e261070d",
+        "dd489221-4c2b-4a9d-ae34-dadc6a57b512"
+      ],
+      "maxDistanceMeters": 791.08304775
+    }
+  ]
+}

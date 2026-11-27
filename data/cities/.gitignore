@@ -1,0 +1,10 @@
+raw/*.osm.pbf
+raw/*.part
+quarantine/
+geonames-RU.zip
+geonames-RU.txt
+bbbike-index.html
+source-page-*.html
+rosstat-*.html
+oktmo-*.csv
+meta.csv

@@ -1,0 +1,29 @@
+# Optional local-only storage. Supply a reviewed source-built image: upstream legacy registry tags unavailable here.
+services:
+  minio:
+    profiles: [storage]
+    image: ${MINIO_IMAGE:?Build and set a reviewed MinIO image digest; see docs/DEVOPS.md}
+    command: [server, /data, --console-address, ":9001"]
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+    ports:
+      - "127.0.0.1:${MINIO_PORT:-9000}:9000"
+      - "127.0.0.1:${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes: [minio_data:/data]
+    healthcheck:
+      test: [CMD, wget, -q, -T, "3", -O, /dev/null, http://127.0.0.1:9000/minio/health/live]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    mem_limit: 512m
+    user: "10001:10001"
+    cap_drop: [ALL]
+    cpus: 0.5
+    pids_limit: 100
+    security_opt: [no-new-privileges:true]
+    logging: {driver: local, options: {max-size: 10m, max-file: "3"}}
+
+volumes:
+  minio_data:

@@ -1,0 +1,3719 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "url": "https://download.bbbike.org/osm/bbbike/Moscow/Moscow.osm.pbf",
+    "fetchedAt": "2026-11-26T23:52:44.422Z",
+    "sourceLastModified": "Sat, 21 Nov 2026 16:34:10 GMT",
+    "bytes": 85594039,
+    "sha256": "1138bfcf0323c9ac1f7808ad5076bb17efe1ad81b980b0bc8de74fb9032e275a",
+    "tlsVerified": true,
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+  },
+  "pbfHeaderTimestamp": "2026-11-21T00:00:00Z",
+  "extractedAt": "2026-11-26T23:55:25.722341+00:00",
+  "selectionMethod": "Named commercial node candidates, nearest vetted city center within 8km, actual OSM city/place/admin_level8 polygon containment; no coordinate fabrication",
+  "cities": [
+    {
+      "city": {
+        "id": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+        "name": "Котельники",
+        "region": "Московская обл",
+        "center": {
+          "lon": 37.8631156,
+          "lat": 55.6597925
+        },
+        "timezone": "Europe/Moscow",
+        "countryCode": "RU",
+        "bounds": [
+          37.8284407,
+          55.6342234,
+          37.9007061,
+          55.6846435
+        ],
+        "enabled": true
+      },
+      "boundary": {
+        "geometry": [
+          [
+            [
+              [
+                37.8284407,
+                55.6456765
+              ],
+              [
+                37.828512,
+                55.6456715
+              ],
+              [
+                37.8331352,
+                55.6456797
+              ],
+              [
+                37.8352286,
+                55.6456836
+              ],
+              [
+                37.8350344,
+                55.6470199
+              ],
+              [
+                37.835005,
+                55.6472219
+              ],
+              [
+                37.8349822,
+                55.6473779
+              ],
+              [
+                37.8355407,
+                55.647544
+              ],
+              [
+                37.8367808,
+                55.6476127
+              ],
+              [
+                37.8371863,
+                55.6476351
+              ],
+              [
+                37.8384904,
+                55.6477074
+              ],
+              [
+                37.8387271,
+                55.6459876
+              ],
+              [
+                37.8392427,
+                55.6458843
+              ],
+              [
+                37.8394062,
+                55.6458546
+              ],
+              [
+                37.8410914,
+                55.6455148
+              ],
+              [
+                37.8417022,
+                55.6450858
+              ],
+              [
+                37.8414543,
+                55.6447573
+              ],
+              [
+                37.8426302,
+                55.6446941
+              ],
+              [
+                37.8436612,
+                55.6443373
+              ],
+              [
+                37.8438859,
+                55.6436367
+              ],
+              [
+                37.8432518,
+                55.6431854
+              ],
+              [
+                37.8426177,
+                55.6427343
+              ],
+              [
+                37.8421805,
+                55.6417234
+              ],
+              [
+                37.8417857,
+                55.6406752
+              ],
+              [
+                37.8455091,
+                55.6394691
+              ],
+              [
+                37.8472575,
+                55.6382837
+              ],
+              [
+                37.8479726,
+                55.6377989
+              ],
+              [
+                37.8482696,
+                55.6375975
+              ],
+              [
+                37.8541598,
+                55.6392624
+              ],
+              [
+                37.8553175,
+                55.6383066
+              ],
+              [
+                37.8559716,
+                55.6378252
+              ],
+              [
+                37.8570694,
+                55.6376436
+              ],
+              [
+                37.8581973,
+                55.6375156
+              ],
+              [
+                37.8598282,
+                55.6371619
+              ],
+              [
+                37.860625,
+                55.6371577
+              ],
+              [
+                37.8618242,
+                55.6366932
+              ],
+              [
+                37.8635327,
+                55.6360904
+              ],
+              [
+                37.8643035,
+                55.6354204
+              ],
+              [
+                37.8673418,
+                55.6352274
+              ],
+              [
+                37.8678707,
+                55.6362554
+              ],
+              [
+                37.868827,
+                55.635918
+              ],
+              [
+                37.8695486,
+                55.6359581
+              ],
+              [
+                37.8734144,
+                55.6361727
+              ],
+              [
+                37.8740601,
+                55.6359368
+              ],
+              [
+                37.8754249,
+                55.6353373
+              ],
+              [
+                37.8752765,
+                55.6349267
+              ],
+              [
+                37.8770072,
+                55.6348146
+              ],
+              [
+                37.8786692,
+                55.6357043
+              ],
+              [
+                37.88738,
+                55.6353853
+              ],
+              [
+                37.8896333,
+                55.6353047
+              ],
+              [
+                37.890407,
+                55.635382
+              ],
+              [
+                37.8907045,
+                55.6355532
+              ],
+              [
+                37.8914067,
+                55.6355433
+              ],
+              [
+                37.8913134,
+                55.6344714
+              ],
+              [
+                37.9000068,
+                55.6342234
+              ],
+              [
+                37.9001897,
+                55.6365751
+              ],
+              [
+                37.9006944,
+                55.643063
+              ],
+              [
+                37.9007061,
+                55.6432164
+              ],
+              [
+                37.8970304,
+                55.6485706
+              ],
+              [
+                37.8969835,
+                55.6486418
+              ],
+              [
+                37.8965789,
+                55.6492337
+              ],
+              [
+                37.8961745,
+                55.6498255
+              ],
+              [
+                37.8959879,
+                55.6501154
+              ],
+              [
+                37.8958856,
+                55.6502627
+              ],
+              [
+                37.8957522,
+                55.6504375
+              ],
+              [
+                37.8955257,
+                55.6507663
+              ],
+              [
+                37.8953299,
+                55.6510495
+              ],
+              [
+                37.8951255,
+                55.6513422
+              ],
+              [
+                37.894655,
+                55.6520492
+              ],
+              [
+                37.8947319,
+                55.6520996
+              ],
+              [
+                37.8937239,
+                55.6535862
+              ],
+              [
+                37.8924023,
+                55.6555479
+              ],
+              [
+                37.8927846,
+                55.6558501
+              ],
+              [
+                37.8942422,
+                55.6568339
+              ],
+              [
+                37.8952963,
+                55.6575778
+              ],
+              [
+                37.8945739,
+                55.6579743
+              ],
+              [
+                37.8934638,
+                55.6584795
+              ],
+              [
+                37.8906412,
+                55.6597763
+              ],
+              [
+                37.8891726,
+                55.6604303
+              ],
+              [
+                37.8880094,
+                55.6609592
+              ],
+              [
+                37.8838617,
+                55.6628987
+              ],
+              [
+                37.8804529,
+                55.6645104
+              ],
+              [
+                37.8804126,
+                55.6646685
+              ],
+              [
+                37.880035,
+                55.6648371
+              ],
+              [
+                37.8795255,
+                55.6645193
+              ],
+              [
+                37.8769956,
+                55.665711
+              ],
+              [
+                37.8761636,
+                55.6659118
+              ],
+              [
+                37.8756304,
+                55.6660771
+              ],
+              [
+                37.8752839,
+                55.6662506
+              ],
+              [
+                37.8750564,
+                55.666524
+              ],
+              [
+                37.8749121,
+                55.6668229
+              ],
+              [
+                37.8747345,
+                55.6670938
+              ],
+              [
+                37.8745224,
+                55.6673469
+              ],
+              [
+                37.8742192,
+                55.6675608
+              ],
+              [
+                37.8739141,
+                55.6677554
+              ],
+              [
+                37.872102,
+                55.668609
+              ],
+              [
+                37.8654726,
+                55.6717049
+              ],
+              [
+                37.861549,
+                55.6735699
+              ],
+              [
+                37.8610686,
+                55.6737102
+              ],
+              [
+                37.8609656,
+                55.673789
+              ],
+              [
+                37.8574149,
+                55.6754542
+              ],
+              [
+                37.8574076,
+                55.6754576
+              ],
+              [
+                37.8568896,
+                55.6757013
+              ],
+              [
+                37.8496937,
+                55.6790621
+              ],
+              [
+                37.8475613,
+                55.6799978
+              ],
+              [
+                37.8457176,
+                55.6807778
+              ],
+              [
+                37.8433949,
+                55.6817314
+              ],
+              [
+                37.840255,
+                55.6829504
+              ],
+              [
+                37.8380612,
+                55.6838112
+              ],
+              [
+                37.8368553,
+                55.684258
+              ],
+              [
+                37.835849,
+                55.6845696
+              ],
+              [
+                37.8353761,
+                55.6846215
+              ],
+              [
+                37.8346578,
+                55.6846435
+              ],
+              [
+                37.8333804,
+                55.6843898
+              ],
+              [
+                37.8327674,
+                55.6840322
+              ],
+              [
+                37.8325244,
+                55.6836508
+              ],
+              [
+                37.8324744,
+                55.6834182
+              ],
+              [
+                37.832464,
+                55.6830379
+              ],
+              [
+                37.832785,
+                55.6822247
+              ],
+              [
+                37.8333821,
+                55.6809055
+              ],
+              [
+                37.8337391,
+                55.6800461
+              ],
+              [
+                37.8340993,
+                55.679107
+              ],
+              [
+                37.8343477,
+                55.6784089
+              ],
+              [
+                37.8345286,
+                55.67789
+              ],
+              [
+                37.8347041,
+                55.677323
+              ],
+              [
+                37.8348148,
+                55.6770314
+              ],
+              [
+                37.8349295,
+                55.6767551
+              ],
+              [
+                37.8350401,
+                55.6764706
+              ],
+              [
+                37.8351344,
+                55.6761719
+              ],
+              [
+                37.835245,
+                55.6758838
+              ],
+              [
+                37.8354598,
+                55.6753193
+              ],
+              [
+                37.8355601,
+                55.6750313
+              ],
+              [
+                37.8356564,
+                55.6747384
+              ],
+              [
+                37.8359147,
+                55.6740616
+              ],
+              [
+                37.8360739,
+                55.6735942
+              ],
+              [
+                37.8363444,
+                55.6729309
+              ],
+              [
+                37.8366582,
+                55.6720982
+              ],
+              [
+                37.8370572,
+                55.6709608
+              ],
+              [
+                37.8376038,
+                55.6695115
+              ],
+              [
+                37.8377967,
+                55.6689004
+              ],
+              [
+                37.8380608,
+                55.6682493
+              ],
+              [
+                37.8384642,
+                55.6671314
+              ],
+              [
+                37.8389189,
+                55.6659055
+              ],
+              [
+                37.8393386,
+                55.6647391
+              ],
+              [
+                37.8394843,
+                55.6643455
+              ],
+              [
+                37.8395998,
+                55.6640071
+              ],
+              [
+                37.8397197,
+                55.6635266
+              ],
+              [
+                37.8398439,
+                55.6630509
+              ],
+              [
+                37.8399432,
+                55.6625656
+              ],
+              [
+                37.8400337,
+                55.6621072
+              ],
+              [
+                37.8400733,
+                55.6615911
+              ],
+              [
+                37.8401094,
+                55.6611061
+              ],
+              [
+                37.8401416,
+                55.6598273
+              ],
+              [
+                37.8401094,
+                55.6592064
+              ],
+              [
+                37.8400431,
+                55.6585584
+              ],
+              [
+                37.840133,
+                55.6582724
+              ],
+              [
+                37.8407411,
+                55.658149
+              ],
+              [
+                37.8412502,
+                55.6581058
+              ],
+              [
+                37.8416266,
+                55.6578452
+              ],
+              [
+                37.8415991,
+                55.6572849
+              ],
+              [
+                37.8413901,
+                55.6567029
+              ],
+              [
+                37.8412886,
+                55.6564204
+              ],
+              [
+                37.840962,
+                55.6555593
+              ],
+              [
+                37.8409937,
+                55.6554901
+              ],
+              [
+                37.8412659,
+                55.6553475
+              ],
+              [
+                37.8411397,
+                55.6551916
+              ],
+              [
+                37.839514,
+                55.6555235
+              ],
+              [
+                37.8392609,
+                55.6555152
+              ],
+              [
+                37.8390998,
+                55.6554662
+              ],
+              [
+                37.8388958,
+                55.6552445
+              ],
+              [
+                37.8383687,
+                55.6542421
+              ],
+              [
+                37.8377182,
+                55.65328
+              ],
+              [
+                37.8372124,
+                55.6526179
+              ],
+              [
+                37.8369903,
+                55.6523644
+              ],
+              [
+                37.8362886,
+                55.6515041
+              ],
+              [
+                37.8360608,
+                55.6512213
+              ],
+              [
+                37.8357402,
+                55.650918
+              ],
+              [
+                37.835515,
+                55.650692
+              ],
+              [
+                37.8351163,
+                55.6502424
+              ],
+              [
+                37.8348972,
+                55.6500593
+              ],
+              [
+                37.8340565,
+                55.6494506
+              ],
+              [
+                37.8320939,
+                55.6480497
+              ],
+              [
+                37.8308518,
+                55.6472476
+              ],
+              [
+                37.8296158,
+                55.6464618
+              ],
+              [
+                37.8288722,
+                55.6460167
+              ],
+              [
+                37.8284407,
+                55.6456765
+              ]
+            ]
+          ]
+        ],
+        "bounds": [
+          37.8284407,
+          55.6342234,
+          37.9007061,
+          55.6846435
+        ],
+        "size": 0.003643628694539714,
+        "recordId": "relation/1462340",
+        "timestamp": "2025-08-28T18:08:34Z",
+        "tags": {
+          "addr:country": "RU",
+          "addr:district": "городской округ Котельники",
+          "addr:postcode": "140054",
+          "addr:region": "Московская область",
+          "name": "Котельники",
+          "name:de": "Kotelniki",
+          "name:en": "Kotelniki",
+          "name:hr": "Koteljniki",
+          "name:ru": "Котельники",
+          "place": "town",
+          "wikidata": "Q155405",
+          "wikipedia": "ru:Котельники"
+        }
+      },
+      "candidates": [
+        {
+          "type": "node",
+          "id": 4913053321,
+          "lon": 37.8660426,
+          "lat": 55.6572531,
+          "timestamp": "2023-10-15T15:31:52Z",
+          "tags": {
+            "addr:housenumber": "37",
+            "addr:postcode": "410055",
+            "addr:street": "Дзержинское шоссе",
+            "email": "zakaz@aspectrum.ru",
+            "internet_access": "wlan",
+            "name": "Аспектрум",
+            "opening_hours": "Mo-Su 09:00-19:00",
+            "phone": "+7 495 2368898",
+            "shop": "copyshop",
+            "website": "https://aspectrum.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 1808891736,
+          "lon": 37.8664099,
+          "lat": 55.6669435,
+          "timestamp": "2022-01-19T20:48:49Z",
+          "tags": {
+            "addr:housenumber": "5А",
+            "addr:street": "Новорязанское шоссе",
+            "email": "bron@master-hotel.ru",
+            "internet_access": "wlan",
+            "name": "Мастер отель Котельники",
+            "name:en": "Master hotel Kotelniki",
+            "name:ru": "Мастер отель Котельники",
+            "opening_hours": "24/7",
+            "phone": "+7 495 3967416",
+            "tourism": "hotel",
+            "website": "http://master-hotel.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4460748880,
+          "lon": 37.8796182,
+          "lat": 55.6618349,
+          "timestamp": "2023-09-17T00:00:57Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "8",
+            "addr:postcode": "140053",
+            "addr:street": "Новорязанское шоссе",
+            "clothes": "children;babies;fashion;costumes",
+            "email": "eshop@shaluny.ru",
+            "level": "1",
+            "name": "Шалуны",
+            "opening_hours": "10:00-22:00",
+            "operator": "ООО «Априори Групп»",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "phone": "+7 495 6624999 доб. 313",
+            "shop": "clothes",
+            "website": "https://shaluny.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4468157755,
+          "lon": 37.8805028,
+          "lat": 55.6614644,
+          "timestamp": "2023-09-17T00:00:57Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "8",
+            "addr:street": "Новорязанское шоссе",
+            "address:comment": "1 этаж",
+            "contact:email": "os-respect@mail.ru",
+            "contact:facebook": "https://www.facebook.com/RESPECTSHOES/",
+            "contact:instagram": "https://www.instagram.com/respectshoes/",
+            "contact:vk": "https://vk.com/respectshoess",
+            "name": "Respect",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "operator": "Респект-Онлайн",
+            "phone": "+7 499 6384335;+7 (495) 212-12-33",
+            "shop": "shoes",
+            "website": "https://respect-shoes.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7375258176,
+          "lon": 37.8809198,
+          "lat": 55.660733,
+          "timestamp": "2020-04-07T11:29:45Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "8",
+            "addr:street": "Новоегорьевское шоссе",
+            "name": "Robinzon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "phone": "+7 495 2151885",
+            "shop": "bag",
+            "website": "https://robinzon.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8240524343,
+          "lon": 37.8451611,
+          "lat": 55.6587187,
+          "timestamp": "2020-12-18T14:08:13Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "5",
+            "addr:street": "1-й Покровский проезд",
+            "address:comment": "1 этаж",
+            "contact:facebook": "https://www.facebook.com/RESPECTSHOES",
+            "contact:instagram": "https://www.instagram.com/respectshoes/",
+            "contact:vk": "https://vk.com/respectshoess",
+            "name": "Respect",
+            "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-00:00; Su 10:00-23:00",
+            "phone": "+7 (495) 212-12-33;+7 (495) 739-71-83",
+            "shop": "shoes",
+            "website": "https://respect-shoes.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4769896238,
+          "lon": 37.8448836,
+          "lat": 55.6582748,
+          "timestamp": "2024-07-08T17:10:10Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "1",
+            "addr:street": "1-й Покровский проезд",
+            "brand": "МТС",
+            "brand:en": "MTS",
+            "brand:wikidata": "Q1368919",
+            "brand:wikipedia": "ru:МТС (компания)",
+            "contact:facebook": "https://www.facebook.com/mts",
+            "contact:ok": "https://ok.ru/mts",
+            "contact:phone": "+7 800 2500890",
+            "contact:twitter": "https://twitter.com/ru_mts",
+            "contact:vk": "https://vk.com/mts",
+            "contact:website": "https://moskva.mts.ru/personal/podderzhka/zoni-obsluzhivaniya/offices/C260",
+            "name": "МТС",
+            "name:en": "MTS",
+            "name:ru": "МТС",
+            "office": "telecommunication",
+            "opening_hours": "Fr-Su 10:00-23:00; Mo-Th 10:00-22:00",
+            "shop": "mobile_phone"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6547191227,
+          "lon": 37.8692293,
+          "lat": 55.6697028,
+          "timestamp": "2026-04-22T12:02:28Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "5В",
+            "addr:street": "Новорязанское шоссе",
+            "brand": "Автомир",
+            "brand:en": "Autoworld",
+            "brand:ru": "Автомир",
+            "brand:wikidata": "Q4056321",
+            "contact:email": "info@avtomir.ru",
+            "contact:phone": "+7 800 7072625",
+            "contact:vk": "https://vk.com/avtomir.bogemia",
+            "contact:website": "http://bogemia-skd.ru/",
+            "name": "Автомир",
+            "name:en": "Autoworld",
+            "name:ru": "Автомир",
+            "official_name": "Автомир Богемия, SKODA",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "АМКапитал",
+            "shop": "car"
+          }
+        },
+        {
+          "type": "node",
+          "id": 639547816,
+          "lon": 37.8430933,
+          "lat": 55.6586521,
+          "timestamp": "2026-04-01T09:34:56Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "5",
+            "addr:postcode": "140053",
+            "addr:street": "1-й Покровский проезд",
+            "contact:email": "info@obi.ru",
+            "contact:phone": "+7 800 5008080",
+            "contact:website": "https://domlenta.ru",
+            "name": "Дом Лента",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "operator": "OBI",
+            "shop": "doityourself"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4769896239,
+          "lon": 37.8448369,
+          "lat": 55.6533638,
+          "timestamp": "2025-01-20T11:32:49Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "5",
+            "addr:street": "1-й Покровский проезд",
+            "brand": "МТС",
+            "brand:en": "MTS",
+            "brand:wikidata": "Q1368919",
+            "brand:wikipedia": "ru:МТС (компания)",
+            "contact:facebook": "https://www.facebook.com/mts",
+            "contact:ok": "https://ok.ru/mts",
+            "contact:phone": "+7 800 2500890",
+            "contact:twitter": "https://twitter.com/ru_mts",
+            "contact:vk": "https://vk.com/mts",
+            "contact:website": "https://moskva.mts.ru/personal/podderzhka/zoni-obsluzhivaniya/offices/I334",
+            "name": "МТС",
+            "name:en": "MTS",
+            "name:ru": "МТС",
+            "office": "telecommunication",
+            "opening_hours": "Fr-Su 10:00-23:00; Mo-Th 10:00-22:00",
+            "operator:wikidata": "Q1368919",
+            "operator:wikipedia": "ru:МТС (компания)",
+            "shop": "mobile_phone"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7227008968,
+          "lon": 37.8548666,
+          "lat": 55.6715035,
+          "timestamp": "2024-05-21T23:33:30Z",
+          "tags": {
+            "addr:housenumber": "1 к2",
+            "addr:street": "Сосновая улица",
+            "amenity": "pharmacy",
+            "brand": "Планета здоровья",
+            "brand:wikidata": "Q109732844",
+            "check_date:opening_hours": "2022-07-28",
+            "healthcare": "pharmacy",
+            "name": "Планета Здоровья",
+            "opening_hours": "Mo-Su 08:00-22:00",
+            "website": "https://planetazdorovo.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 635269152,
+          "lon": 37.8439855,
+          "lat": 55.6532579,
+          "timestamp": "2023-09-17T00:01:31Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "5",
+            "addr:postcode": "140053",
+            "addr:street": "1-й Покровский проезд",
+            "brand": "Ашан",
+            "brand:wikidata": "Q758603",
+            "brand:wikipedia": "ru:Auchan",
+            "contact:facebook": "https://www.facebook.com/AuchanRussia",
+            "contact:instagram": "https://www.instagram.com/auchan.ru/",
+            "contact:twitter": "https://twitter.com/Auchan_ru",
+            "contact:vk": "https://vk.com/auchan",
+            "contact:website": "https://www.auchan.ru",
+            "contact:youtube": "https://www.youtube.com/channel/UCoPpvvMHzIpZ7EcNZBEWhFg",
+            "name": "Ашан",
+            "name:en": "Auchan",
+            "opening_hours": "Mo-Fr 08:30-22:30; Sa-Su 08:00-22:30",
+            "operator": "ООО \"АШАН\"",
+            "ref": "Белая Дача",
+            "shop": "supermarket",
+            "supermarket": "hypermarket",
+            "toilets:wheelchair": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 3220438758,
+          "lon": 37.8541042,
+          "lat": 55.6481918,
+          "timestamp": "2024-07-22T19:34:03Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "39",
+            "addr:street": "Железнодорожная улица",
+            "brand": "Fix Price",
+            "brand:wikidata": "Q4038791",
+            "contact:phone": "+7 800 7753515",
+            "contact:vk": "https://vk.com/fix_price",
+            "contact:website": "https://fix-price.com/",
+            "name": "Fix Price",
+            "name:en": "Fix Price",
+            "shop": "variety_store"
+          }
+        },
+        {
+          "type": "node",
+          "id": 2623512407,
+          "lon": 37.8611848,
+          "lat": 55.668153,
+          "timestamp": "2023-09-17T00:03:46Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "1",
+            "addr:postcode": "140053",
+            "addr:street": "3-й Покровский проезд",
+            "amenity": "bank",
+            "atm": "yes",
+            "name": "НС Банк"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11077357974,
+          "lon": 37.865631,
+          "lat": 55.6683087,
+          "timestamp": "2023-09-17T00:01:31Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "5",
+            "addr:postcode": "140053",
+            "addr:street": "Новорязанское шоссе",
+            "brand": "Л'Этуаль",
+            "brand:wikidata": "Q18400706",
+            "name": "Л'Этуаль",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "shop": "cosmetics"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11074090946,
+          "lon": 37.8436379,
+          "lat": 55.6586279,
+          "timestamp": "2023-09-17T00:01:31Z",
+          "tags": {
+            "addr:city": "Котельники",
+            "addr:housenumber": "1",
+            "addr:street": "проезд 1-й Покровский",
+            "brand": "Л'Этуаль",
+            "brand:wikidata": "Q18400706",
+            "name": "Л'Этуаль",
+            "opening_hours": "10:00-23:00",
+            "shop": "cosmetics"
+          }
+        },
+        {
+          "type": "node",
+          "id": 3124719024,
+          "lon": 37.8357886,
+          "lat": 55.6499126,
+          "timestamp": "2023-09-17T00:02:36Z",
+          "tags": {
+            "addr:housenumber": "10",
+            "addr:street": "Коммерческий проезд",
+            "brand": "BMW",
+            "name": "BMW Независимость",
+            "name:en": "BMW Avilon",
+            "second_hand": "yes",
+            "service": "dealer",
+            "shop": "car"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10655493804,
+          "lon": 37.863865,
+          "lat": 55.6594833,
+          "timestamp": "2025-10-16T08:30:38Z",
+          "tags": {
+            "contact:email": "sunward@actio.ru",
+            "contact:phone": "+7 800 6004703",
+            "contact:website": "https://liugongactio.ru",
+            "name": "Актио Рус",
+            "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-19:00",
+            "shop": "car_parts"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11505670831,
+          "lon": 37.8634631,
+          "lat": 55.6592312,
+          "timestamp": "2024-11-18T07:49:25Z",
+          "tags": {
+            "contact:email": "msk11@etm.ru",
+            "contact:phone": "+7 495 7838307;+7 800 7751771",
+            "contact:website": "https://www.etm.ru",
+            "name": "ЭТМ",
+            "opening_hours": "Mo-Fr 09:00-19:00",
+            "shop": "trade"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4871094561,
+          "lon": 37.864935,
+          "lat": 55.6600303,
+          "timestamp": "2023-09-17T00:00:57Z",
+          "tags": {
+            "brand": "Красное&Белое",
+            "brand:en": "Red&White",
+            "brand:wikidata": "Q24933790",
+            "brand:wikipedia": "ru:Красное & Белое",
+            "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+            "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+            "contact:ok": "https://ok.ru/krasnoebeloe",
+            "contact:phone": "+7 800 1000804",
+            "contact:telegram": "+7 922 7033000",
+            "contact:viber": "+7 922 7033000",
+            "contact:vk": "https://vk.com/krasnoebeloe",
+            "contact:website": "https://krasnoeibeloe.ru",
+            "contact:whatsapp": "+7 922 7033000",
+            "name": "Красное&Белое",
+            "name:en": "Red&White",
+            "opening_hours": "Mo-Su 09:00-22:05",
+            "operator": "ООО \"Красное и Белое\"",
+            "operator:wikidata": "Q24933790",
+            "operator:wikipedia": "ru:Красное & Белое",
+            "payment:cards": "yes",
+            "shop": "alcohol"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11726827416,
+          "lon": 37.8654045,
+          "lat": 55.6592715,
+          "timestamp": "2025-02-10T08:13:50Z",
+          "tags": {
+            "contact:email": "info@ostrovmashin.ru",
+            "contact:phone": "+7 499 2217677;+7 499 2771708",
+            "contact:website": "https://ostrovmashin.ru",
+            "name": "Остров Машин",
+            "opening_hours": "Mo-Fr 09:00-18:00",
+            "shop": "truck"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10697303055,
+          "lon": 37.8655386,
+          "lat": 55.6591837,
+          "timestamp": "2025-04-28T06:34:39Z",
+          "tags": {
+            "contact:email": "info@europart.ru",
+            "contact:phone": "+7 495 5003585;+7 800 7005703",
+            "contact:website": "https://europart.ru/",
+            "name": "Европарт",
+            "opening_hours": "Mo-Fr 09:00-18:00",
+            "shop": "car_parts"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11368469669,
+          "lon": 37.865831,
+          "lat": 55.661374,
+          "timestamp": "2026-05-25T21:26:13Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:en": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9944286494,
+          "lon": 37.864528,
+          "lat": 55.657088,
+          "timestamp": "2024-11-18T07:49:25Z",
+          "tags": {
+            "contact:email": "msk3@msk.etm.ru",
+            "contact:phone": "+7 495 7837027;+7 800 7751771",
+            "contact:website": "https://www.etm.ru/",
+            "name": "Этм",
+            "opening_hours": "Fr 00:00-19:00; Mo 09:00-24:00; Sa 09:00-17:00; Tu-Th 00:00-24:00",
+            "shop": "trade"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9866093292,
+          "lon": 37.868387,
+          "lat": 55.66175,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11916051784,
+          "lon": 37.8684375,
+          "lat": 55.6617652,
+          "timestamp": "2026-07-11T21:45:58Z",
+          "tags": {
+            "brand": "Wildberries",
+            "brand:wikidata": "Q24933714",
+            "brand:wikipedia": "ru:Wildberries",
+            "contact:email": "sales@wildberries.ru",
+            "contact:facebook": "https://www.facebook.com/wbbot",
+            "contact:instagram": "https://www.instagram.com/wildberriesru",
+            "contact:ok": "https://ok.ru/wildberries",
+            "contact:telegram": "wbshop_bot",
+            "contact:twitter": "https://twitter.com/wildberries_ru",
+            "contact:viber": "wildberries",
+            "contact:vk": "https://vk.com/wbbot",
+            "contact:website": "https://www.wildberries.ru",
+            "contact:whatsapp": "+7 926 5373137",
+            "name": "Wildberries",
+            "name:en": "Wildberries",
+            "name:ru": "Вайлдберриз",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11766113836,
+          "lon": 37.8696584,
+          "lat": 55.6597829,
+          "timestamp": "2024-03-27T12:34:04Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "brand": "Мособлмедсервис",
+            "contact:phone": "+7 495 7484880;+7 495 7484888;+7 800 1005703;+7 926 9803295",
+            "contact:website": "https://mo-medsvc.ru",
+            "healthcare": "pharmacy",
+            "name": "Мособлмедсервис",
+            "opening_hours": "Mo-Fr 08:00-16:30"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5661097721,
+          "lon": 37.8581766,
+          "lat": 55.6625588,
+          "timestamp": "2023-09-17T00:00:57Z",
+          "tags": {
+            "brand": "Красное&Белое",
+            "brand:wikidata": "Q24933790",
+            "brand:wikipedia": "ru:Красное & Белое",
+            "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+            "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+            "contact:ok": "https://ok.ru/krasnoebeloe",
+            "contact:telegram": "+7 922 7033000",
+            "contact:viber": "+7 922 7033000",
+            "contact:vk": "https://vk.com/krasnoebeloe",
+            "contact:website": "https://krasnoeibeloe.ru",
+            "contact:whatsapp": "+7 922 7033000",
+            "name": "Красное&Белое",
+            "name:en": "К&Б",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "shop": "alcohol",
+            "website": "https://krasnoeibeloe.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11185574557,
+          "lon": 37.8568778,
+          "lat": 55.6617014,
+          "timestamp": "2023-09-17T00:03:46Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:phone": "+7 499 6536277",
+            "contact:website": "https://gorzdrav.org",
+            "healthcare": "pharmacy",
+            "name": "Горздрав",
+            "opening_hours": "Mo-Su 09:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11368468856,
+          "lon": 37.8582773,
+          "lat": 55.6627301,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7254853611,
+          "lon": 37.8560271,
+          "lat": 55.6592547,
+          "timestamp": "2024-05-18T13:48:44Z",
+          "tags": {
+            "amenity": "bank",
+            "atm": "yes",
+            "brand": "Сбербанк",
+            "brand:en": "Sberbank",
+            "brand:ru": "Сбербанк",
+            "brand:wikidata": "Q205012",
+            "contact:facebook": "https://www.facebook.com/sberbank",
+            "contact:instagram": "https://www.instagram.com/sberbank/",
+            "contact:ok": "https://ok.ru/sberbank",
+            "contact:twitter": "https://twitter.com/sberbank/",
+            "contact:vk": "https://vk.com/sberbank",
+            "contact:website": "https://www.sberbank.ru",
+            "contact:youtube": "https://www.youtube.com/sberbank",
+            "name": "Сбербанк",
+            "name:en": "Sberbank",
+            "name:ru": "Сбербанк",
+            "operator": "ПАО Сбербанк"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10576714110,
+          "lon": 37.8583637,
+          "lat": 55.6628739,
+          "timestamp": "2023-09-17T00:03:46Z",
+          "tags": {
+            "amenity": "veterinary",
+            "contact:email": "info@1vet.ru",
+            "contact:phone": "+7 495 6615512;+7 495 7422683;+7 926 9068061;+7 929 6803103",
+            "contact:website": "https://svoydoctor.ru",
+            "name": "Свой доктор",
+            "opening_hours": "24/7"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7254853614,
+          "lon": 37.8559626,
+          "lat": 55.6591413,
+          "timestamp": "2026-08-07T10:38:47Z",
+          "tags": {
+            "brand": "Wildberries",
+            "brand:en": "Wildberries",
+            "brand:ka": "ვაილდბერიზი",
+            "brand:wikidata": "Q24933714",
+            "brand:wikipedia": "ru:Wildberries",
+            "contact:email": "sales@wildberries.ru",
+            "contact:facebook": "https://www.facebook.com/wbbot",
+            "contact:instagram": "https://www.instagram.com/wildberriesru",
+            "contact:ok": "https://ok.ru/wildberries",
+            "contact:telegram": "wbshop_bot",
+            "contact:twitter": "https://twitter.com/wildberries_ru",
+            "contact:viber": "wildberries",
+            "contact:vk": "https://vk.com/wbbot",
+            "contact:website": "https://www.wildberries.ru",
+            "contact:whatsapp": "+7 926 5373137",
+            "name": "Wildberries",
+            "name:en": "Wildberries",
+            "name:ka": "ვაილდბერიზი",
+            "name:ru": "Вайлдберриз",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9076609635,
+          "lon": 37.855829,
+          "lat": 55.6591474,
+          "timestamp": "2026-08-07T10:38:47Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:en": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7254805025,
+          "lon": 37.8584778,
+          "lat": 55.6630758,
+          "timestamp": "2024-09-16T09:17:50Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "brand": "Столички",
+            "brand:wikidata": "Q109717665",
+            "contact:email": "office@neo-pharm.ru",
+            "contact:phone": "+7 495 2155215",
+            "contact:website": "https://stolichki.ru",
+            "healthcare": "pharmacy",
+            "name": "Столички",
+            "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12183638928,
+          "lon": 37.85563,
+          "lat": 55.6592358,
+          "timestamp": "2025-03-31T09:03:31Z",
+          "tags": {
+            "brand": "Авито",
+            "brand:ru": "Авито",
+            "brand:wikidata": "Q4034642",
+            "contact:phone": "+7 800 6000001",
+            "contact:website": "https://www.avito.ru",
+            "name": "Авито",
+            "name:en": "Avito",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11397520206,
+          "lon": 37.855571,
+          "lat": 55.6590698,
+          "timestamp": "2025-11-05T06:17:46Z",
+          "tags": {
+            "brand": "Дикси",
+            "brand:en": "Dixy",
+            "brand:ru": "Дикси",
+            "brand:wikidata": "Q4161561",
+            "contact:phone": "+7 800 1011001",
+            "contact:website": "https://dixy.ru",
+            "name": "Дикси",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4272194035,
+          "lon": 37.858787,
+          "lat": 55.6634024,
+          "timestamp": "2024-04-11T17:13:24Z",
+          "tags": {
+            "alt_name": "Пятерочка",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "contact:facebook": "https://www.facebook.com/pyaterochka",
+            "contact:website": "https://5ka.ru",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7254804451,
+          "lon": 37.8584946,
+          "lat": 55.6635471,
+          "timestamp": "2026-07-11T21:45:58Z",
+          "tags": {
+            "brand": "Wildberries",
+            "brand:wikidata": "Q24933714",
+            "brand:wikipedia": "ru:Wildberries",
+            "contact:email": "sales@wildberries.ru",
+            "contact:facebook": "https://www.facebook.com/wbbot",
+            "contact:instagram": "https://www.instagram.com/wildberriesru",
+            "contact:odnoklassniki": "http://www.odnoklassniki.ru/wildberries",
+            "contact:ok": "https://ok.ru/wildberries",
+            "contact:telegram": "wbshop_bot",
+            "contact:twitter": "https://twitter.com/wildberries_ru",
+            "contact:viber": "wildberries",
+            "contact:vk": "https://vk.com/wbbot",
+            "contact:website": "https://www.wildberries.ru",
+            "contact:whatsapp": "+7 926 5373137",
+            "contact:youtube": "https://www.youtube.com/user/Wildberriesshop",
+            "name": "Wildberries",
+            "name:en": "Wildberries",
+            "name:ru": "Вайлдберриз",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11332723886,
+          "lon": 37.8704519,
+          "lat": 55.6573423,
+          "timestamp": "2023-11-08T10:23:29Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:phone": "+7 499 6536277",
+            "contact:website": "https://gorzdrav.org",
+            "healthcare": "pharmacy",
+            "name": "Горздрав",
+            "opening_hours": "Mo-Su 08:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8938894085,
+          "lon": 37.858887,
+          "lat": 55.664028,
+          "timestamp": "2024-04-11T17:13:24Z",
+          "tags": {
+            "brand": "Ингосстрах",
+            "brand:en": "Ingosstrakh",
+            "brand:ru": "Ингосстрах",
+            "brand:wikidata": "Q4200631",
+            "contact:email": "ingos@ingos.ru",
+            "contact:phone": "+7 495 1451037",
+            "contact:website": "https://www.ingos.ru/",
+            "name": "Ингосстрах",
+            "name:en": "Ingosstrakh",
+            "name:ru": "Ингосстрах",
+            "office": "insurance",
+            "opening_hours": "Mo-Fr 09:00-19:00;Sa 09:00-18:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 13367869788,
+          "lon": 37.8592193,
+          "lat": 55.6643309,
+          "timestamp": "2025-12-10T17:57:23Z",
+          "tags": {
+            "contact:phone": "+7 495 2321000",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11368468490,
+          "lon": 37.8708773,
+          "lat": 55.6570995,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11572984184,
+          "lon": 37.856812,
+          "lat": 55.663537,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12183647514,
+          "lon": 37.8710312,
+          "lat": 55.657029,
+          "timestamp": "2024-09-18T09:13:16Z",
+          "tags": {
+            "brand": "Авито",
+            "brand:ru": "Авито",
+            "brand:wikidata": "Q4034642",
+            "contact:phone": "+7 800 6000001",
+            "contact:website": "https://www.avito.ru",
+            "name": "Авито",
+            "name:en": "Avito",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11747822243,
+          "lon": 37.8570252,
+          "lat": 55.6638104,
+          "timestamp": "2024-03-20T11:14:04Z",
+          "tags": {
+            "brand": "Авито",
+            "brand:ru": "Авито",
+            "brand:wikidata": "Q4034642",
+            "contact:phone": "+7 800 6000001",
+            "contact:website": "https://www.avito.ru",
+            "name": "Авито",
+            "name:en": "Avito",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10209850885,
+          "lon": 37.872622,
+          "lat": 55.658566,
+          "timestamp": "2025-08-05T09:10:37Z",
+          "tags": {
+            "brand": "Ароматный мир",
+            "brand:wikidata": "Q109852336",
+            "contact:email": "info@amwine.ru",
+            "contact:phone": "+7 495 7775190-4070;88007777290",
+            "contact:website": "https://amwine.ru/",
+            "name": "Ароматный мир",
+            "name:ru": "Ароматный мир",
+            "opening_hours": "Mo-Sa 09:30-22:30; Su 10:00-22:00",
+            "shop": "alcohol"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10844174361,
+          "lon": 37.8727001,
+          "lat": 55.6586072,
+          "timestamp": "2023-12-11T13:35:50Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru/",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11007754450,
+          "lon": 37.8550055,
+          "lat": 55.6632538,
+          "timestamp": "2024-09-08T11:34:52Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "brand": "Вита Экспресс",
+            "brand:wikidata": "Q109810737",
+            "contact:phone": "+7 800 7550003",
+            "contact:website": "https://vitaexpress.ru/",
+            "healthcare": "pharmacy",
+            "name": "Вита Экспресс",
+            "opening_hours": "Mo-Su 09:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10844174316,
+          "lon": 37.8734672,
+          "lat": 55.6588508,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 13421012781,
+          "lon": 37.8739285,
+          "lat": 55.6593683,
+          "timestamp": "2025-12-31T12:09:21Z",
+          "tags": {
+            "amenity": "cafe",
+            "contact:email": "mail@delikateska.ru",
+            "contact:phone": "+7 495 6409640;+7 991 5816418",
+            "contact:website": "https://www.delikateska.ru",
+            "name": "Деликатеска",
+            "opening_hours": "Mo-Su 09:00-21:30"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11909870251,
+          "lon": 37.8740196,
+          "lat": 55.6601639,
+          "timestamp": "2024-05-16T13:06:27Z",
+          "tags": {
+            "contact:email": "zakaz@vseinstrumenti.ru",
+            "contact:phone": "+7 800 5503805",
+            "contact:website": "https://www.vseinstrumenti.ru",
+            "name": "ВсеИнструменты.ру",
+            "opening_hours": "Mo-Su 09:00-20:00",
+            "shop": "power_tools"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9944295795,
+          "lon": 37.87388,
+          "lat": 55.658572,
+          "timestamp": "2024-09-07T19:17:14Z",
+          "tags": {
+            "brand": "Винлаб",
+            "brand:wikidata": "Q109907753",
+            "contact:phone": "+7 800 3017755",
+            "contact:website": "https://www.winelab.ru/",
+            "name": "Винлаб",
+            "opening_hours": "Mo-Su 10:00-23:00",
+            "shop": "alcohol"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10771185989,
+          "lon": 37.85378,
+          "lat": 55.663208,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10697420457,
+          "lon": 37.853344,
+          "lat": 55.66309,
+          "timestamp": "2024-05-18T13:46:11Z",
+          "tags": {
+            "brand": "Винлаб",
+            "brand:wikidata": "Q109907753",
+            "contact:phone": "+7 800 3017755",
+            "contact:website": "https://www.winelab.ru/",
+            "name": "Винлаб",
+            "opening_hours": "Mo-Su 10:00-23:00",
+            "shop": "alcohol"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11185574537,
+          "lon": 37.8744221,
+          "lat": 55.6581972,
+          "timestamp": "2024-06-17T10:47:52Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:phone": "+7 499 6536277",
+            "contact:website": "https://gorzdrav.org",
+            "healthcare": "pharmacy",
+            "name": "Горздрав",
+            "opening_hours": "Mo-Su 09:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12183647522,
+          "lon": 37.874561,
+          "lat": 55.6582293,
+          "timestamp": "2024-09-18T09:13:16Z",
+          "tags": {
+            "brand": "Авито",
+            "brand:ru": "Авито",
+            "brand:wikidata": "Q4034642",
+            "contact:phone": "+7 800 6000001",
+            "contact:website": "https://www.avito.ru",
+            "name": "Авито",
+            "name:en": "Avito",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12032834225,
+          "lon": 37.8749462,
+          "lat": 55.6599421,
+          "timestamp": "2024-09-07T19:17:14Z",
+          "tags": {
+            "brand": "Дикси",
+            "brand:en": "Dixy",
+            "brand:wikidata": "Q4161561",
+            "contact:phone": "+7 800 1011001",
+            "contact:website": "https://dixy.ru",
+            "name": "Дикси",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 13658301313,
+          "lon": 37.8537556,
+          "lat": 55.6640162,
+          "timestamp": "2026-03-18T09:30:18Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:phone": "+7 499 6536277",
+            "contact:website": "https://gorzdrav.org",
+            "healthcare": "pharmacy",
+            "name": "Горздрав",
+            "opening_hours": "Mo-Su 09:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5276463095,
+          "lon": 37.8603352,
+          "lat": 55.6665638,
+          "timestamp": "2024-09-08T11:34:52Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:website": "http://rosapteka.online/",
+            "healthcare": "pharmacy",
+            "name": "РОСАптека",
+            "opening_hours": "Mo-Su 09:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11368468215,
+          "lon": 37.8599939,
+          "lat": 55.6666126,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5302306766,
+          "lon": 37.86181,
+          "lat": 55.6668332,
+          "timestamp": "2024-09-08T11:34:52Z",
+          "tags": {
+            "amenity": "dentist",
+            "contact:email": "stomatologiya@klinika-vtm.ru",
+            "contact:phone": "+7 495 9131491",
+            "contact:website": "http://www.klinika-vtm.ru",
+            "healthcare": "dentist",
+            "name": "ВТМ",
+            "opening_hours": "Mo-Su 09:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11368469732,
+          "lon": 37.8756688,
+          "lat": 55.6603541,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9076613298,
+          "lon": 37.865469,
+          "lat": 55.666797,
+          "timestamp": "2024-11-25T14:18:45Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9866111788,
+          "lon": 37.871123,
+          "lat": 55.665356,
+          "timestamp": "2023-12-11T13:35:50Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru/",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 1808885712,
+          "lon": 37.8558508,
+          "lat": 55.6656825,
+          "timestamp": "2024-09-08T11:34:52Z",
+          "tags": {
+            "amenity": "dentist",
+            "contact:phone": "+7 495 5509398",
+            "contact:website": "http://www.eskadastom.ru",
+            "healthcare": "dentist",
+            "name": "Эскада",
+            "opening_hours": "Mo-Su 10:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9755234260,
+          "lon": 37.8704551,
+          "lat": 55.6656531,
+          "timestamp": "2024-05-16T14:45:21Z",
+          "tags": {
+            "brand": "Винлаб",
+            "brand:wikidata": "Q109907753",
+            "contact:email": "call@winelab.ru",
+            "contact:phone": "+7 800 3017755",
+            "contact:website": "https://www.winelab.ru/",
+            "name": "Винлаб",
+            "opening_hours": "Mo-Su 10:00-23:00",
+            "shop": "alcohol"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11368469798,
+          "lon": 37.8753619,
+          "lat": 55.657796,
+          "timestamp": "2026-05-20T08:34:56Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:en": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9447207726,
+          "lon": 37.860657,
+          "lat": 55.666872,
+          "timestamp": "2023-09-18T12:52:51Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "brand": "Столички",
+            "brand:wikidata": "Q109717665",
+            "contact:email": "office@neo-pharm.ru",
+            "contact:ok": "https://ok.ru/stolichki",
+            "contact:phone": "+7 495 2155215",
+            "contact:vk": "https://vk.com/stolichki_official",
+            "contact:website": "https://stolichki.ru",
+            "healthcare": "pharmacy",
+            "name": "Столички",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10928207036,
+          "lon": 37.8748566,
+          "lat": 55.6569262,
+          "timestamp": "2023-05-26T08:39:00Z",
+          "tags": {
+            "contact:phone": "+7 800 2005544;+7 987 5756891",
+            "contact:website": "https://www.yola-agro.ru/",
+            "name": "Йола-маркет",
+            "opening_hours": "Mo-Su 08:30-21:00",
+            "shop": "convenience"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9447069891,
+          "lon": 37.876101,
+          "lat": 55.659193,
+          "timestamp": "2022-07-29T13:29:07Z",
+          "tags": {
+            "contact:email": "info@labremonta.ru",
+            "contact:phone": "+7 495 1503662;+7 499 4900563",
+            "contact:website": "https://labremonta.ru/",
+            "craft": "electronics_repair",
+            "name": "Лаборатория Ремонта",
+            "opening_hours": "Mo-Sa 09:00-21:00;Su 09:00-21:20"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8237609632,
+          "lon": 37.8620142,
+          "lat": 55.6671386,
+          "timestamp": "2020-12-17T13:56:58Z",
+          "tags": {
+            "contact:email": "salonimperatrica@yandex.ru",
+            "contact:facebook": "https://facebook.com/shopimperiashop",
+            "contact:instagram": "https://instagram.com/studia_imperatritsa",
+            "contact:phone": "+7 499 7556421;+7 926 7152735",
+            "contact:vk": "https://vk.com/imperatritsa2016",
+            "contact:website": "https://xn--80aanlcvvjbt0c.xn--80adxhks/",
+            "name": "Императрица",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "operator": "Императрица",
+            "shop": "hairdresser"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12183647503,
+          "lon": 37.875915,
+          "lat": 55.6574906,
+          "timestamp": "2024-09-18T09:13:16Z",
+          "tags": {
+            "brand": "Авито",
+            "brand:ru": "Авито",
+            "brand:wikidata": "Q4034642",
+            "contact:phone": "+7 800 6000001",
+            "contact:website": "https://www.avito.ru",
+            "name": "Авито",
+            "name:en": "Avito",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 1808891286,
+          "lon": 37.856536,
+          "lat": 55.6665,
+          "timestamp": "2024-09-08T11:34:52Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:phone": "+7 495 5591192",
+            "healthcare": "pharmacy",
+            "name": "Глиссада",
+            "opening_hours": "Mo-Su 09:00-20:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9719803271,
+          "lon": 37.8693688,
+          "lat": 55.6666712,
+          "timestamp": "2023-09-17T00:03:46Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:email": "1056@apt1.su",
+            "contact:phone": "+7 495 4191919",
+            "contact:website": "https://vn1.ru/",
+            "healthcare": "pharmacy",
+            "name": "Ваша № 1",
+            "opening_hours": "Mo-Su 09:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12254605486,
+          "lon": 37.8768794,
+          "lat": 55.6596586,
+          "timestamp": "2025-03-03T12:20:47Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:email": "info@farmlend.ru",
+            "contact:phone": "+7 347 2600393;+7 800 5500393",
+            "contact:website": "https://farmlend.ru",
+            "healthcare": "pharmacy",
+            "name": "Фармленд",
+            "opening_hours": "Mo-Su 09:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5301961674,
+          "lon": 37.8536826,
+          "lat": 55.665495,
+          "timestamp": "2024-09-08T11:34:52Z",
+          "tags": {
+            "amenity": "pharmacy",
+            "contact:phone": "+7 495 2311697 (доб.6414/6415)",
+            "contact:website": "http://www.budzdorov.ru",
+            "healthcare": "pharmacy",
+            "name": "Будь здоров!",
+            "opening_hours": "Mo-Su 09:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5393892889,
+          "lon": 37.8577575,
+          "lat": 55.6672873,
+          "timestamp": "2024-05-18T23:47:10Z",
+          "tags": {
+            "brand": "Магнит",
+            "brand:en": "Magnit",
+            "brand:wikidata": "Q940518",
+            "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+            "check_date:opening_hours": "2022-07-15",
+            "contact:email": "info@magnit.ru",
+            "contact:phone": "+7 800 2009002",
+            "contact:twitter": "https://twitter.com/magnit_info",
+            "contact:website": "http://magnit-info.ru",
+            "name": "Магнит",
+            "name:en": "Magnit",
+            "opening_hours": "Mo-Su 09:00-23:00",
+            "operator": "АО \"Тандер\"",
+            "shop": "supermarket",
+            "website": "http://magnit-info.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9801696105,
+          "lon": 37.8666194,
+          "lat": 55.6676798,
+          "timestamp": "2022-09-29T14:32:26Z",
+          "tags": {
+            "contact:email": "kotelniki2@mgp.ru",
+            "contact:phone": "+7 495 2329977;+7 495 5807088;+7 495 9563151",
+            "contact:website": "https://mgp.ru/",
+            "name": "Магазин Горящих Путёвок",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "travel_agency"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10844174123,
+          "lon": 37.8504646,
+          "lat": 55.6638165,
+          "timestamp": "2026-08-07T10:18:35Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:en": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "brand:wikipedia": "ru:Ozon.ru",
+            "contact:facebook": "https://www.facebook.com/ozon.ru",
+            "contact:instagram": "https://www.instagram.com/ozonru",
+            "contact:phone": "+7 495 2321000",
+            "contact:twitter": "https://twitter.com/Ozon_ru",
+            "contact:vk": "https://vk.com/ozon",
+            "contact:website": "https://www.ozon.ru/",
+            "name": "Ozon",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        }
+      ]
+    },
+    {
+      "city": {
+        "id": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+        "name": "Дзержинский",
+        "region": "Московская обл",
+        "center": {
+          "lon": 37.8440276,
+          "lat": 55.6240869
+        },
+        "timezone": "Europe/Moscow",
+        "countryCode": "RU",
+        "bounds": [
+          37.793561,
+          55.5969418,
+          37.8881825,
+          55.6477074
+        ],
+        "enabled": true
+      },
+      "boundary": {
+        "geometry": [
+          [
+            [
+              [
+                37.793561,
+                55.6229597
+              ],
+              [
+                37.7964287,
+                55.6212098
+              ],
+              [
+                37.7975125,
+                55.6199371
+              ],
+              [
+                37.7974412,
+                55.6181135
+              ],
+              [
+                37.7973923,
+                55.6154595
+              ],
+              [
+                37.7974457,
+                55.6137665
+              ],
+              [
+                37.7975967,
+                55.6128627
+              ],
+              [
+                37.7988837,
+                55.6113774
+              ],
+              [
+                37.7998485,
+                55.6109981
+              ],
+              [
+                37.8012067,
+                55.6106988
+              ],
+              [
+                37.8031926,
+                55.6102509
+              ],
+              [
+                37.8061535,
+                55.6099668
+              ],
+              [
+                37.8097141,
+                55.6095307
+              ],
+              [
+                37.813975,
+                55.6095726
+              ],
+              [
+                37.8159628,
+                55.6099419
+              ],
+              [
+                37.8180399,
+                55.6106693
+              ],
+              [
+                37.8200032,
+                55.6115598
+              ],
+              [
+                37.8221208,
+                55.6136873
+              ],
+              [
+                37.8240903,
+                55.615278
+              ],
+              [
+                37.8263387,
+                55.6165279
+              ],
+              [
+                37.8303163,
+                55.6166617
+              ],
+              [
+                37.8350893,
+                55.6163069
+              ],
+              [
+                37.8373619,
+                55.6162518
+              ],
+              [
+                37.8399558,
+                55.6167656
+              ],
+              [
+                37.8438715,
+                55.6170967
+              ],
+              [
+                37.8476744,
+                55.6176396
+              ],
+              [
+                37.8502915,
+                55.6175182
+              ],
+              [
+                37.8517527,
+                55.6168138
+              ],
+              [
+                37.8529499,
+                55.6155729
+              ],
+              [
+                37.8537985,
+                55.6139422
+              ],
+              [
+                37.854502,
+                55.6122141
+              ],
+              [
+                37.8555545,
+                55.6108758
+              ],
+              [
+                37.8571289,
+                55.6100245
+              ],
+              [
+                37.8602618,
+                55.6097059
+              ],
+              [
+                37.8637707,
+                55.6096467
+              ],
+              [
+                37.8667022,
+                55.6093449
+              ],
+              [
+                37.8683672,
+                55.6083102
+              ],
+              [
+                37.8692027,
+                55.607239
+              ],
+              [
+                37.8691559,
+                55.6060521
+              ],
+              [
+                37.8679848,
+                55.6050097
+              ],
+              [
+                37.8651016,
+                55.6042694
+              ],
+              [
+                37.8617899,
+                55.6038396
+              ],
+              [
+                37.8590538,
+                55.6034568
+              ],
+              [
+                37.8559136,
+                55.6028796
+              ],
+              [
+                37.8542958,
+                55.6020865
+              ],
+              [
+                37.85377,
+                55.6011761
+              ],
+              [
+                37.8541071,
+                55.6002959
+              ],
+              [
+                37.8552513,
+                55.5996087
+              ],
+              [
+                37.856743,
+                55.599181
+              ],
+              [
+                37.8613961,
+                55.5985485
+              ],
+              [
+                37.8665652,
+                55.5977516
+              ],
+              [
+                37.8704976,
+                55.5969418
+              ],
+              [
+                37.870807,
+                55.5978197
+              ],
+              [
+                37.8707694,
+                55.6001939
+              ],
+              [
+                37.8712686,
+                55.6016836
+              ],
+              [
+                37.8746079,
+                55.6017332
+              ],
+              [
+                37.8747684,
+                55.6019366
+              ],
+              [
+                37.8756374,
+                55.6020571
+              ],
+              [
+                37.8750701,
+                55.6024012
+              ],
+              [
+                37.875622,
+                55.6031754
+              ],
+              [
+                37.8761326,
+                55.6038855
+              ],
+              [
+                37.8762552,
+                55.605177
+              ],
+              [
+                37.8756729,
+                55.6073753
+              ],
+              [
+                37.8761479,
+                55.6081406
+              ],
+              [
+                37.8756134,
+                55.6091071
+              ],
+              [
+                37.8760368,
+                55.6090872
+              ],
+              [
+                37.8777911,
+                55.6090489
+              ],
+              [
+                37.8786977,
+                55.6090259
+              ],
+              [
+                37.8792978,
+                55.609172
+              ],
+              [
+                37.8802644,
+                55.609921
+              ],
+              [
+                37.8801856,
+                55.610898
+              ],
+              [
+                37.8806837,
+                55.6114682
+              ],
+              [
+                37.8812603,
+                55.6111379
+              ],
+              [
+                37.8820254,
+                55.6109806
+              ],
+              [
+                37.8825511,
+                55.6113054
+              ],
+              [
+                37.8825476,
+                55.6117285
+              ],
+              [
+                37.8825018,
+                55.6123086
+              ],
+              [
+                37.8823542,
+                55.6126188
+              ],
+              [
+                37.8827918,
+                55.613383
+              ],
+              [
+                37.8830748,
+                55.6139268
+              ],
+              [
+                37.8834911,
+                55.6146637
+              ],
+              [
+                37.8839957,
+                55.6155962
+              ],
+              [
+                37.885999,
+                55.6152332
+              ],
+              [
+                37.8871018,
+                55.6154398
+              ],
+              [
+                37.8850992,
+                55.6173025
+              ],
+              [
+                37.8862197,
+                55.6178443
+              ],
+              [
+                37.8872498,
+                55.6181866
+              ],
+              [
+                37.8881825,
+                55.6186431
+              ],
+              [
+                37.8880701,
+                55.6187794
+              ],
+              [
+                37.8879496,
+                55.6189291
+              ],
+              [
+                37.8868508,
+                55.6185535
+              ],
+              [
+                37.8868415,
+                55.6185621
+              ],
+              [
+                37.8854847,
+                55.6198137
+              ],
+              [
+                37.8853248,
+                55.6202871
+              ],
+              [
+                37.8857337,
+                55.6204315
+              ],
+              [
+                37.8854904,
+                55.6207918
+              ],
+              [
+                37.8847966,
+                55.6205905
+              ],
+              [
+                37.8829293,
+                55.622129
+              ],
+              [
+                37.8819068,
+                55.6230346
+              ],
+              [
+                37.8831134,
+                55.6236231
+              ],
+              [
+                37.8827436,
+                55.6243641
+              ],
+              [
+                37.8817407,
+                55.6247675
+              ],
+              [
+                37.8801075,
+                55.6242686
+              ],
+              [
+                37.879451,
+                55.6240681
+              ],
+              [
+                37.8783708,
+                55.6248911
+              ],
+              [
+                37.8773091,
+                55.6254164
+              ],
+              [
+                37.8760524,
+                55.6262303
+              ],
+              [
+                37.8752732,
+                55.6266037
+              ],
+              [
+                37.8727695,
+                55.6281264
+              ],
+              [
+                37.872509,
+                55.6284966
+              ],
+              [
+                37.8714967,
+                55.6294355
+              ],
+              [
+                37.8705886,
+                55.6302612
+              ],
+              [
+                37.8708631,
+                55.6312904
+              ],
+              [
+                37.8710465,
+                55.6313762
+              ],
+              [
+                37.8743081,
+                55.6325058
+              ],
+              [
+                37.874863,
+                55.6337027
+              ],
+              [
+                37.8747772,
+                55.633714
+              ],
+              [
+                37.8752765,
+                55.6349267
+              ],
+              [
+                37.8754249,
+                55.6353373
+              ],
+              [
+                37.8740601,
+                55.6359368
+              ],
+              [
+                37.8734144,
+                55.6361727
+              ],
+              [
+                37.8695486,
+                55.6359581
+              ],
+              [
+                37.868827,
+                55.635918
+              ],
+              [
+                37.8678707,
+                55.6362554
+              ],
+              [
+                37.8673418,
+                55.6352274
+              ],
+              [
+                37.8643035,
+                55.6354204
+              ],
+              [
+                37.8635327,
+                55.6360904
+              ],
+              [
+                37.8618242,
+                55.6366932
+              ],
+              [
+                37.860625,
+                55.6371577
+              ],
+              [
+                37.8598282,
+                55.6371619
+              ],
+              [
+                37.8581973,
+                55.6375156
+              ],
+              [
+                37.8570694,
+                55.6376436
+              ],
+              [
+                37.8559716,
+                55.6378252
+              ],
+              [
+                37.8553175,
+                55.6383066
+              ],
+              [
+                37.8541598,
+                55.6392624
+              ],
+              [
+                37.8482696,
+                55.6375975
+              ],
+              [
+                37.8479726,
+                55.6377989
+              ],
+              [
+                37.8472575,
+                55.6382837
+              ],
+              [
+                37.8455091,
+                55.6394691
+              ],
+              [
+                37.8417857,
+                55.6406752
+              ],
+              [
+                37.8421805,
+                55.6417234
+              ],
+              [
+                37.8426177,
+                55.6427343
+              ],
+              [
+                37.8432518,
+                55.6431854
+              ],
+              [
+                37.8438859,
+                55.6436367
+              ],
+              [
+                37.8436612,
+                55.6443373
+              ],
+              [
+                37.8426302,
+                55.6446941
+              ],
+              [
+                37.8414543,
+                55.6447573
+              ],
+              [
+                37.8417022,
+                55.6450858
+              ],
+              [
+                37.8410914,
+                55.6455148
+              ],
+              [
+                37.8394062,
+                55.6458546
+              ],
+              [
+                37.8392427,
+                55.6458843
+              ],
+              [
+                37.8387271,
+                55.6459876
+              ],
+              [
+                37.8384904,
+                55.6477074
+              ],
+              [
+                37.8371863,
+                55.6476351
+              ],
+              [
+                37.8367808,
+                55.6476127
+              ],
+              [
+                37.8355407,
+                55.647544
+              ],
+              [
+                37.8349822,
+                55.6473779
+              ],
+              [
+                37.835005,
+                55.6472219
+              ],
+              [
+                37.8350344,
+                55.6470199
+              ],
+              [
+                37.8352286,
+                55.6456836
+              ],
+              [
+                37.8331352,
+                55.6456797
+              ],
+              [
+                37.828512,
+                55.6456715
+              ],
+              [
+                37.8284407,
+                55.6456765
+              ],
+              [
+                37.8279951,
+                55.6453682
+              ],
+              [
+                37.827678,
+                55.6452252
+              ],
+              [
+                37.8273401,
+                55.6450855
+              ],
+              [
+                37.8248319,
+                55.6433907
+              ],
+              [
+                37.8247329,
+                55.6433125
+              ],
+              [
+                37.8226572,
+                55.6416176
+              ],
+              [
+                37.8225401,
+                55.6415104
+              ],
+              [
+                37.8225591,
+                55.641484
+              ],
+              [
+                37.8226563,
+                55.6413679
+              ],
+              [
+                37.8229284,
+                55.6412436
+              ],
+              [
+                37.8231525,
+                55.641137
+              ],
+              [
+                37.8233449,
+                55.6410303
+              ],
+              [
+                37.8235374,
+                55.6409146
+              ],
+              [
+                37.8237455,
+                55.6408169
+              ],
+              [
+                37.8239379,
+                55.6407101
+              ],
+              [
+                37.8241147,
+                55.6405853
+              ],
+              [
+                37.824164,
+                55.6404868
+              ],
+              [
+                37.824182,
+                55.6403611
+              ],
+              [
+                37.8241523,
+                55.6402352
+              ],
+              [
+                37.8240118,
+                55.6400908
+              ],
+              [
+                37.8238235,
+                55.639955
+              ],
+              [
+                37.8236354,
+                55.6398103
+              ],
+              [
+                37.8235106,
+                55.6396749
+              ],
+              [
+                37.822929,
+                55.6393215
+              ],
+              [
+                37.8225803,
+                55.6392836
+              ],
+              [
+                37.8223752,
+                55.6392017
+              ],
+              [
+                37.8221381,
+                55.6391376
+              ],
+              [
+                37.8219162,
+                55.6391094
+              ],
+              [
+                37.8217579,
+                55.6390816
+              ],
+              [
+                37.8214713,
+                55.639125
+              ],
+              [
+                37.8212475,
+                55.6392136
+              ],
+              [
+                37.8210556,
+                55.6392934
+              ],
+              [
+                37.8208956,
+                55.6393644
+              ],
+              [
+                37.8207199,
+                55.6394263
+              ],
+              [
+                37.820377,
+                55.6394269
+              ],
+              [
+                37.8189777,
+                55.639308
+              ],
+              [
+                37.8185441,
+                55.6392663
+              ],
+              [
+                37.818332,
+                55.6392096
+              ],
+              [
+                37.8181167,
+                55.6390925
+              ],
+              [
+                37.8174078,
+                55.6386182
+              ],
+              [
+                37.816966,
+                55.6383354
+              ],
+              [
+                37.8139268,
+                55.6363605
+              ],
+              [
+                37.8103408,
+                55.6340315
+              ],
+              [
+                37.8086639,
+                55.632911
+              ],
+              [
+                37.8083583,
+                55.6325849
+              ],
+              [
+                37.808391,
+                55.6325296
+              ],
+              [
+                37.8074738,
+                55.6319307
+              ],
+              [
+                37.8073572,
+                55.6319629
+              ],
+              [
+                37.8061648,
+                55.631261
+              ],
+              [
+                37.8047141,
+                55.6303446
+              ],
+              [
+                37.801968,
+                55.6285402
+              ],
+              [
+                37.8013526,
+                55.6281289
+              ],
+              [
+                37.8006474,
+                55.6276939
+              ],
+              [
+                37.8006022,
+                55.6274596
+              ],
+              [
+                37.7997434,
+                55.6269171
+              ],
+              [
+                37.7958476,
+                55.6242264
+              ],
+              [
+                37.793561,
+                55.6229597
+              ]
+            ]
+          ]
+        ],
+        "bounds": [
+          37.793561,
+          55.5969418,
+          37.8881825,
+          55.6477074
+        ],
+        "size": 0.004803517220399959,
+        "recordId": "relation/184003",
+        "timestamp": "2026-06-12T22:31:57Z",
+        "tags": {
+          "addr:country": "RU",
+          "addr:district": "городской округ Люберцы",
+          "addr:region": "Московская область",
+          "name": "Дзержинский",
+          "name:de": "Dserschinski",
+          "name:en": "Dzerzhinsky",
+          "name:hr": "Dzeržinski",
+          "name:ru": "Дзержинский",
+          "old_name": "Угреша",
+          "place": "town",
+          "population": "56 376",
+          "population:date": "2026",
+          "wikidata": "Q135189",
+          "wikipedia": "ru:Дзержинский (город)"
+        }
+      },
+      "candidates": [
+        {
+          "type": "node",
+          "id": 4973492823,
+          "lon": 37.8529433,
+          "lat": 55.628611,
+          "timestamp": "2025-11-02T22:43:34Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:housenumber": "23",
+            "addr:street": "улица Лермонтова",
+            "alt_name": "Пятерочка",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:ru": "Пятёрочка",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "check_date:opening_hours": "2023-01-24",
+            "contact:email": "vopros@5ka.ru",
+            "contact:facebook": "https://www.facebook.com/pyaterochka",
+            "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+            "contact:ok": "https://ok.ru/pyaterochka",
+            "contact:phone": "+7 800 5555505",
+            "contact:vk": "https://vk.com/club19098821",
+            "contact:website": "https://5ka.ru",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "name:ru": "Пятёрочка",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9635520297,
+          "lon": 37.8520176,
+          "lat": 55.6348163,
+          "timestamp": "2023-09-17T00:03:46Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:housenumber": "17",
+            "addr:postcode": "140091",
+            "addr:street": "Угрешская улица",
+            "amenity": "car_wash",
+            "contact:email": "mso.chisto@mail.ru",
+            "contact:phone": "+7 800 7006034",
+            "contact:website": "https://bkfcarwash.ru/",
+            "name": "Bkf",
+            "opening_hours": "24/7"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5668656021,
+          "lon": 37.8639908,
+          "lat": 55.6274033,
+          "timestamp": "2026-05-13T02:36:51Z",
+          "tags": {
+            "addr:housenumber": "20А",
+            "addr:street": "Томилинская улица",
+            "amenity": "restaurant",
+            "cuisine": "pizza;coffee_shop;donut",
+            "internet_access": "wlan",
+            "name": "pizza express",
+            "name:en": "pizza express",
+            "opening_hours": "24/7",
+            "phone": "+7 926 6526850",
+            "website": "https://pizzaexpress24.com/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6920811312,
+          "lon": 37.8503418,
+          "lat": 55.6356648,
+          "timestamp": "2025-11-02T22:43:34Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:housenumber": "15",
+            "addr:postcode": "140091",
+            "addr:street": "Угрешская улица",
+            "brand": "Светофор",
+            "brand:en": "Svetofor",
+            "brand:ru": "Светофор",
+            "brand:wikidata": "Q61875920",
+            "name": "Светофор",
+            "opening_hours": "09:00-21:00",
+            "shop": "supermarket",
+            "website": "https://svetofor-nsk.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4646736294,
+          "lon": 37.8683761,
+          "lat": 55.6239082,
+          "timestamp": "2023-09-17T00:00:57Z",
+          "tags": {
+            "addr:housenumber": "41",
+            "addr:postcode": "140090",
+            "addr:street": "улица Овиновка",
+            "email": "kuzovremont@mail.ru",
+            "internet_access": "wlan",
+            "name": "Автосервис у Олега",
+            "opening_hours": "Mo-Fr 10:00-20:00",
+            "phone": "+7 917 5700912",
+            "shop": "car_repair",
+            "website": "https://www.uolega.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8445651336,
+          "lon": 37.8701631,
+          "lat": 55.6202015,
+          "timestamp": "2023-09-17T00:01:31Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:housenumber": "9",
+            "addr:postcode": "140090",
+            "addr:street": "улица Карьер ЗИЛ",
+            "name": "AZO AUTO",
+            "opening_hours": "Mo-Su 10:00-19:00",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "phone": "+74951287939",
+            "shop": "car_parts",
+            "website": "https://azoauto.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8194027147,
+          "lon": 37.8319407,
+          "lat": 55.6388772,
+          "timestamp": "2021-05-25T09:28:34Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:housenumber": "3 с10В",
+            "addr:street": "улица Энергетиков",
+            "contact:instagram": "www.instagram.com/mehanika.rus",
+            "name": "Механика",
+            "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-15:00",
+            "phone": "+7 (495) 777-68-39;+7 (499) 702-42-61;+7 (925) 850-06-68",
+            "shop": "car_repair",
+            "website": "mechanika.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5048284722,
+          "lon": 37.8067305,
+          "lat": 55.6313175,
+          "timestamp": "2023-09-17T00:00:57Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:housenumber": "2",
+            "addr:postcode": "109429",
+            "addr:street": "Алексеевская улица",
+            "description": "Наша компания занимается производством и продажей экономичных электрических радиаторов отопления.",
+            "email": "9853338765@mail.ru",
+            "name": "Эффект Энерго",
+            "opening_hours": "Mo-Su 09:00-20:00",
+            "phone": "+7 985 3338765",
+            "shop": "energy",
+            "website": "https://effekt-energo.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14293095052,
+          "lon": 37.8427973,
+          "lat": 55.6230102,
+          "timestamp": "2026-10-17T10:52:13Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "8",
+            "addr:street": "Дзержинская улица",
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "check_date": "2026-10-17",
+            "level": "0",
+            "name": "Ozon",
+            "shop": "outpost",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14293095053,
+          "lon": 37.8428106,
+          "lat": 55.6229773,
+          "timestamp": "2026-10-17T10:52:13Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "8",
+            "addr:street": "Дзержинская улица",
+            "brand": "Авокадо",
+            "brand:en": "Avocado",
+            "brand:ru": "Авокадо",
+            "brand:wikidata": "Q126134205",
+            "check_date": "2026-10-17",
+            "level": "0",
+            "name": "Авокадо",
+            "name:en": "Avocado",
+            "name:ru": "Авокадо",
+            "opening_hours": "08:00-23:00",
+            "shop": "convenience",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14293095054,
+          "lon": 37.8428417,
+          "lat": 55.6228901,
+          "timestamp": "2026-10-17T10:52:13Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "8",
+            "addr:street": "Дзержинская улица",
+            "brand": "Красное&Белое",
+            "brand:wikidata": "Q24933790",
+            "check_date": "2026-10-17",
+            "level": "0",
+            "name": "Красное&Белое",
+            "opening_hours": "09:00-22:05",
+            "shop": "alcohol",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296710986,
+          "lon": 37.8513527,
+          "lat": 55.6323857,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "2",
+            "addr:street": "Поклонная улица",
+            "check_date": "2026-10-18",
+            "level": "0",
+            "name": "Дива",
+            "name:ru": "Дива",
+            "opening_hours": "10:00-20:00",
+            "shop": "beauty",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296739604,
+          "lon": 37.855955,
+          "lat": 55.6318469,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "22",
+            "addr:street": "Угрешская улица",
+            "check_date": "2026-10-18",
+            "level": "0",
+            "name": "Хвоя",
+            "name:ru": "Хвоя",
+            "opening_hours": "10:00-21:00",
+            "shop": "hairdresser",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296710996,
+          "lon": 37.8568345,
+          "lat": 55.6322227,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "22",
+            "addr:street": "Угрешская улица",
+            "brand": "Яндекс.Маркет",
+            "brand:en": "Yandex.Market",
+            "brand:ru": "Яндекс.Маркет",
+            "brand:wikidata": "Q4537982",
+            "check_date": "2026-10-18",
+            "level": "0",
+            "name": "Яндекс.Маркет",
+            "name:en": "Yandex.Market",
+            "name:ru": "Яндекс.Маркет",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296739602,
+          "lon": 37.856865,
+          "lat": 55.6322176,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "22",
+            "addr:street": "Угрешская улица",
+            "brand": "Wildberries",
+            "brand:wikidata": "Q24933714",
+            "check_date": "2026-10-18",
+            "level": "0",
+            "name": "Wildberries",
+            "name:ru": "Wildberries",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296710997,
+          "lon": 37.8597641,
+          "lat": 55.6304,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "13",
+            "addr:street": "Лесная улица",
+            "check_date": "2026-10-18",
+            "level": "0",
+            "name": "Цирюльникъ",
+            "name:ru": "Цирюльникъ",
+            "shop": "hairdresser",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296710998,
+          "lon": 37.8597851,
+          "lat": 55.6304355,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "13",
+            "addr:street": "Лесная улица",
+            "amenity": "cafe",
+            "check_date": "2026-10-18",
+            "cuisine": "pizza",
+            "level": "0",
+            "name": "Экспресс-пицца",
+            "name:ru": "Экспресс-пицца",
+            "outdoor_seating": "no",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296710999,
+          "lon": 37.8584684,
+          "lat": 55.6320674,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:floor": "1",
+            "addr:housenumber": "24",
+            "addr:street": "Угрешская улица",
+            "check_date": "2026-10-18",
+            "level": "0",
+            "name": "Mira Lova",
+            "name:ru": "Mira Lova",
+            "opening_hours": "10:00-21:00",
+            "shop": "beauty",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6796088213,
+          "lon": 37.8631935,
+          "lat": 55.6296031,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:city": "Дзержинский",
+            "addr:floor": "1",
+            "addr:housenumber": "14А",
+            "addr:street": "Лесная улица",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:ru": "Пятёрочка",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "check_date": "2026-10-18",
+            "check_date:opening_hours": "2023-01-22",
+            "level": "0",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "name:ru": "Пятёрочка",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "shop": "supermarket",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14296710992,
+          "lon": 37.8633875,
+          "lat": 55.6295588,
+          "timestamp": "2026-10-18T12:56:23Z",
+          "tags": {
+            "addr:housenumber": "14Б",
+            "addr:street": "Лесная улица",
+            "check_date": "2026-10-18",
+            "name": "Ruf Mark Home",
+            "name:ru": "Ruf Mark Home",
+            "shop": "shoes",
+            "wheelchair": "no"
+          }
+        }
+      ]
+    }
+  ]
+}

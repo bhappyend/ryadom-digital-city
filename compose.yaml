@@ -1,0 +1,68 @@
+name: ryadom
+
+x-logging: &logging
+  driver: local
+  options:
+    max-size: 10m
+    max-file: "3"
+
+services:
+  db:
+    # Registry config: PostgreSQL 16.4, PostGIS 3.4.3. Compatibility pin, not a production security approval.
+    image: postgis/postgis:16-3.4@sha256:44126d872ac91993766c341e369c539e8196614321765d36a6f1bab0419a5fa5
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ryadom}
+      POSTGRES_USER: ${POSTGRES_USER:-ryadom_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD via env}
+      POSTGRES_INITDB_ARGS: --auth-host=scram-sha-256
+      APP_DB_USER: ${APP_DB_USER:-ryadom_app}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?Set APP_DB_PASSWORD via env}
+    command: [postgres, -c, shared_buffers=128MB, -c, max_connections=40, -c, log_statement=none]
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infra/postgres/20-app-role.sh:/docker-entrypoint-initdb.d/20-app-role.sh:ro
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 20s
+    shm_size: 128mb
+    mem_limit: 768m
+    cpus: 1.0
+    pids_limit: 150
+    security_opt: [no-new-privileges:true]
+    logging: *logging
+
+  redis:
+    image: redis:7.4.7-alpine@sha256:02f2cc4882f8bf87c79a220ac958f58c700bdec0dfb9b9ea61b62fb0e8f1bfcf
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?Set REDIS_PASSWORD via env}
+    # Password is written from the container environment to tmpfs; never a process argument.
+    entrypoint: [/bin/sh, /usr/local/bin/ryadom-redis.sh]
+    volumes:
+      - redis_data:/data
+      - ./infra/redis/start.sh:/usr/local/bin/ryadom-redis.sh:ro
+    tmpfs:
+      - /run/redis:rw,noexec,nosuid,size=1m,mode=1777
+    ports:
+      - "127.0.0.1:${REDIS_PORT:-6379}:6379"
+    healthcheck:
+      test: [CMD-SHELL, 'REDISCLI_AUTH="$${REDIS_PASSWORD}" redis-cli ping | grep -qx PONG']
+      interval: 5s
+      timeout: 3s
+      retries: 15
+      start_period: 5s
+    mem_limit: 192m
+    cpus: 0.5
+    pids_limit: 60
+    security_opt: [no-new-privileges:true]
+    logging: *logging
+
+volumes:
+  postgres_data:
+  redis_data:

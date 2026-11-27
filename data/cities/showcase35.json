@@ -1,0 +1,1436 @@
+{
+  "schemaVersion": 1,
+  "measuredAt": "2026-11-27T00:05:47.517Z",
+  "purpose": "35 real diverse businesses for read-only admin showcase, not paid customers, owners, advertisers or partners",
+  "count": 35,
+  "cityCount": 34,
+  "regionCount": 11,
+  "categoryIds": [
+    "auto",
+    "bank",
+    "beauty",
+    "cafe",
+    "entertainment",
+    "fuel",
+    "hotel",
+    "medicine",
+    "pharmacy",
+    "services",
+    "shopping",
+    "sport"
+  ],
+  "selection": "Deterministic greedy: unseen commercial categories, then source regions/cities, actual address and contacts; sourceRecordId tie break; max3 per city",
+  "lineage": {
+    "derived/amur.json": "5c54f071c1a19d4ce4a02f7d71682ee0a9a43f34a92819e5d1eeca4ba6fa3c63",
+    "derived/caucasus.json": "1d8fc6639a60e500eed52a5746a2ca5ed15bc5399d49db5c9a9ae7151f563539",
+    "derived/kaliningrad.json": "bfda5104a1e3b92d77956311e7e67c7acc51c1e9e832a612dfa45523251c3741",
+    "derived/kemerovo.json": "7b9e0f21480f88c073429fb2feca9342bf834d22b216f9ad54f4d172213ab329",
+    "derived/kurgan.json": "377adec83379b340061847e2df5ec3a8329da40eae23b3bb3272917d5df6791b",
+    "derived/moscow.json": "11feb66f3f11b2de97ccaaf6c88f8cce6c6723290d033db53c3fbb8ab9eb0da3",
+    "derived/petersburg.json": "619119813e2fabc1531868b70a2372fafb1dcfe8fcdb6c7d60380a58681edcbf",
+    "../osm/smolensk-replay.json": "2e16c1efea174f522e47244d6a5f3bf70816f309065279c8bd7d0fbda6e331e4"
+  },
+  "records": [
+    {
+      "id": "22161ad0-969e-4735-99d3-f80751064007",
+      "slug": "place-osm-node-10629781126",
+      "cityId": "smolensk",
+      "cityName": "Смоленск",
+      "region": "Смоленская область",
+      "name": "Шторм",
+      "categoryIds": [
+        "cafe",
+        "sport"
+      ],
+      "address": "Адрес не указан в OSM",
+      "coordinates": {
+        "lon": 32.1024304,
+        "lat": 54.7588581
+      },
+      "phone": null,
+      "website": null,
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/10629781126",
+          "sourceUrl": "https://www.openstreetmap.org/node/10629781126",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2023-10-24T04:22:56+00:00",
+          "importedAt": "2026-11-26T23:41:54.59+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-10629781126",
+      "webPath": "/places/place-osm-node-10629781126",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "a5333ec0-b401-442a-b217-cc133c855a10",
+      "slug": "place-osm-node-10142269066",
+      "cityId": "city-9fee1c1b-9d14-42ea-8ff9-2e903501d43d",
+      "cityName": "Пионерский",
+      "region": "Калининградская обл",
+      "name": "Ozon",
+      "categoryIds": [
+        "shopping"
+      ],
+      "address": "Пионерский, Армейская улица, 2Б",
+      "coordinates": {
+        "lon": 20.2271098,
+        "lat": 54.9533042
+      },
+      "phone": "+7 495 2321000",
+      "website": "https://www.ozon.ru",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/10142269066",
+          "sourceUrl": "https://www.openstreetmap.org/node/10142269066",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2023-08-28T12:41:09+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-10142269066",
+      "webPath": "/places/place-osm-node-10142269066",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "2cff5c0b-755d-40b3-ae70-d13a54eebcec",
+      "slug": "place-osm-node-10591195580",
+      "cityId": "city-51007e5c-e430-4f18-912c-f88c7e73698d",
+      "cityName": "Михайловск",
+      "region": "Ставропольский край",
+      "name": "Agamalov Motors",
+      "categoryIds": [
+        "auto"
+      ],
+      "address": "Михайловск, Привокзальная улица, 6",
+      "coordinates": {
+        "lon": 42.0233464,
+        "lat": 45.1148134
+      },
+      "phone": "+7 (918) 767-27-77",
+      "website": "https://agamalov-motors.ru",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/10591195580",
+          "sourceUrl": "https://www.openstreetmap.org/node/10591195580",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2023-01-29T07:35:16+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-10591195580",
+      "webPath": "/places/place-osm-node-10591195580",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "dd489221-4c2b-4a9d-ae34-dadc6a57b512",
+      "slug": "place-osm-node-12159729115",
+      "cityId": "city-d73506c5-015c-4c39-929a-696ea8144e16",
+      "cityName": "Мурино",
+      "region": "Ленинградская обл",
+      "name": "Нотариус Сенникова Ольга Юрьевна",
+      "categoryIds": [
+        "services"
+      ],
+      "address": "Тихая улица, 18",
+      "coordinates": {
+        "lon": 30.447175,
+        "lat": 60.0499168
+      },
+      "phone": "+7 921 5502096",
+      "website": "http://1notary.ru",
+      "openingState": "unknown",
+      "openingHours": "Mo-Th 10:00-13:00, 14:00-18:00; Fr 10:00-13:00, 14:00-16:00; Sa 10:00-13:00, 14:00-15:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12159729115",
+          "sourceUrl": "https://www.openstreetmap.org/node/12159729115",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-12-02T15:21:55+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12159729115",
+      "webPath": "/places/place-osm-node-12159729115",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "35b411bc-dcda-41b8-b755-d0f869f4cb60",
+      "slug": "place-osm-node-12250630101",
+      "cityId": "city-2edbb310-a924-44a8-a6d0-c9b825214fcf",
+      "cityName": "Теберда",
+      "region": "Карачаево-Черкесская Респ",
+      "name": "Городская Здравница",
+      "categoryIds": [
+        "pharmacy"
+      ],
+      "address": "улица Ленина, 15",
+      "coordinates": {
+        "lon": 41.744349,
+        "lat": 43.4394311
+      },
+      "phone": "+79283073333",
+      "website": "https://skladlekarstv.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12250630101",
+          "sourceUrl": "https://www.openstreetmap.org/node/12250630101",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-10-20T10:04:40+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12250630101",
+      "webPath": "/places/place-osm-node-12250630101",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "09f2f008-2c0a-46c6-9615-a062bb19f522",
+      "slug": "place-osm-node-1681588106",
+      "cityId": "city-1bde5cf4-7943-4b17-9718-2c1d96742be5",
+      "cityName": "Дербент",
+      "region": "Дагестан Респ",
+      "name": "Стоматология Today Plus",
+      "categoryIds": [
+        "medicine"
+      ],
+      "address": "368601, Дербент, улица Буйнакского, 14",
+      "coordinates": {
+        "lon": 48.3020351,
+        "lat": 42.0567169
+      },
+      "phone": "+79285301414",
+      "website": "http://todayplus.ru/",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/1681588106",
+          "sourceUrl": "https://www.openstreetmap.org/node/1681588106",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2020-12-01T07:56:07+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-1681588106",
+      "webPath": "/places/place-osm-node-1681588106",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "ea1da7e0-a007-44d7-be16-14126e60a766",
+      "slug": "place-osm-node-1808891736",
+      "cityId": "city-67488a01-ccb7-4638-bcad-117db0fbe9a3",
+      "cityName": "Котельники",
+      "region": "Московская обл",
+      "name": "Мастер отель Котельники",
+      "categoryIds": [
+        "hotel"
+      ],
+      "address": "Новорязанское шоссе, 5А",
+      "coordinates": {
+        "lon": 37.8664099,
+        "lat": 55.6669435
+      },
+      "phone": "+7 495 3967416",
+      "website": "http://master-hotel.ru",
+      "openingState": "unknown",
+      "openingHours": "24/7",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/1808891736",
+          "sourceUrl": "https://www.openstreetmap.org/node/1808891736",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2022-01-19T20:48:49+00:00",
+          "importedAt": "2026-11-26T23:56:41.617+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-1808891736",
+      "webPath": "/places/place-osm-node-1808891736",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "0386b215-1c89-4864-a455-9c217350fab7",
+      "slug": "place-osm-node-5895139756",
+      "cityId": "city-20ea2341-4f49-4c5c-a9dc-a54688c8cc61",
+      "cityName": "Владикавказ",
+      "region": "Северная Осетия - Алания Респ",
+      "name": "Сбербанк",
+      "categoryIds": [
+        "bank"
+      ],
+      "address": "Владикавказ, улица Джанаева, 36",
+      "coordinates": {
+        "lon": 44.6860521,
+        "lat": 43.0330241
+      },
+      "phone": "+7 800 5555550",
+      "website": "https://www.sberbank.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/5895139756",
+          "sourceUrl": "https://www.openstreetmap.org/node/5895139756",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-07-03T23:55:10+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-5895139756",
+      "webPath": "/places/place-osm-node-5895139756",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "9ab7b987-b61f-4a94-ae12-0207bd9f28f5",
+      "slug": "place-osm-node-9523575831",
+      "cityId": "city-c801edb4-aba2-4e1d-9ab2-69fcbf0aeb9c",
+      "cityName": "Магас",
+      "region": "Ингушетия Респ",
+      "name": "Djigit",
+      "categoryIds": [
+        "beauty"
+      ],
+      "address": "улица Никиты Хрущёва, 3",
+      "coordinates": {
+        "lon": 44.8063528,
+        "lat": 43.1706018
+      },
+      "phone": "+7 927 516 6666",
+      "website": "https://www.instagram.com/djigit.barbershop",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/9523575831",
+          "sourceUrl": "https://www.openstreetmap.org/node/9523575831",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2022-02-21T07:40:54+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-9523575831",
+      "webPath": "/places/place-osm-node-9523575831",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "c9caa20d-112c-4c68-9c9d-66f737c01604",
+      "slug": "place-osm-node-12541124478",
+      "cityId": "city-3672454d-2697-4ce1-9666-cc9c744ba5c5",
+      "cityName": "Аргун",
+      "region": "Чеченская Респ",
+      "name": "Роснефть",
+      "categoryIds": [
+        "fuel"
+      ],
+      "address": "Адрес не указан в OSM",
+      "coordinates": {
+        "lon": 45.883712,
+        "lat": 43.292112
+      },
+      "phone": "+7 800 7757588",
+      "website": "https://rosneft-azs.ru",
+      "openingState": "unknown",
+      "openingHours": "24/7",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12541124478",
+          "sourceUrl": "https://www.openstreetmap.org/node/12541124478",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2025-01-29T08:32:19+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12541124478",
+      "webPath": "/places/place-osm-node-12541124478",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "c96a206c-79dd-488d-bad5-7d4f520dda9e",
+      "slug": "place-osm-node-11594292949",
+      "cityId": "smolensk",
+      "cityName": "Смоленск",
+      "region": "Смоленская область",
+      "name": "Another World",
+      "categoryIds": [
+        "entertainment"
+      ],
+      "address": "Адрес не указан в OSM",
+      "coordinates": {
+        "lon": 32.0396143,
+        "lat": 54.7929692
+      },
+      "phone": "+7 951 7169610",
+      "website": "https://smolensk.another-world.com",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/11594292949",
+          "sourceUrl": "https://www.openstreetmap.org/node/11594292949",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-02-07T11:05:16+00:00",
+          "importedAt": "2026-11-26T23:41:54.59+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-11594292949",
+      "webPath": "/places/place-osm-node-11594292949",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "6e62516e-3abc-42d4-b015-b8b3608b3394",
+      "slug": "place-osm-node-12799808970",
+      "cityId": "city-913a82e3-b671-43d5-97b4-8a08b8ee2d28",
+      "cityName": "Нальчик",
+      "region": "Кабардино-Балкарская Респ",
+      "name": "Канцелярыч",
+      "categoryIds": [
+        "shopping"
+      ],
+      "address": "360004, улица Пачева, 33",
+      "coordinates": {
+        "lon": 43.601134,
+        "lat": 43.485481
+      },
+      "phone": "+7 (928) 709-63-17",
+      "website": "https://myfasol.ru",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12799808970",
+          "sourceUrl": "https://www.openstreetmap.org/node/12799808970",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-06-04T11:05:31+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12799808970",
+      "webPath": "/places/place-osm-node-12799808970",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "65c3e778-8901-4ab7-9d6e-56d9167653a7",
+      "slug": "place-osm-node-10571104309",
+      "cityId": "city-dcfa008b-e058-4be1-a409-18fc2b2e570f",
+      "cityName": "Зеленокумск",
+      "region": "Ставропольский край",
+      "name": "Ресторан ШЕФ",
+      "categoryIds": [
+        "cafe"
+      ],
+      "address": "улица 50 лет Октября, 49А",
+      "coordinates": {
+        "lon": 43.8585404,
+        "lat": 44.4143307
+      },
+      "phone": "8 (962) 445-35-35",
+      "website": "http://www.instagram.com/chieff_burger",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 10:00-00:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/10571104309",
+          "sourceUrl": "https://www.openstreetmap.org/node/10571104309",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-08-23T06:13:01+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-10571104309",
+      "webPath": "/places/place-osm-node-10571104309",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "67e9863b-db5b-4e4e-bc9e-9690baf5ab2d",
+      "slug": "place-osm-node-11451557169",
+      "cityId": "city-df679694-d505-4dd3-b514-4ba48c8a97d8",
+      "cityName": "Калининград",
+      "region": "Калининградская обл",
+      "name": "WooDoo",
+      "categoryIds": [
+        "beauty"
+      ],
+      "address": "236039, Ленинский проспект, 141",
+      "coordinates": {
+        "lon": 20.5031452,
+        "lat": 54.6979775
+      },
+      "phone": "+74012903444",
+      "website": "https://n1040492.yclients.com",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 10:00-21:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/11451557169",
+          "sourceUrl": "https://www.openstreetmap.org/node/11451557169",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-05-29T16:44:44+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-11451557169",
+      "webPath": "/places/place-osm-node-11451557169",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "8fae2a5e-81aa-4053-b23b-133d2bd181e3",
+      "slug": "place-osm-node-12219355301",
+      "cityId": "city-98cd19c4-e172-4fa3-a81d-7caedeec669b",
+      "cityName": "Кудрово",
+      "region": "Ленинградская обл",
+      "name": "Pit-Stop",
+      "categoryIds": [
+        "auto"
+      ],
+      "address": "188689, Областная улица, 4",
+      "coordinates": {
+        "lon": 30.5056713,
+        "lat": 59.9189511
+      },
+      "phone": "+78127481878",
+      "website": "https://pit-stops.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12219355301",
+          "sourceUrl": "https://www.openstreetmap.org/node/12219355301",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-10-17T06:56:33+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12219355301",
+      "webPath": "/places/place-osm-node-12219355301",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "3fef76e8-ab50-4377-be6e-d8779099a911",
+      "slug": "place-osm-node-12273208076",
+      "cityId": "city-2a1c7bdb-05ea-492f-9e1c-b3999f79dcbc",
+      "cityName": "Ставрополь",
+      "region": "Ставропольский край",
+      "name": "ОсКарД",
+      "categoryIds": [
+        "services"
+      ],
+      "address": "улица Булкина, 11",
+      "coordinates": {
+        "lon": 41.9669008,
+        "lat": 45.0459793
+      },
+      "phone": "+7 8652 979515",
+      "website": "https://oskard.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12273208076",
+          "sourceUrl": "https://www.openstreetmap.org/node/12273208076",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-01-31T19:32:01+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12273208076",
+      "webPath": "/places/place-osm-node-12273208076",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "d7e1546a-70cd-4716-a103-21b85e3c9928",
+      "slug": "place-osm-node-13155820102",
+      "cityId": "city-ff894fb7-acb4-4edf-bb48-c5349d89579b",
+      "cityName": "Невинномысск",
+      "region": "Ставропольский край",
+      "name": "GS",
+      "categoryIds": [
+        "hotel"
+      ],
+      "address": "Революционная улица, 196",
+      "coordinates": {
+        "lon": 41.9560968,
+        "lat": 44.6305555
+      },
+      "phone": "+79187772696",
+      "website": "https://gostevoidom-nevinnomyssk.ru",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/13155820102",
+          "sourceUrl": "https://www.openstreetmap.org/node/13155820102",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2025-09-27T18:01:39+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-13155820102",
+      "webPath": "/places/place-osm-node-13155820102",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "ba99c53e-2961-4a9a-833a-558e3998879d",
+      "slug": "place-osm-node-14133873349",
+      "cityId": "city-66cb21da-0212-4d22-a2a3-f1badcd3a9d4",
+      "cityName": "Гусев",
+      "region": "Калининградская обл",
+      "name": "Сургутнефтегаз",
+      "categoryIds": [
+        "fuel"
+      ],
+      "address": "Гусев, проспект Ленина, 7А",
+      "coordinates": {
+        "lon": 22.1952506,
+        "lat": 54.5942074
+      },
+      "phone": "+7-40143-31908",
+      "website": "https://surgutneftegas39.ru/",
+      "openingState": "unknown",
+      "openingHours": "24/7",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/14133873349",
+          "sourceUrl": "https://www.openstreetmap.org/node/14133873349",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-08-29T20:55:36+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-14133873349",
+      "webPath": "/places/place-osm-node-14133873349",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "befc6d93-9330-42cc-b2d0-383efcd42129",
+      "slug": "place-osm-node-1836530817",
+      "cityId": "city-ea88bcba-c562-438a-9115-8b32426b0c8e",
+      "cityName": "Георгиевск",
+      "region": "Ставропольский край",
+      "name": "Сбербанк",
+      "categoryIds": [
+        "bank"
+      ],
+      "address": "357820, Георгиевск, улица Калинина, 11",
+      "coordinates": {
+        "lon": 43.4722014,
+        "lat": 44.1462402
+      },
+      "phone": "+7 800 5555550",
+      "website": "https://www.sberbank.ru/",
+      "openingState": "unknown",
+      "openingHours": "09:00-19:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/1836530817",
+          "sourceUrl": "https://www.openstreetmap.org/node/1836530817",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2021-03-12T05:56:00+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-1836530817",
+      "webPath": "/places/place-osm-node-1836530817",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "cab67d74-c972-40fe-adf9-9ec43aeec2fe",
+      "slug": "place-osm-node-4782913323",
+      "cityId": "city-8f9e9cc0-711f-470a-9fff-2a65c00c8439",
+      "cityName": "Гвардейск",
+      "region": "Калининградская обл",
+      "name": "Будь Здоров",
+      "categoryIds": [
+        "pharmacy"
+      ],
+      "address": "238210, улица Тельмана, 4",
+      "coordinates": {
+        "lon": 21.0703389,
+        "lat": 54.6482112
+      },
+      "phone": "+7 40159 32329",
+      "website": "https://www.budzdorov.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/4782913323",
+          "sourceUrl": "https://www.openstreetmap.org/node/4782913323",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-02-18T11:56:46+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-4782913323",
+      "webPath": "/places/place-osm-node-4782913323",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "e4f9f95d-2518-43fe-acbe-3d1653ac0902",
+      "slug": "place-osm-node-9525282778",
+      "cityId": "city-0ca8280c-89cb-4c81-8a99-ae10a98416bc",
+      "cityName": "Ессентуки",
+      "region": "Ставропольский край",
+      "name": "Городская Стоматология №1",
+      "categoryIds": [
+        "medicine"
+      ],
+      "address": "Ессентуки, Кисловодская улица, 26А",
+      "coordinates": {
+        "lon": 42.8499117,
+        "lat": 44.0407412
+      },
+      "phone": "+7 906 4702002",
+      "website": "https://www.gorstom1.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 09:00-20:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/9525282778",
+          "sourceUrl": "https://www.openstreetmap.org/node/9525282778",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2022-12-08T13:43:33+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-9525282778",
+      "webPath": "/places/place-osm-node-9525282778",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "59289883-0e6a-4fa8-a2e5-404ce51dbf6e",
+      "slug": "place-osm-node-10916891405",
+      "cityId": "city-a8695cce-c623-4451-bb47-2d69ab22092a",
+      "cityName": "Каспийск",
+      "region": "Дагестан Респ",
+      "name": "СМАРТСТРОЙ",
+      "categoryIds": [
+        "shopping"
+      ],
+      "address": "368300, улица Хизроева, 16А",
+      "coordinates": {
+        "lon": 47.6294225,
+        "lat": 42.8901592
+      },
+      "phone": "+7 965 490-00-19",
+      "website": "https://stroy-sm.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Sa 09:00-17:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/10916891405",
+          "sourceUrl": "https://www.openstreetmap.org/node/10916891405",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-08-31T04:37:04+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-10916891405",
+      "webPath": "/places/place-osm-node-10916891405",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "b3e42b47-8b18-471d-94bf-ab07c72d9208",
+      "slug": "place-osm-node-11724670769",
+      "cityId": "city-a2072dc5-45be-4db3-ab13-10784ba8b2ae",
+      "cityName": "Грозный",
+      "region": "Чеченская Респ",
+      "name": "Caffe Risotto",
+      "categoryIds": [
+        "cafe"
+      ],
+      "address": "улица Х.У.Орзамиева, 11/73",
+      "coordinates": {
+        "lon": 45.6830067,
+        "lat": 43.3209668
+      },
+      "phone": "+79092229111",
+      "website": "https://caffe-risotto.clients.site/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Sa 10:00-00:00; Su 11:00-00:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/11724670769",
+          "sourceUrl": "https://www.openstreetmap.org/node/11724670769",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-03-16T12:49:01+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-11724670769",
+      "webPath": "/places/place-osm-node-11724670769",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "6bf63357-1ba0-4f00-ac0a-d21eb5e221c2",
+      "slug": "place-osm-node-13786137301",
+      "cityId": "city-82551e9e-14a4-4414-ad60-6cc944763ff3",
+      "cityName": "Кисловодск",
+      "region": "Ставропольский край",
+      "name": "Скала",
+      "categoryIds": [
+        "hotel"
+      ],
+      "address": "улица Александра Солженицына, 1",
+      "coordinates": {
+        "lon": 42.7238662,
+        "lat": 43.9008417
+      },
+      "phone": "+79620081886",
+      "website": "https://skala1903.ru/",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/13786137301",
+          "sourceUrl": "https://www.openstreetmap.org/node/13786137301",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-05-02T06:31:29+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-13786137301",
+      "webPath": "/places/place-osm-node-13786137301",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "78262282-2245-45f1-90ac-b403c99dcbea",
+      "slug": "place-osm-node-2653443279",
+      "cityId": "city-97323948-09db-411c-8e9a-43ad2ec25687",
+      "cityName": "Балтийск",
+      "region": "Калининградская обл",
+      "name": "Ионова Наталья Евгеньевна",
+      "categoryIds": [
+        "services"
+      ],
+      "address": "Садовая улица, 6",
+      "coordinates": {
+        "lon": 19.9092066,
+        "lat": 54.6552912
+      },
+      "phone": "+7 40145 38891",
+      "website": "https://39.notariat.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-We, Fr 09:00-12:30, 14:00-17:00; Th, Sa-Su off",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/2653443279",
+          "sourceUrl": "https://www.openstreetmap.org/node/2653443279",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2022-07-23T20:07:07+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-2653443279",
+      "webPath": "/places/place-osm-node-2653443279",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "9b367e96-9576-45ab-92fa-687544f8616f",
+      "slug": "place-osm-node-2681826532",
+      "cityId": "city-019979ae-6056-4ed8-98ef-48bded318dd2",
+      "cityName": "Светлоград",
+      "region": "Ставропольский край",
+      "name": "Россельхозбанк",
+      "categoryIds": [
+        "bank"
+      ],
+      "address": "Светлоград, улица Калинина, 22",
+      "coordinates": {
+        "lon": 42.8424155,
+        "lat": 45.3360364
+      },
+      "phone": "+7 86547 43346",
+      "website": "https://www.rshb.ru/",
+      "openingState": "unknown",
+      "openingHours": "9:00-18:30",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/2681826532",
+          "sourceUrl": "https://www.openstreetmap.org/node/2681826532",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-05-28T20:32:21+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-2681826532",
+      "webPath": "/places/place-osm-node-2681826532",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "2e722b74-1f53-44c2-887d-5a5587db34a8",
+      "slug": "place-osm-node-3975903809",
+      "cityId": "city-589a16ac-fb2e-46f9-b59a-98c18d34d908",
+      "cityName": "Ипатово",
+      "region": "Ставропольский край",
+      "name": "Роснефть",
+      "categoryIds": [
+        "fuel"
+      ],
+      "address": "Ипатово, Полевая улица, 2",
+      "coordinates": {
+        "lon": 42.9048224,
+        "lat": 45.7303885
+      },
+      "phone": "+7 800 7757588",
+      "website": "https://rosneft-azs.ru",
+      "openingState": "unknown",
+      "openingHours": "24/7",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/3975903809",
+          "sourceUrl": "https://www.openstreetmap.org/node/3975903809",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-11-13T08:51:52+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-3975903809",
+      "webPath": "/places/place-osm-node-3975903809",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "378d4d9a-915c-4245-9ed6-001bed5ee662",
+      "slug": "place-osm-node-4241410598",
+      "cityId": "city-3808db7f-f793-40d0-ad74-691c158bc2de",
+      "cityName": "Лермонтов",
+      "region": "Ставропольский край",
+      "name": "Milk Ink Tattoo",
+      "categoryIds": [
+        "beauty"
+      ],
+      "address": "357340, улица Патриса Лумумбы, 43",
+      "coordinates": {
+        "lon": 42.9644908,
+        "lat": 44.1098544
+      },
+      "phone": "+7 961 4614606",
+      "website": "http://vk.com/tattookalinin",
+      "openingState": "unknown",
+      "openingHours": "24/7",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/4241410598",
+          "sourceUrl": "https://www.openstreetmap.org/node/4241410598",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2021-03-12T05:56:02+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-4241410598",
+      "webPath": "/places/place-osm-node-4241410598",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "3e18b3f0-7495-477b-ad18-a103cb6dfd62",
+      "slug": "place-osm-node-4299036792",
+      "cityId": "city-e401208f-3469-403f-910b-bba057cf70b2",
+      "cityName": "Советск",
+      "region": "Калининградская обл",
+      "name": "Прокат автомобилей",
+      "categoryIds": [
+        "auto"
+      ],
+      "address": "238750",
+      "coordinates": {
+        "lon": 21.8847987,
+        "lat": 55.0771516
+      },
+      "phone": "+7 921 2635544",
+      "website": "https://www.tilzitrentacars.com/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/4299036792",
+          "sourceUrl": "https://www.openstreetmap.org/node/4299036792",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2019-03-21T21:18:34+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-4299036792",
+      "webPath": "/places/place-osm-node-4299036792",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "04e150e7-20e6-45a4-be1e-76e8cafb2046",
+      "slug": "place-osm-node-4863929423",
+      "cityId": "city-9b0efbd0-22bb-400d-86db-ddc69b9939d9",
+      "cityName": "Пятигорск",
+      "region": "Ставропольский край",
+      "name": "Вита-Плюс",
+      "categoryIds": [
+        "pharmacy"
+      ],
+      "address": "357500, Пятигорск, проспект Кирова, 54",
+      "coordinates": {
+        "lon": 43.0710324,
+        "lat": 44.0363311
+      },
+      "phone": "+7 928 3073333",
+      "website": "https://skladlekarstv.ru/",
+      "openingState": "unknown",
+      "openingHours": "24/7",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/4863929423",
+          "sourceUrl": "https://www.openstreetmap.org/node/4863929423",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2022-06-15T21:18:26+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-4863929423",
+      "webPath": "/places/place-osm-node-4863929423",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "86c19abe-0596-4065-8d34-09f3ae64b4f7",
+      "slug": "place-osm-node-12211726330",
+      "cityId": "city-acde8f61-fd56-4cec-a4df-1f033e2a63ee",
+      "cityName": "Черняховск",
+      "region": "Калининградская обл",
+      "name": "Таверна \"Зелёная кошка\"",
+      "categoryIds": [
+        "cafe"
+      ],
+      "address": "Черняховск, Спортивная улица, 4А",
+      "coordinates": {
+        "lon": 21.817109,
+        "lat": 54.6358727
+      },
+      "phone": "+79097801940",
+      "website": "https://zelenaja-koshka.clients.site/",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12211726330",
+          "sourceUrl": "https://www.openstreetmap.org/node/12211726330",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-09-30T13:10:50+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12211726330",
+      "webPath": "/places/place-osm-node-12211726330",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "9104d467-934a-4fa8-ad5a-a9f876fbd9c0",
+      "slug": "place-osm-node-12476181997",
+      "cityId": "city-27bc7f09-4593-4972-950b-231f2a49d44b",
+      "cityName": "Гурьевск",
+      "region": "Калининградская обл",
+      "name": "Пятёрочка",
+      "categoryIds": [
+        "shopping"
+      ],
+      "address": "Калининградское шоссе, 38а",
+      "coordinates": {
+        "lon": 20.6268942,
+        "lat": 54.7844881
+      },
+      "phone": "+78005555505",
+      "website": "https://5ka.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/12476181997",
+          "sourceUrl": "https://www.openstreetmap.org/node/12476181997",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2025-06-21T13:25:27+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-12476181997",
+      "webPath": "/places/place-osm-node-12476181997",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "c88ef16a-2c7e-416c-a2f2-80ed434e75dc",
+      "slug": "place-osm-node-13830731101",
+      "cityId": "city-2b3f4c49-0e5b-44c8-bf56-a335eb551c23",
+      "cityName": "Правдинск",
+      "region": "Калининградская обл",
+      "name": "АпартМузей Фридланд",
+      "categoryIds": [
+        "hotel"
+      ],
+      "address": "238400, Школьная улица, 8",
+      "coordinates": {
+        "lon": 21.0143674,
+        "lat": 54.4464544
+      },
+      "phone": "+79200985757",
+      "website": "https://fridlandpravdinsk.tilda.ws",
+      "openingState": "unknown",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/13830731101",
+          "sourceUrl": "https://www.openstreetmap.org/node/13830731101",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2026-05-17T17:54:23+00:00",
+          "importedAt": "2026-11-26T23:59:50.552+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-13830731101",
+      "webPath": "/places/place-osm-node-13830731101",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "ec01fb45-8871-47ca-80fd-6325dbbf8ae4",
+      "slug": "place-osm-node-3508855848",
+      "cityId": "city-727cdf1e-1b70-4e07-8995-9bf7ca9abefb",
+      "cityName": "Махачкала",
+      "region": "Дагестан Респ",
+      "name": "Сбербанк",
+      "categoryIds": [
+        "bank"
+      ],
+      "address": "Махачкала, проспект Расула Гамзатова, 64",
+      "coordinates": {
+        "lon": 47.5149519,
+        "lat": 42.9772122
+      },
+      "phone": "+7 800 5555550",
+      "website": "https://www.sberbank.ru",
+      "openingState": "unknown",
+      "openingHours": null,
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/3508855848",
+          "sourceUrl": "https://www.openstreetmap.org/node/3508855848",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2024-06-04T20:10:12+00:00",
+          "importedAt": "2026-11-27T00:02:15.098+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-3508855848",
+      "webPath": "/places/place-osm-node-3508855848",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    },
+    {
+      "id": "fb31de63-a25a-43b1-92a0-d91ea020c168",
+      "slug": "place-osm-node-4646736294",
+      "cityId": "city-6fa8b59c-cda7-4c98-8b41-e0bcb2867e16",
+      "cityName": "Дзержинский",
+      "region": "Московская обл",
+      "name": "Автосервис у Олега",
+      "categoryIds": [
+        "auto"
+      ],
+      "address": "140090, улица Овиновка, 41",
+      "coordinates": {
+        "lon": 37.8683761,
+        "lat": 55.6239082
+      },
+      "phone": "+7 917 5700912",
+      "website": "https://www.uolega.ru/",
+      "openingState": "unknown",
+      "openingHours": "Mo-Fr 10:00-20:00",
+      "hoursVerifiedAt": null,
+      "rating": null,
+      "photos": [],
+      "provenance": [
+        {
+          "sourceId": "osm",
+          "sourceRecordId": "node/4646736294",
+          "sourceUrl": "https://www.openstreetmap.org/node/4646736294",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "sourceUpdatedAt": "2023-09-17T00:00:57+00:00",
+          "importedAt": "2026-11-26T23:56:41.617+00:00"
+        }
+      ],
+      "apiPath": "/api/v1/places/place-osm-node-4646736294",
+      "webPath": "/places/place-osm-node-4646736294",
+      "listingOrigin": "open_source_starter",
+      "ownershipStatus": "not_claimed_by_this_manifest",
+      "paymentStatus": "not_asserted",
+      "operatingStatusEvidence": "OSM active tags only; operation not independently confirmed"
+    }
+  ]
+}

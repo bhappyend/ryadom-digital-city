@@ -1,0 +1,14 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/central_federal_district/smolensk_oblast-latest.osm.pbf",
+  "checksumUrl": "https://download.openstreetmap.fr/extracts/russia/central_federal_district/smolensk_oblast.osm.pbf.md5",
+  "stateUrl": "https://download.openstreetmap.fr/extracts/russia/central_federal_district/smolensk_oblast.state.txt",
+  "sourceTimestamp": "2026-11-25T00:06:47Z",
+  "replicationSequence": 7387177,
+  "md5": "b06a09374bdac2f0d9354eaf9e1c4a41",
+  "sha256": "cc44d9cc4ddc46b26ff2eeafa430a3add9f18b6f2fd25041574c59189346b3b2",
+  "bytes": 44088273,
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "acquiredAt": "2026-11-26T23:22:33.806Z"
+}

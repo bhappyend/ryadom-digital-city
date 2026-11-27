@@ -1,0 +1,63 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+import {AccountsRepository,AdminRepository,ImportRepository,createDatabasePool,migrate,seed,grantAdminRuntime,SMOLENSK_SEED} from '../src';
+import {OwnershipRepository} from '../src/ownership';
+
+const user=(email:string)=>({email,passwordPhc:'$argon2id$v=19$m=65536,t=3,p=1$test$test',displayName:'TEST ONLY actual account fixture',termsVersion:'test-v1',privacyVersion:'test-v1'});
+test('ownership and paid publication real PostGIS',{timeout:120000},async t=>{
+ assert.ok(process.env.DATABASE_URL&&process.env.APP_DATABASE_URL);const base=new URL(process.env.DATABASE_URL);const dbName=`ryadom_claimtest_${randomUUID().replaceAll('-','')}`;assert.match(dbName,/^ryadom_claimtest_[a-f0-9]{32}$/);
+ const owner=createDatabasePool(base.toString(),'migration');let created=false;let db:ReturnType<typeof createDatabasePool>|undefined,runtime:ReturnType<typeof createDatabasePool>|undefined;
+ try{
+  await owner.query(`CREATE DATABASE "${dbName}"`);created=true;base.pathname=`/${dbName}`;db=createDatabasePool(base.toString(),'migration');const pool=db;await migrate(pool);await seed(pool);
+  const url=new URL(process.env.APP_DATABASE_URL);url.pathname=`/${dbName}`;await grantAdminRuntime(pool,decodeURIComponent(url.username));runtime=createDatabasePool(url.toString());
+  const accounts=new AccountsRepository(pool),admin=await accounts.bootstrapSuperAdmin({...user('claims-admin@test.invalid'),emailVerifiedAt:new Date().toISOString()},{actorId:null,requestId:randomUUID()},'TEST ONLY explicit bootstrap fixture'),applicant=await accounts.createUser(user('claims-applicant@test.invalid')),stranger=await accounts.createUser(user('claims-stranger@test.invalid'));
+  const actor={actorId:admin.id,requestId:randomUUID()},app={actorId:applicant.id,requestId:randomUUID()},other={actorId:stranger.id,requestId:randomUUID()};
+  const repo=new AdminRepository(runtime),claims=new OwnershipRepository(runtime);
+  const run=(op:string,body:unknown={},params:Record<string,string>={},ctx=actor,query:Record<string,unknown>={})=>repo.execute(op,{body,params,query},ctx) as Promise<any>;
+  const direct=(op:string,body:Record<string,unknown>={},params:Record<string,string>={},ctx=actor,query:Record<string,unknown>={})=>claims.execute(op,params,query,body,ctx) as Promise<any>;
+  const imports=new ImportRepository(pool);const job=await imports.startImport('patchvale-admin');
+  const provenance=(id:string)=>({sourceId:'patchvale-admin',sourceRecordId:id,sourceUrl:null,license:'Operator-confirmed rights',attribution:'Patchvale operator-provided source evidence',sourceUpdatedAt:null,importedAt:new Date().toISOString()});
+  const place=async(id:string)=>(await imports.upsertPlace(job,{slug:id,name:`TEST ONLY ${id}`,cityId:'smolensk',categoryIds:['cafe'],address:'TEST ONLY isolated address',coordinates:SMOLENSK_SEED.center,description:null,phone:null,website:null,openingHours:null,accessibility:'unknown'},provenance(id))).placeId;
+  const placeId=await place('claim-first');const evidence={placeId,relationship:'owner',evidenceText:'TEST ONLY private independently checkable evidence',consent:true};let claimId='';
+  const verification={decision:'verify',expectedVersion:1,verificationMethod:'independent_registry',verificationNote:'TEST ONLY independently checked registry evidence'};
+  await t.test('own claim scoped listing and withdrawal, concurrent duplicate submission, pending evidence private',async()=>{
+   const attempts=await Promise.allSettled([direct('createOwnershipClaim',evidence,{},app),direct('createOwnershipClaim',evidence,{},app)]);assert.equal(attempts.filter(x=>x.status==='fulfilled').length,1);claimId=(attempts.find(x=>x.status==='fulfilled') as PromiseFulfilledResult<any>).value.id;
+   const mine=await direct('listMyClaims',{}, {},app);assert.equal(mine.pagination.total,1);assert.equal(mine.items[0].evidenceText,undefined);assert.equal(mine.items[0].applicantId,undefined);assert.equal((await direct('listMyClaims',{}, {},other)).pagination.total,0);
+   await assert.rejects(direct('withdrawClaim',{expectedVersion:1},{claimId},other),e=>(e as {code:string}).code==='NOT_FOUND');await assert.rejects(direct('listAdminClaims',{}, {},app),e=>(e as {code:string}).code==='FORBIDDEN');
+   const adminList=await direct('listAdminClaims');assert.equal(adminList.items[0].evidenceText,evidence.evidenceText);assert.equal((await direct('listMyClaims',{}, {},app,{page:100,limit:1})).pagination.total,1);
+   const extraPlace=await place('claim-withdraw');const extra=await direct('createOwnershipClaim',{...evidence,placeId:extraPlace},{},app);assert.equal((await direct('withdrawClaim',{expectedVersion:1},{claimId:extra.id},app)).status,'withdrawn');await assert.rejects(direct('withdrawClaim',{expectedVersion:1},{claimId:extra.id},app));
+  });
+  await t.test('independent verification CAS race, business/branch/membership atomic, identity stays unverified',async()=>{
+   await pool.query("INSERT INTO user_roles(user_id,role) VALUES($1,'business-manager')",[applicant.id]);await assert.rejects(direct('decideClaim',verification,{claimId},app),e=>(e as {code:string}).code==='FORBIDDEN');
+   const results=await Promise.allSettled([direct('decideClaim',verification,{claimId}),direct('decideClaim',verification,{claimId})]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);const verified=(results.find(x=>x.status==='fulfilled') as PromiseFulfilledResult<any>).value;assert.equal(verified.claim.status,'verified');assert.ok(verified.claim.businessId);
+   const membership=(await pool.query('SELECT * FROM business_memberships WHERE user_id=$1 AND business_id=$2',[applicant.id,verified.claim.businessId])).rows[0];assert.equal(membership.active,true);assert.equal((await pool.query('SELECT count(*)::int AS n FROM business_branches WHERE place_id=$1',[placeId])).rows[0].n,1);assert.equal((await pool.query('SELECT count(*)::int AS n FROM ownership_claim_decisions WHERE claim_id=$1',[claimId])).rows[0].n,1);
+   const identity=await accounts.getAccount(applicant.id);assert.equal(identity.emailVerified,false);assert.equal(identity.mfaEnrolled,false);assert.ok(!identity.roles.includes('business-owner'));
+   const competing=await direct('createOwnershipClaim',evidence,{},other);await assert.rejects(direct('decideClaim',verification,{claimId:competing.id}),e=>(e as {code:string}).code==='CONFLICT');
+  });
+  await t.test('claim decision audit storage failure rolls back new business/branch/membership',async()=>{
+   const p=await place('claim-rollback');const r=await direct('createOwnershipClaim',{...evidence,placeId:p},{},other);const before=(await pool.query('SELECT count(*)::int AS n FROM businesses')).rows[0].n;
+   await pool.query("CREATE FUNCTION fail_claim_decision() RETURNS trigger LANGUAGE plpgsql AS 'BEGIN RAISE EXCEPTION ''test decision storage failure''; END'; CREATE TRIGGER test_claim_failure BEFORE INSERT ON ownership_claim_decisions FOR EACH ROW EXECUTE FUNCTION fail_claim_decision()");try{await assert.rejects(direct('decideClaim',verification,{claimId:r.id}));assert.equal((await pool.query('SELECT count(*)::int AS n FROM businesses')).rows[0].n,before);assert.equal((await pool.query('SELECT count(*)::int AS n FROM business_branches WHERE place_id=$1',[p])).rows[0].n,0);assert.equal((await pool.query('SELECT status FROM owner_claims WHERE id=$1',[r.id])).rows[0].status,'pending');}finally{await pool.query('DROP TRIGGER test_claim_failure ON ownership_claim_decisions; DROP FUNCTION fail_claim_decision()');}
+  });
+  let listingId='',listingVersion=0,receiptCount=0;
+  await t.test('payment never verifies rights; accepted current funding plus real verified claim permits admin publication',async()=>{
+   const listing=await run('applyPaidListing',{placeId,placementRequest:'TEST ONLY real monthly listing request',termsConsent:true},{},app);listingId=listing.id;const quote=await run('quoteListing',{expectedVersion:listing.version,amountRub:100,terms:'TEST ONLY monthly real agreed terms'},{listingId});
+   const crm=await run('createCrmOwner',{dataScope:'production',displayName:'TEST ONLY actual applicant CRM',accountId:applicant.id,notes:null,reason:'TEST ONLY explicit account CRM'});
+   const start=new Date(Date.now()-86400000).toISOString();const end=(await pool.query("SELECT (($1::timestamptz AT TIME ZONE 'Europe/Moscow')+interval '1 month') AT TIME ZONE 'Europe/Moscow' AS value",[start])).rows[0].value.toISOString();
+   const agreement=await run('recordFounderAgreement',{expectedVersion:quote.version,quoteId:quote.quoteId,ownerId:crm.id,acceptedBy:'TEST ONLY actual customer acceptance',acceptedAt:new Date(Date.now()-172800000).toISOString(),channel:'vk',agreementReference:'TEST ONLY explicit founder agreement',verificationNote:'TEST ONLY independently recorded acceptance',billingTimezone:'Europe/Moscow',billingAnchorAt:start,idempotencyKey:randomUUID()},{listingId});
+   await assert.rejects(direct('reviewListing',{expectedVersion:agreement.version,decision:'approve',note:'TEST ONLY unfunded approval'},{listingId}),e=>(e as {code:string}).code==='CONFLICT');
+   const paid=await run('confirmManualPayment',{expectedVersion:agreement.version,quoteId:quote.quoteId,agreementReference:'TEST ONLY explicit founder agreement',receiptReference:'TEST ONLY actual received settlement',amountRub:100,currency:'RUB',receivedAt:new Date(Date.now()-1000).toISOString(),periodStartsAt:start,periodEndsAt:end,idempotencyKey:randomUUID(),reason:'TEST ONLY actual independently checked receipt'},{listingId});assert.equal(paid.ownershipState,'verified');assert.equal(paid.placementState,'pending-review');assert.equal(paid.subscription.status,'pending');listingVersion=paid.version;
+   await assert.rejects(direct('reviewListing',{expectedVersion:paid.version,decision:'approve',note:'TEST ONLY forbidden self review'},{listingId},app));
+   const before=(await pool.query('SELECT * FROM users WHERE id=$1',[applicant.id])).rows[0];const approvals=await Promise.allSettled([direct('reviewListing',{expectedVersion:paid.version,decision:'approve',note:'TEST ONLY independent content approval'},{listingId}),direct('reviewListing',{expectedVersion:paid.version,decision:'approve',note:'TEST ONLY independent duplicate approval'},{listingId})]);assert.equal(approvals.filter(x=>x.status==='fulfilled').length,1);
+   const detail=await run('getAdminListing',{}, {listingId});assert.equal(detail.listing.placementState,'published');assert.equal(detail.listing.subscription.status,'active');assert.equal(detail.fundedSubscriptionSummary.receiptId,(await pool.query('SELECT id FROM manual_subscription_payments WHERE listing_id=$1',[listingId])).rows[0].id);assert.deepEqual((await pool.query('SELECT * FROM users WHERE id=$1',[applicant.id])).rows[0],before);receiptCount=(await pool.query('SELECT count(*)::int AS n FROM manual_subscription_payments WHERE listing_id=$1',[listingId])).rows[0].n;
+  });
+  await t.test('claim revoke races listing approval safely, removes membership/entitlement but preserves settlement',async()=>{
+   // Return paid listing to review to race both independently authorized decisions.
+   await pool.query("UPDATE listing_applications SET placement_state='pending-review' WHERE id=$1",[listingId]);const version=(await pool.query('SELECT version FROM listing_applications WHERE id=$1',[listingId])).rows[0].version;
+   await Promise.allSettled([direct('reviewListing',{expectedVersion:version,decision:'approve',note:'TEST ONLY approval racing revocation'},{listingId}),direct('decideClaim',{...verification,expectedVersion:2,decision:'revoke'},{claimId})]);
+   assert.equal((await pool.query('SELECT status FROM owner_claims WHERE id=$1',[claimId])).rows[0].status,'revoked');assert.equal((await pool.query('SELECT active FROM business_memberships WHERE user_id=$1',[applicant.id])).rows[0].active,false);
+   const detail=await run('getAdminListing',{}, {listingId});assert.equal(detail.listing.ownershipState,'revoked');assert.equal(detail.listing.subscription.status,'pending');assert.equal(detail.fundedSubscriptionSummary,null);assert.notEqual(detail.listing.placementState,'published');assert.equal((await pool.query('SELECT count(*)::int AS n FROM manual_subscription_payments WHERE listing_id=$1',[listingId])).rows[0].n,receiptCount);
+   await assert.rejects(runtime!.query('UPDATE ownership_claim_decisions SET version=99'));await assert.rejects(runtime!.query('DELETE FROM listing_review_decisions'));
+  });
+ }finally{await runtime?.end();await db?.end();if(created)await owner.query(`DROP DATABASE "${dbName}" WITH (FORCE)`);await owner.end();}
+});

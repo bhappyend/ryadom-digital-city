@@ -1,0 +1,12 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/central_federal_district/kaluga_oblast-latest.osm.pbf",
+  "resolvedUrl": "https://download.openstreetmap.fr/extracts/russia/central_federal_district/kaluga_oblast-latest.osm.pbf",
+  "fetchedAt": "2026-11-27T00:04:32.742Z",
+  "sourceLastModified": "Wed, 25 Nov 2026 00:09:00 GMT",
+  "bytes": 46694136,
+  "sha256": "3daf8d66509de030aa681a27ea5f77772ace652fd6d2fc10dfd7aad857b7186e",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

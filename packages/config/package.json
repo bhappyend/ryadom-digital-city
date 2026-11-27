@@ -1,0 +1,6 @@
+{
+  "name": "@ryadom/config",
+  "version": "0.1.0",
+  "private": true,
+  "exports": { "./tsconfig/web": "./tsconfig.web.json", "./tsconfig/api": "./tsconfig.api.json" }
+}

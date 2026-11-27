@@ -1,0 +1,11 @@
+{
+  "url": "https://download.bbbike.org/osm/bbbike/Moscow/Moscow.osm.pbf",
+  "fetchedAt": "2026-11-26T23:52:44.422Z",
+  "sourceLastModified": "Sat, 21 Nov 2026 16:34:10 GMT",
+  "bytes": 85594039,
+  "sha256": "1138bfcf0323c9ac1f7808ad5076bb17efe1ad81b980b0bc8de74fb9032e275a",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

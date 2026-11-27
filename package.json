@@ -1,0 +1,38 @@
+{
+  "name": "ryadom-digital-city",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Рядом by Patchvale — city directory and GIS monorepo",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0",
+    "npm": ">=10.9.0"
+  },
+  "packageManager": "npm@10.9.7",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build:shared": "npm run build --workspace=@ryadom/types && npm run build --workspace=@ryadom/accounts-types && npm run build --workspace=@ryadom/gis && npm run build --workspace=@ryadom/db",
+    "build": "npm run build:shared && npm run build --workspace=@ryadom/api && npm run build --workspace=@ryadom/web",
+    "typecheck": "npm run build:shared && npm run typecheck --workspace=@ryadom/types --workspace=@ryadom/accounts-types --workspace=@ryadom/gis --workspace=@ryadom/db --workspace=@ryadom/importer --workspace=@ryadom/city-catalog --workspace=@ryadom/ui --workspace=@ryadom/api --workspace=@ryadom/web --workspace=@ryadom/qa",
+    "test": "npm run build:shared && npm run test:runtime && npm run test:pwa && npm run test:business && npm run test --workspace=@ryadom/types --workspace=@ryadom/accounts-types --workspace=@ryadom/gis --workspace=@ryadom/db --workspace=@ryadom/importer --workspace=@ryadom/city-catalog --workspace=@ryadom/ui --workspace=@ryadom/api --workspace=@ryadom/web",
+    "contracts:generate": "npm run build --workspace=@ryadom/types && node packages/types/scripts/openapi.mjs",
+    "contracts:check": "npm run build --workspace=@ryadom/types && node packages/types/scripts/openapi.mjs --check",
+    "dev:web": "node scripts/runtime.mjs web dev",
+    "dev:api": "node scripts/runtime.mjs api dev",
+    "test:runtime": "node --test scripts/runtime.test.mjs",
+    "start:web": "node scripts/runtime.mjs web start",
+    "start:api": "node scripts/runtime.mjs api start",
+    "test:pwa": "node --test --test-reporter=dot apps/web/src/components/pwa/tests/verify-pwa.mjs apps/web/src/components/pwa/tests/verify-install.mjs apps/web/src/components/pwa/tests/verify-registration.mjs",
+    "contracts:accounts:check": "npm run build --workspace=@ryadom/types && npm run build --workspace=@ryadom/accounts-types && npm run contracts:check --workspace=@ryadom/accounts-types",
+    "test:business": "node apps/web/scripts/verify-business.mjs",
+    "package:release": "node scripts/package-release.mjs",
+    "test:release": "node --test scripts/package-release.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.7",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2"
+  }
+}

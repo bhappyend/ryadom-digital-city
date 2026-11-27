@@ -1,0 +1,50 @@
+{
+  "auto": {
+    "src": "/admin-illustrations/auto-v1.png",
+    "alt": "Иллюстрация категории: Автомобильное колесо и торцевой ключ"
+  },
+  "bank": {
+    "src": "/admin-illustrations/bank-v1.png",
+    "alt": "Иллюстрация категории: Монеты, кошелёк и банковская карта без надписей"
+  },
+  "beauty": {
+    "src": "/admin-illustrations/beauty-v1.png",
+    "alt": "Иллюстрация категории: Ножницы, расчёска и полотенце"
+  },
+  "cafe": {
+    "src": "/admin-illustrations/cafe-v1.png",
+    "alt": "Иллюстрация категории: Чашка эспрессо и кофейные зёрна"
+  },
+  "entertainment": {
+    "src": "/admin-illustrations/entertainment-v1.png",
+    "alt": "Иллюстрация категории: Попкорн, пустые билеты и игровой контроллер"
+  },
+  "fuel": {
+    "src": "/admin-illustrations/fuel-v1.png",
+    "alt": "Иллюстрация категории: Топливный пистолет с чёрным шлангом"
+  },
+  "hotel": {
+    "src": "/admin-illustrations/hotel-v1.png",
+    "alt": "Иллюстрация категории: Полотенце, ключ и дорожный чемодан"
+  },
+  "medicine": {
+    "src": "/admin-illustrations/medicine-v1.png",
+    "alt": "Иллюстрация категории: Стетоскоп и белое полотенце"
+  },
+  "pharmacy": {
+    "src": "/admin-illustrations/pharmacy-v1.png",
+    "alt": "Иллюстрация категории: Нейтральные аптечные упаковки и закрытый флакон"
+  },
+  "services": {
+    "src": "/admin-illustrations/services-v1.png",
+    "alt": "Иллюстрация категории: Разводной ключ, отвёртка и измерительная лента"
+  },
+  "shopping": {
+    "src": "/admin-illustrations/shopping-v1.png",
+    "alt": "Иллюстрация категории: Пакеты для покупок и посылка без надписей"
+  },
+  "sport": {
+    "src": "/admin-illustrations/sport-v1.png",
+    "alt": "Иллюстрация категории: Гантели и свёрнутый спортивный коврик"
+  }
+}

@@ -1,0 +1,158 @@
+# Compose >=2.24.4 required for !reset. Supply reviewed immutable application image digests.
+# Run with -f compose.yaml -f infra/compose.production.yaml --env-file <private production env>.
+services:
+  tools:
+    profiles: [maintenance]
+    image: ${TOOLS_IMAGE:?Set TOOLS_IMAGE to the matching reviewed tools image digest}
+    init: true
+    user: "10001:10001"
+    read_only: true
+    tmpfs: [/tmp:rw,noexec,nosuid,size=32m]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    networks: [default]
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL using the migration administrator at db:5432}
+      ACCOUNTS_BOOTSTRAP_DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL using the migration administrator at db:5432}
+      APP_DB_USER: ${APP_DB_USER:-ryadom_app}
+      APP_DATABASE_URL: ${APP_DATABASE_URL:?Set APP_DATABASE_URL}
+      REDIS_URL: ${REDIS_URL:?Set REDIS_URL}
+      CORS_ORIGINS: https://${SITE_HOST:?Set SITE_HOST}
+      ACCOUNTS_ENABLED: ${ACCOUNTS_ENABLED:-false}
+      ACCOUNT_MFA_KEY: ${ACCOUNT_MFA_KEY:-}
+      ACCOUNT_RATE_KEY: ${ACCOUNT_RATE_KEY:-}
+      ACCOUNT_MFA_KEY_ID: ${ACCOUNT_MFA_KEY_ID:-v1}
+    mem_limit: 512m
+    cpus: 1.0
+    pids_limit: 100
+  db:
+    image: ${POSTGIS_IMAGE:?Set POSTGIS_IMAGE to a reviewed compatible PostGIS image digest}
+    ports: !reset []
+  redis:
+    ports: !reset []
+  web:
+    image: ${WEB_IMAGE:?Set WEB_IMAGE to a reviewed Next image with sha256 digest}
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      WEB_PORT: "3000"
+      HOSTNAME: 0.0.0.0
+      API_URL: http://api:3001
+      PUBLIC_SITE_URL: https://${SITE_HOST:?Set SITE_HOST}
+      WEB_MAP_CONNECT_ORIGINS: ${WEB_MAP_CONNECT_ORIGINS:-}
+      SITE_ENVIRONMENT: production
+      SEO_INDEXING_ENABLED: ${SEO_INDEXING_ENABLED:-false}
+    expose: ["3000"]
+    networks: [edge]
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    read_only: true
+    user: "10001:10001"
+    tmpfs: [/tmp:rw,noexec,nosuid,size=64m]
+    volumes:
+      - next_cache:/app/apps/web/.next/cache
+    mem_limit: 768m
+    cpus: 1.0
+    pids_limit: 100
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    logging: {driver: local, options: {max-size: 10m, max-file: "3"}}
+  api:
+    image: ${API_IMAGE:?Set API_IMAGE to a reviewed Nest image with sha256 digest}
+    restart: unless-stopped
+    init: true
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    environment:
+      NODE_ENV: production
+      PORT: "3001"
+      API_PORT: "3001"
+      API_HOST: 0.0.0.0
+      API_TRUSTED_PROXIES: ${PROXY_IPV4:-172.29.15.2}/32
+      DATABASE_URL: ${APP_DATABASE_URL:?Set APP_DATABASE_URL using the runtime role and db:5432}
+      APP_DATABASE_URL: ${APP_DATABASE_URL:?Set APP_DATABASE_URL using the runtime role and db:5432}
+      REDIS_URL: ${REDIS_URL:?Set authenticated REDIS_URL using redis:6379}
+      CORS_ORIGINS: https://${SITE_HOST:?Set SITE_HOST to the production hostname}
+      ACCOUNTS_ENABLED: ${ACCOUNTS_ENABLED:-false}
+      ACCOUNT_MFA_KEY: ${ACCOUNT_MFA_KEY:-}
+      ACCOUNT_RATE_KEY: ${ACCOUNT_RATE_KEY:-}
+      ACCOUNT_MFA_KEY_ID: ${ACCOUNT_MFA_KEY_ID:-v1}
+      ACCOUNT_MEDIA_ROOT: /var/lib/ryadom/media
+      PUBLIC_MEDIA_ORIGIN: https://${SITE_HOST:?Set SITE_HOST}
+      GEOCODER_PROVIDER: ${GEOCODER_PROVIDER:-disabled}
+      NOMINATIM_URL: ${NOMINATIM_URL:-}
+      VALHALLA_URL: ${VALHALLA_URL:-}
+      GIS_ALLOWED_ORIGINS: ${GIS_ALLOWED_ORIGINS:-}
+      GIS_ALLOW_HTTP: ${GIS_ALLOW_HTTP:-false}
+      MAP_STYLE_URL: ${MAP_STYLE_URL:-}
+      MAP_ALLOWED_ORIGINS: ${MAP_ALLOWED_ORIGINS:-}
+      MAP_ATTRIBUTION: ${MAP_ATTRIBUTION:-}
+    expose: ["3001"]
+    networks: [default, edge]
+    healthcheck:
+      # API04 implements dependency-aware readiness outside the /api/v1 prefix.
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3001/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    read_only: true
+    user: "10001:10001"
+    tmpfs: [/tmp:rw,noexec,nosuid,size=32m]
+    volumes:
+      - media_data:/var/lib/ryadom/media
+    mem_limit: 512m
+    cpus: 1.0
+    pids_limit: 100
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    logging: {driver: local, options: {max-size: 10m, max-file: "3"}}
+  proxy:
+    image: caddy:2.10.2-alpine@sha256:4c6e91c6ed0e2fa03efd5b44747b625fec79bc9cd06ac5235a779726618e530d
+    restart: unless-stopped
+    depends_on:
+      web: {condition: service_healthy}
+      api: {condition: service_healthy}
+    environment:
+      SITE_HOST: ${SITE_HOST:?Set SITE_HOST}
+      ACME_EMAIL: ${ACME_EMAIL:?Set ACME_EMAIL}
+    ports: ["80:80", "443:443"]
+    networks:
+      edge:
+        ipv4_address: ${PROXY_IPV4:-172.29.15.2}
+    volumes:
+      - ./infra/proxy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    healthcheck:
+      test: [CMD, wget, -q, --spider, http://127.0.0.1:8080/healthz]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    read_only: true
+    tmpfs: [/tmp:rw,noexec,nosuid,size=16m]
+    mem_limit: 128m
+    cpus: 0.5
+    pids_limit: 50
+    security_opt: [no-new-privileges:true]
+    logging: {driver: local, options: {max-size: 10m, max-file: "3"}}
+
+volumes:
+  media_data:
+  next_cache:
+  caddy_data:
+  caddy_config:
+
+networks:
+  edge:
+    ipam:
+      config:
+        - subnet: ${PROXY_SUBNET:-172.29.15.0/28}

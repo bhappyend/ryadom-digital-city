@@ -1,0 +1,4033 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "url": "https://download.bbbike.org/osm/bbbike/SanktPetersburg/SanktPetersburg.osm.pbf",
+    "resolvedUrl": "https://download.bbbike.org/osm/bbbike/SanktPetersburg/SanktPetersburg.osm.pbf",
+    "fetchedAt": "2026-11-26T23:57:23.907Z",
+    "sourceLastModified": "Sat, 21 Nov 2026 16:34:10 GMT",
+    "bytes": 53832608,
+    "sha256": "b2e91740817eec7fffc92d27ae5d2aaedd5a2feddbde086abee1ef90e9d0dc42",
+    "tlsVerified": true,
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+  },
+  "pbfHeaderTimestamp": "2026-11-21T00:00:00Z",
+  "extractedAt": "2026-11-27T00:00:17.334672+00:00",
+  "selectionMethod": "Named commercial node candidates, nearest vetted city center within 8km, actual OSM city/place/admin_level8 polygon containment; no coordinate fabrication",
+  "cities": [
+    {
+      "city": {
+        "id": "city-98cd19c4-e172-4fa3-a81d-7caedeec669b",
+        "name": "Кудрово",
+        "region": "Ленинградская обл",
+        "center": {
+          "lon": 30.5121008,
+          "lat": 59.9075226
+        },
+        "timezone": "Europe/Moscow",
+        "countryCode": "RU",
+        "bounds": [
+          30.4966226,
+          59.8866123,
+          30.5277137,
+          59.9246665
+        ],
+        "enabled": true
+      },
+      "boundary": {
+        "geometry": [
+          [
+            [
+              [
+                30.4966226,
+                59.894031
+              ],
+              [
+                30.4972477,
+                59.893986
+              ],
+              [
+                30.4966722,
+                59.8914063
+              ],
+              [
+                30.4974091,
+                59.8913632
+              ],
+              [
+                30.4976002,
+                59.8905431
+              ],
+              [
+                30.5007664,
+                59.8866123
+              ],
+              [
+                30.5033199,
+                59.8871344
+              ],
+              [
+                30.5045303,
+                59.8874168
+              ],
+              [
+                30.5053322,
+                59.8876486
+              ],
+              [
+                30.5069994,
+                59.8880669
+              ],
+              [
+                30.5080555,
+                59.8883595
+              ],
+              [
+                30.50915,
+                59.8886366
+              ],
+              [
+                30.5156175,
+                59.8902289
+              ],
+              [
+                30.5154526,
+                59.8903365
+              ],
+              [
+                30.5174889,
+                59.8908389
+              ],
+              [
+                30.5189481,
+                59.8911863
+              ],
+              [
+                30.5193933,
+                59.8914965
+              ],
+              [
+                30.5198179,
+                59.8918377
+              ],
+              [
+                30.5203826,
+                59.8924745
+              ],
+              [
+                30.5199568,
+                59.8925738
+              ],
+              [
+                30.5201944,
+                59.8928326
+              ],
+              [
+                30.5203882,
+                59.8927843
+              ],
+              [
+                30.5206039,
+                59.8927288
+              ],
+              [
+                30.5210161,
+                59.89319
+              ],
+              [
+                30.521721,
+                59.8939809
+              ],
+              [
+                30.5222754,
+                59.8947037
+              ],
+              [
+                30.522822,
+                59.8954415
+              ],
+              [
+                30.5236646,
+                59.8966982
+              ],
+              [
+                30.5240797,
+                59.8974786
+              ],
+              [
+                30.5234227,
+                59.8975735
+              ],
+              [
+                30.5237544,
+                59.8982434
+              ],
+              [
+                30.5240196,
+                59.8982229
+              ],
+              [
+                30.5243723,
+                59.8981747
+              ],
+              [
+                30.5244043,
+                59.8982493
+              ],
+              [
+                30.5245297,
+                59.8985285
+              ],
+              [
+                30.5246055,
+                59.8986907
+              ],
+              [
+                30.5247568,
+                59.8992276
+              ],
+              [
+                30.5242282,
+                59.8992738
+              ],
+              [
+                30.5245088,
+                59.8999453
+              ],
+              [
+                30.5250893,
+                59.8999064
+              ],
+              [
+                30.525337,
+                59.9008273
+              ],
+              [
+                30.5254799,
+                59.9015187
+              ],
+              [
+                30.5256314,
+                59.9029219
+              ],
+              [
+                30.5256518,
+                59.9035928
+              ],
+              [
+                30.5256562,
+                59.9037989
+              ],
+              [
+                30.5249261,
+                59.903796
+              ],
+              [
+                30.5249377,
+                59.9038793
+              ],
+              [
+                30.524945,
+                59.9041672
+              ],
+              [
+                30.5249334,
+                59.9045187
+              ],
+              [
+                30.5252729,
+                59.9045202
+              ],
+              [
+                30.5257309,
+                59.9045061
+              ],
+              [
+                30.5256273,
+                59.9057773
+              ],
+              [
+                30.5253336,
+                59.9082044
+              ],
+              [
+                30.5252404,
+                59.9093648
+              ],
+              [
+                30.5245058,
+                59.9093414
+              ],
+              [
+                30.524465,
+                59.9100633
+              ],
+              [
+                30.5251622,
+                59.9100655
+              ],
+              [
+                30.5250832,
+                59.9122454
+              ],
+              [
+                30.5250618,
+                59.9128347
+              ],
+              [
+                30.5250347,
+                59.9133914
+              ],
+              [
+                30.5249164,
+                59.9148186
+              ],
+              [
+                30.5247724,
+                59.9156566
+              ],
+              [
+                30.5247255,
+                59.9158018
+              ],
+              [
+                30.5247245,
+                59.9158504
+              ],
+              [
+                30.5247181,
+                59.9158929
+              ],
+              [
+                30.5246316,
+                59.916068
+              ],
+              [
+                30.5246872,
+                59.9160747
+              ],
+              [
+                30.5248488,
+                59.9160767
+              ],
+              [
+                30.5249145,
+                59.9166213
+              ],
+              [
+                30.5250339,
+                59.9176444
+              ],
+              [
+                30.525257,
+                59.9186659
+              ],
+              [
+                30.5252953,
+                59.9188456
+              ],
+              [
+                30.5254215,
+                59.9191428
+              ],
+              [
+                30.5257653,
+                59.9201742
+              ],
+              [
+                30.5264219,
+                59.9213005
+              ],
+              [
+                30.5277137,
+                59.9233487
+              ],
+              [
+                30.5183743,
+                59.9246665
+              ],
+              [
+                30.5180266,
+                59.9242823
+              ],
+              [
+                30.5175278,
+                59.9234505
+              ],
+              [
+                30.5167878,
+                59.9222444
+              ],
+              [
+                30.5167244,
+                59.9221271
+              ],
+              [
+                30.5166292,
+                59.9219134
+              ],
+              [
+                30.5166131,
+                59.9217582
+              ],
+              [
+                30.5166131,
+                59.9216929
+              ],
+              [
+                30.5166051,
+                59.9215773
+              ],
+              [
+                30.5166654,
+                59.9214181
+              ],
+              [
+                30.5167298,
+                59.9212513
+              ],
+              [
+                30.5175921,
+                59.9198559
+              ],
+              [
+                30.5172364,
+                59.9198116
+              ],
+              [
+                30.5171462,
+                59.9198001
+              ],
+              [
+                30.5169806,
+                59.91978
+              ],
+              [
+                30.5169383,
+                59.9197756
+              ],
+              [
+                30.5169193,
+                59.9197737
+              ],
+              [
+                30.5168471,
+                59.9197662
+              ],
+              [
+                30.5167894,
+                59.9197592
+              ],
+              [
+                30.5167124,
+                59.9197531
+              ],
+              [
+                30.5156912,
+                59.9196627
+              ],
+              [
+                30.5156539,
+                59.9196503
+              ],
+              [
+                30.5140596,
+                59.9195056
+              ],
+              [
+                30.5137795,
+                59.9194803
+              ],
+              [
+                30.5131378,
+                59.9194213
+              ],
+              [
+                30.5110913,
+                59.9192595
+              ],
+              [
+                30.5073971,
+                59.919097
+              ],
+              [
+                30.5040765,
+                59.9188685
+              ],
+              [
+                30.5041784,
+                59.9194197
+              ],
+              [
+                30.5042428,
+                59.9199252
+              ],
+              [
+                30.5045016,
+                59.9199164
+              ],
+              [
+                30.5045257,
+                59.9202532
+              ],
+              [
+                30.503656,
+                59.9202871
+              ],
+              [
+                30.5046585,
+                59.924458
+              ],
+              [
+                30.5035132,
+                59.9245225
+              ],
+              [
+                30.5024368,
+                59.9195181
+              ],
+              [
+                30.5022673,
+                59.9187247
+              ],
+              [
+                30.5021318,
+                59.9180987
+              ],
+              [
+                30.5017314,
+                59.9163976
+              ],
+              [
+                30.5015811,
+                59.9157452
+              ],
+              [
+                30.5014382,
+                59.9151591
+              ],
+              [
+                30.5013159,
+                59.9145964
+              ],
+              [
+                30.5011662,
+                59.9137764
+              ],
+              [
+                30.5010017,
+                59.9131024
+              ],
+              [
+                30.5006012,
+                59.9112505
+              ],
+              [
+                30.500548,
+                59.9109991
+              ],
+              [
+                30.5000422,
+                59.9087986
+              ],
+              [
+                30.4994888,
+                59.9062552
+              ],
+              [
+                30.4977181,
+                59.899066
+              ],
+              [
+                30.4969633,
+                59.8960194
+              ],
+              [
+                30.4966682,
+                59.8942274
+              ],
+              [
+                30.4966226,
+                59.894031
+              ]
+            ]
+          ]
+        ],
+        "bounds": [
+          30.4966226,
+          59.8866123,
+          30.5277137,
+          59.9246665
+        ],
+        "size": 0.0011831469376199725,
+        "recordId": "relation/2571986",
+        "timestamp": "2026-05-05T16:07:06Z",
+        "tags": {
+          "addr:country": "RU",
+          "addr:district": "Всеволожский район",
+          "addr:postcode": "188689",
+          "addr:region": "Ленинградская область",
+          "addr:subdistrict": "Заневское городское поселение",
+          "boundary": "place",
+          "name": "Кудрово",
+          "name:en": "Kudrovo",
+          "name:fi": "Väärämäki",
+          "name:ru": "Кудрово",
+          "place": "town",
+          "wikidata": "Q4244555",
+          "wikipedia": "ru:Кудрово"
+        }
+      },
+      "candidates": [
+        {
+          "type": "node",
+          "id": 8557342009,
+          "lon": 30.5140617,
+          "lat": 59.9078011,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "7",
+            "addr:postcode": "188691",
+            "addr:street": "Пражская улица",
+            "contact:email": "info@eaglesbarber.ru",
+            "contact:phone": "+7 969 7296393",
+            "contact:website": "http://eaglesbarber.ru",
+            "male": "yes",
+            "name": "Eagles Barber",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "hairdresser"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8237271920,
+          "lon": 30.513467,
+          "lat": 59.9093337,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "21",
+            "addr:street": "Европейский проспект",
+            "amenity": "restaurant",
+            "cuisine": "asian;kebab",
+            "name": "Bahroma",
+            "phone": "+7 (812) 207-16-30",
+            "website": "https://www.bahroma1.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8237271919,
+          "lon": 30.5135661,
+          "lat": 59.9093179,
+          "timestamp": "2026-02-13T13:51:47Z",
+          "tags": {
+            "addr:housenumber": "21",
+            "addr:street": "Европейский проспект",
+            "air_conditioning": "yes",
+            "alt_name": "Токио-Сити",
+            "alt_name:ru": "ТОКИО-CITY",
+            "amenity": "restaurant",
+            "brand": "Токио-Сити",
+            "brand:wikidata": "Q110236926",
+            "contact:email": "info@tokyo-city.ru",
+            "contact:phone": "+7-812-207-15-40",
+            "contact:vk": "https://vk.com/club10958821",
+            "contact:website": "https://www.tokyo-city.ru",
+            "cuisine": "japanese;international;pizza",
+            "delivery": "yes",
+            "diet:vegetarian": "yes",
+            "indoor_seating": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Токио-Сити",
+            "name:en": "Tokyo-City",
+            "name:ru": "Токио-Сити",
+            "opening_hours": "Fr-Sa 12:00-01:00; Mo-Th,Su 12:00-24:00",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "reservation": "yes",
+            "smoking": "no",
+            "takeaway": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9455779812,
+          "lon": 30.5142731,
+          "lat": 59.9093159,
+          "timestamp": "2023-08-26T20:51:14Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "21",
+            "addr:street": "Европейский проспект",
+            "beauty": "nails;pedicure;eyelash;eyebrow",
+            "name": "Galka Beauty Bar",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "phone": "+78129431223",
+            "shop": "beauty",
+            "website": "http://galkabeautybar.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9455779813,
+          "lon": 30.51614,
+          "lat": 59.9085121,
+          "timestamp": "2024-03-20T10:35:48Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "18 к2",
+            "addr:street": "Европейский проспект",
+            "contact:email": "reddragon-spb@mail.ru",
+            "contact:phone": "+7 812 7010187",
+            "contact:website": "https://reddragon-spb.ru/",
+            "name": "Красный дракон",
+            "opening_hours": "Mo-Su 10:00-21:00",
+            "shop": "convenience"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5158782228,
+          "lon": 30.5171108,
+          "lat": 59.907856,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:housenumber": "18 к2",
+            "addr:street": "Европейский проспект",
+            "brand": "220 вольт",
+            "brand:en": "220 Volt",
+            "brand:ru": "220 вольт",
+            "brand:wikidata": "Q18635304",
+            "brand:wikipedia": "ru:220 Вольт (компания)",
+            "description": "Магазин электроинструмента",
+            "email": "info@220-volt.ru",
+            "name": "220 вольт",
+            "name:en": "220 Volt",
+            "name:ru": "220 вольт",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "phone": "+79657976021",
+            "shop": "hardware",
+            "website": "https://220-volt-promo.ru/store/g-sankt-peterburg/derevnya-kudrovo-evropeyskiy-prospekt-18k2"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6601237283,
+          "lon": 30.5156658,
+          "lat": 59.9094093,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "18-1",
+            "addr:postcode": "188691",
+            "addr:street": "Европейский проспект",
+            "description": "Фотопечать. Широкоформатная печать. Фото на документы. Фотосувениры: магниты, кружки, футболки, фотокниги, рамки-копилки и т.д. Фоторамки, фотоальбомы. Плёнки, проявка и сканирование фотоплёнок. Копировальные услуги. Полиграфия. Оцифровка аудио и видео.",
+            "email": "kudrovo@lavkafoto.ru",
+            "level": "0",
+            "name": "Фотолавка",
+            "opening_hours": "10:00-22:00",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_debit": "yes",
+            "payment:visa_electron": "yes",
+            "phone": "+7 900 6209226",
+            "shop": "photo",
+            "website": "https://lavkafoto.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6601237284,
+          "lon": 30.5156843,
+          "lat": 59.9094292,
+          "timestamp": "2023-01-05T12:35:39Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "18-1",
+            "addr:postcode": "188691",
+            "addr:street": "Европейский проспект",
+            "contact:vk": "https://vk.com/lavkafotostudio",
+            "craft": "photographer",
+            "description": "Интерьерная фотостудия. Экспресс-съёмка, фотосессии, предметная съёмка, фотопрогулки. Аренда зала, аренда фототехники (только для съёмок в зале).",
+            "level": "0",
+            "name": "Фотостудия",
+            "opening_hours": "10:00-21:00",
+            "operator": "Фотолавка",
+            "phone": "+7 900 6202612",
+            "source": "local knowledge",
+            "start_date": "25.03.2019"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8237270646,
+          "lon": 30.508329,
+          "lat": 59.9101979,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "4",
+            "addr:street": "Пражская улица",
+            "name": "Боровичи Мебель",
+            "opening_hours": "Mo-Su 11:00-20:00",
+            "phone": "+7-921-908-42-75",
+            "shop": "furniture",
+            "website": "http://xn----9sbbc4aa3baneq3e.xn--p1ai/katalog"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5685857157,
+          "lon": 30.5205532,
+          "lat": 59.9052459,
+          "timestamp": "2026-02-16T10:21:01Z",
+          "tags": {
+            "addr:housenumber": "15",
+            "addr:street": "Пражская улица",
+            "brand": "Семишагофф",
+            "brand:wikidata": "Q58003374",
+            "contact:email": "marketing7shagov@yandex.ru",
+            "contact:ok": "semishagoff",
+            "contact:phone": "+7 812 6485000",
+            "contact:telegram": "semishagoff7",
+            "contact:vk": "7shagoff",
+            "contact:website": "https://semishagoff.org",
+            "internet_access": "no",
+            "name": "Семишагофф",
+            "name:en": "Semishagoff",
+            "name:ru": "Семишагофф",
+            "opening_hours": "08:00-23:00",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "shop": "supermarket",
+            "website": "https://semishagoff.org/",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9018087030,
+          "lon": 30.5214683,
+          "lat": 59.9060258,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "19",
+            "addr:street": "Пражская улица",
+            "amenity": "pharmacy",
+            "brand": "Невис",
+            "brand:wikidata": "Q109837740",
+            "healthcare": "pharmacy",
+            "level": "1",
+            "name": "Невис",
+            "name:en": "Nevis",
+            "name:et": "Nevis",
+            "name:it": "Nevis",
+            "name:ru": "Невис",
+            "website": "https://aptekanevis.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7928651949,
+          "lon": 30.5171981,
+          "lat": 59.9032837,
+          "timestamp": "2023-10-30T13:08:49Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "2",
+            "addr:street": "Английская улица",
+            "brand": "Дикси",
+            "brand:en": "Dixy",
+            "brand:ru": "Дикси",
+            "brand:wikidata": "Q4161561",
+            "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+            "contact:email": "dixy@dixy.ru",
+            "contact:facebook": "Dixyclub",
+            "contact:instagram": "dixy.channel",
+            "contact:ok": "dixyclub",
+            "contact:phone": "+7 800 1011001",
+            "contact:vk": "dixyclub",
+            "contact:website": "https://dixy.ru",
+            "contact:youtube": "https://www.youtube.com/user/DixyChannel",
+            "name": "Дикси",
+            "name:en": "Dixy",
+            "name:ru": "Дикси",
+            "opening_hours": "24/7",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8557363860,
+          "lon": 30.5200763,
+          "lat": 59.9031845,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "2",
+            "addr:postcode": "188692",
+            "addr:street": "Английская улица",
+            "contact:email": "info@eaglesbarber.ru",
+            "contact:phone": "+7 969 7296393",
+            "contact:website": "http://eaglesbarber.ru",
+            "male": "yes",
+            "name": "Eagles Barber",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "hairdresser"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7928651953,
+          "lon": 30.5202466,
+          "lat": 59.9031922,
+          "timestamp": "2026-01-10T18:41:26Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "2",
+            "addr:street": "Английская улица",
+            "amenity": "pharmacy",
+            "brand": "Здравсити",
+            "check_date": "2026-01-10",
+            "dispensing": "yes",
+            "drive_through": "no",
+            "healthcare": "pharmacy",
+            "name": "Здравсити",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "website": "https://spb.budzdorov.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6985420494,
+          "lon": 30.5035127,
+          "lat": 59.9118392,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "1Л",
+            "addr:street": "Ленинградская улица",
+            "name": "Веломастер",
+            "opening_hours": "Mo-Su 11:00-20:00",
+            "payment:cash": "yes",
+            "payment:debit_cards": "yes",
+            "phone": "+7 812 9818071",
+            "service:bicycle:repair": "yes",
+            "shop": "bicycle"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7825648662,
+          "lon": 30.511425,
+          "lat": 59.9001465,
+          "timestamp": "2026-07-16T16:07:58Z",
+          "tags": {
+            "addr:housenumber": "4 к2",
+            "addr:street": "Венская улица",
+            "alt_name": "Пятерочка",
+            "alt_name:ru": "Пятерочка",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:ru": "Пятёрочка",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "contact:email": "vopros@5ka.ru",
+            "contact:facebook": "pyaterochka",
+            "contact:instagram": "pyaterochka_official",
+            "contact:ok": "pyaterochka",
+            "contact:phone": "+7 800 5555505",
+            "contact:telegram": "ks5_bot",
+            "contact:vk": "pyaterochka",
+            "contact:website": "https://5ka.ru",
+            "contact:whatsapp": "79865555505",
+            "int_name": "Pyaterochka",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "name:ru": "Пятёрочка",
+            "opening_hours": "08:00-23:00",
+            "operator": "ООО \"Агроторг\"",
+            "operator:ref:inn": "7825706086",
+            "payment:cash": "yes",
+            "payment:coins": "yes",
+            "payment:credit_cards": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "ref": "22736",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5178914551,
+          "lon": 30.5161299,
+          "lat": 59.9000415,
+          "timestamp": "2025-10-23T23:27:41Z",
+          "tags": {
+            "addr:housenumber": "4 к4",
+            "addr:street": "Столичная улица",
+            "cuisine": "sushi",
+            "delivery": "yes",
+            "name": "Fidel",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "phone": "+7 812 9267478",
+            "shop": "seafood",
+            "website": "https://fidel.bar/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8556952523,
+          "lon": 30.5025106,
+          "lat": 59.9000131,
+          "timestamp": "2026-02-08T08:40:51Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "3",
+            "addr:postcode": "193232",
+            "addr:street": "Промышленная улица",
+            "name": "Мебель Маркет",
+            "opening_hours": "11:00-20:00",
+            "phone": "+7 (921) 943 20 35",
+            "shop": "furniture",
+            "website": "https://mebelmarket.su"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8037296156,
+          "lon": 30.5050402,
+          "lat": 59.9164368,
+          "timestamp": "2026-08-27T23:18:04Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "1",
+            "addr:street": "Областная улица",
+            "contact:vk": "https://vk.com/club11111586",
+            "description": "Приемный пункт химчистки",
+            "name": "Пингвин",
+            "opening_hours": "Mo-Su 11:00-20:00",
+            "phone": "+7 911 7758990",
+            "shop": "dry_cleaning",
+            "website": "http://химчисткапингвин.рф"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6948693537,
+          "lon": 30.5124234,
+          "lat": 59.8973328,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "3",
+            "addr:street": "Европейский проспект",
+            "name": "Стрижи",
+            "opening_hours": "Mo-Sa 10:00-22:00",
+            "phone": "+7 812 6002208",
+            "shop": "hairdresser",
+            "website": "https://salonstriji.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9367494213,
+          "lon": 30.5101032,
+          "lat": 59.8966484,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "54 к2",
+            "addr:postcode": "188691",
+            "addr:street": "Центральная улица",
+            "amenity": "dentist",
+            "brand": "Мой Зубной",
+            "brand:wikidata": "Q110775866",
+            "healthcare": "dentist",
+            "healthcare:speciality": "dentist",
+            "image": "https://moyzubnoy.ru/d/dsc_2986.jpg",
+            "name": "Мой Зубной",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "ООО \"Вита\"",
+            "phone": "+7 (812) 603-71-61, +7 (812) 676-80-00, +7 (812) 679-05-86",
+            "website": "https://moyzubnoy.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9415425315,
+          "lon": 30.5160499,
+          "lat": 59.9191703,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "2",
+            "addr:postcode": "188691",
+            "addr:street": "проспект Строителей",
+            "amenity": "fast_food",
+            "name": "BBQ Shaverma",
+            "opening_hours": "Mo-Su 11:00-24:00",
+            "phone": "+7 (999) 246 35 41",
+            "website": "https://bbqshaverma.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12219355301,
+          "lon": 30.5056713,
+          "lat": 59.9189511,
+          "timestamp": "2024-10-17T06:56:33Z",
+          "tags": {
+            "addr:housenumber": "4",
+            "addr:postcode": "188689",
+            "addr:street": "Областная улица",
+            "name": "Pit-Stop",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "phone": "+78127481878",
+            "shop": "car_repair",
+            "website": "https://pit-stops.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 442515597,
+          "lon": 30.5137657,
+          "lat": 59.8947048,
+          "timestamp": "2026-06-23T11:58:12Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "1",
+            "addr:postcode": "188691",
+            "addr:street": "12-й км Мурманского шоссе",
+            "brand": "Ашан",
+            "brand:en": "Auchan",
+            "brand:ru": "Ашан",
+            "brand:wikidata": "Q110053013",
+            "brand:wikipedia": "ru:Auchan",
+            "check_date": "2023-11-22",
+            "contact:facebook": "auchanrussia",
+            "contact:instagram": "auchan.ru",
+            "contact:twitter": "auchan_ru",
+            "contact:vk": "auchan",
+            "contact:youtube": "https://www.youtube.com/c/АШАНРитейлРоссия",
+            "email": "dostavka@auchan.ru",
+            "internet_access": "no",
+            "level": "1",
+            "name": "Ашан",
+            "name:en": "Auchan",
+            "name:fr": "Auchan",
+            "name:ru": "Ашан",
+            "opening_hours": "Mo-Th 08:00-23:00; Fr 08:00-24:00; Sa 07:00-24:00; Su 07:00-23:00",
+            "operator": "ООО \"Ашан\"",
+            "operator:ref:inn": "7703270067",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "phone": "+7 800 7005800",
+            "ref": "Дыбенко",
+            "shop": "supermarket",
+            "website": "https://www.auchan.ru/",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6444850449,
+          "lon": 30.5179343,
+          "lat": 59.8946351,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "1",
+            "addr:street": "Мурманское шоссе, 12-й километр",
+            "address:comment": "1 этаж, район Кудрово",
+            "contact:email": "im@respect-shoes.ru",
+            "contact:facebook": "https://www.facebook.com/RESPECTSHOES",
+            "contact:instagram": "https://www.instagram.com/respectshoes/",
+            "contact:phone": "+7 (800) 555-52-92;+7 812 3851269",
+            "contact:vk": "https://vk.com/respectshoess",
+            "contact:website": "https://respect-shoes.ru/",
+            "name": "Respect",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "operator": "Респект-Онлайн",
+            "shop": "shoes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5228192835,
+          "lon": 30.5149328,
+          "lat": 59.9084259,
+          "timestamp": "2025-10-03T17:45:08Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "16",
+            "addr:street": "Европейский проспект",
+            "check_date": "2025-10-03",
+            "name": "Цветовик",
+            "shop": "florist"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9355289448,
+          "lon": 30.5083132,
+          "lat": 59.9102195,
+          "timestamp": "2023-08-26T20:54:46Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "4",
+            "addr:postcode": "188692",
+            "addr:street": "Пражская улица",
+            "amenity": "cafe",
+            "cuisine": "coffee_shop;cookies",
+            "internet_access": "no",
+            "name": "Пачка Кофе",
+            "opening_hours": "Mo-Su 07:00-22:00",
+            "outdoor_seating": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6807920580,
+          "lon": 30.5195264,
+          "lat": 59.9045907,
+          "timestamp": "2023-08-26T20:54:46Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "11",
+            "addr:street": "Столичная улица",
+            "amenity": "cafe",
+            "name": "Город кошек",
+            "outdoor_seating": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9843966885,
+          "lon": 30.5089588,
+          "lat": 59.9005699,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "4 к1",
+            "addr:street": "Венская улица",
+            "brand": "Wildberries",
+            "brand:wikidata": "Q24933714",
+            "name": "Wildberries",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14138364001,
+          "lon": 30.5125869,
+          "lat": 59.9148807,
+          "timestamp": "2026-08-31T21:25:37Z",
+          "tags": {
+            "addr:housenumber": "7",
+            "addr:street": "Ленинградская улица",
+            "check_date": "2026-08-26",
+            "name": "Магнит",
+            "shop": "grocery"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5606930687,
+          "lon": 30.5200539,
+          "lat": 59.915322,
+          "timestamp": "2023-08-26T20:54:46Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "9/8",
+            "addr:street": "Ленинградская улица",
+            "amenity": "cafe",
+            "cuisine": "sandwich;cake;coffee_shop;specialty_coffee",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Filter",
+            "name:ru": "Фильтр",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "outdoor_seating": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10982037577,
+          "lon": 30.5183349,
+          "lat": 59.9176955,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:city": "Кудрово",
+            "addr:housenumber": "4",
+            "addr:street": "проспект Строителей",
+            "amenity": "pharmacy",
+            "drive_through": "no",
+            "healthcare": "pharmacy",
+            "name": "АптекиПлюс",
+            "opening_hours": "Mo-Su 09:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 13830439102,
+          "lon": 30.5220067,
+          "lat": 59.9232461,
+          "timestamp": "2026-09-19T15:09:18Z",
+          "tags": {
+            "addr:housenumber": "2",
+            "addr:street": "Солнечная улица",
+            "check_date": "2026-09-19",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 13830450701,
+          "lon": 30.5213398,
+          "lat": 59.9234172,
+          "timestamp": "2026-09-19T15:09:18Z",
+          "tags": {
+            "addr:housenumber": "2",
+            "addr:street": "Солнечная улица",
+            "check_date": "2026-09-19",
+            "name": "Пятёрочка",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "shop": "convenience"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14242363777,
+          "lon": 30.505596,
+          "lat": 59.9039673,
+          "timestamp": "2026-10-02T10:19:33Z",
+          "tags": {
+            "amenity": "fuel",
+            "name": "ВиБенз",
+            "opening_hours": "24/7"
+          }
+        }
+      ]
+    },
+    {
+      "city": {
+        "id": "city-d73506c5-015c-4c39-929a-696ea8144e16",
+        "name": "Мурино",
+        "region": "Ленинградская обл",
+        "center": {
+          "lon": 30.4571456,
+          "lat": 60.044862
+        },
+        "timezone": "Europe/Moscow",
+        "countryCode": "RU",
+        "bounds": [
+          30.4156491,
+          60.0318143,
+          30.5010529,
+          60.0813053
+        ],
+        "enabled": true
+      },
+      "boundary": {
+        "geometry": [
+          [
+            [
+              [
+                30.4156491,
+                60.0467092
+              ],
+              [
+                30.4188839,
+                60.0460853
+              ],
+              [
+                30.4249333,
+                60.0448258
+              ],
+              [
+                30.4251136,
+                60.0443545
+              ],
+              [
+                30.4306165,
+                60.0431742
+              ],
+              [
+                30.4340319,
+                60.0424416
+              ],
+              [
+                30.4348138,
+                60.0422647
+              ],
+              [
+                30.4355682,
+                60.0420384
+              ],
+              [
+                30.4362608,
+                60.0417502
+              ],
+              [
+                30.4368335,
+                60.0413767
+              ],
+              [
+                30.4372644,
+                60.0409978
+              ],
+              [
+                30.437606,
+                60.0406025
+              ],
+              [
+                30.4377124,
+                60.0401391
+              ],
+              [
+                30.4376124,
+                60.039133
+              ],
+              [
+                30.4378491,
+                60.0392323
+              ],
+              [
+                30.4419316,
+                60.0409456
+              ],
+              [
+                30.4452965,
+                60.0403215
+              ],
+              [
+                30.4492015,
+                60.0394468
+              ],
+              [
+                30.450849,
+                60.039081
+              ],
+              [
+                30.4583365,
+                60.0375389
+              ],
+              [
+                30.4592916,
+                60.037121
+              ],
+              [
+                30.4598579,
+                60.0366179
+              ],
+              [
+                30.460539,
+                60.0361783
+              ],
+              [
+                30.4610956,
+                60.0356282
+              ],
+              [
+                30.4611966,
+                60.0353225
+              ],
+              [
+                30.4612288,
+                60.0349946
+              ],
+              [
+                30.4612935,
+                60.0346851
+              ],
+              [
+                30.4614875,
+                60.03454
+              ],
+              [
+                30.4624979,
+                60.0342166
+              ],
+              [
+                30.4640517,
+                60.0339604
+              ],
+              [
+                30.4652625,
+                60.0334536
+              ],
+              [
+                30.4669762,
+                60.0337553
+              ],
+              [
+                30.4677911,
+                60.0337317
+              ],
+              [
+                30.4748377,
+                60.0337256
+              ],
+              [
+                30.4783887,
+                60.0337225
+              ],
+              [
+                30.4803008,
+                60.0338073
+              ],
+              [
+                30.4803983,
+                60.0338115
+              ],
+              [
+                30.4857296,
+                60.0340464
+              ],
+              [
+                30.4903728,
+                60.0342534
+              ],
+              [
+                30.4963211,
+                60.0345865
+              ],
+              [
+                30.4973335,
+                60.0346432
+              ],
+              [
+                30.5002403,
+                60.0318143
+              ],
+              [
+                30.4999889,
+                60.0327164
+              ],
+              [
+                30.4998118,
+                60.0335317
+              ],
+              [
+                30.4996203,
+                60.0346066
+              ],
+              [
+                30.4993343,
+                60.0394474
+              ],
+              [
+                30.4993092,
+                60.0402319
+              ],
+              [
+                30.49943,
+                60.0419748
+              ],
+              [
+                30.4994517,
+                60.0432517
+              ],
+              [
+                30.4995863,
+                60.0452502
+              ],
+              [
+                30.4997567,
+                60.0482015
+              ],
+              [
+                30.49981,
+                60.0491146
+              ],
+              [
+                30.4998966,
+                60.0512757
+              ],
+              [
+                30.4999304,
+                60.0518309
+              ],
+              [
+                30.5000512,
+                60.0536657
+              ],
+              [
+                30.5006465,
+                60.0570292
+              ],
+              [
+                30.5010529,
+                60.0588968
+              ],
+              [
+                30.500558,
+                60.0590593
+              ],
+              [
+                30.4994668,
+                60.0593613
+              ],
+              [
+                30.4977608,
+                60.0598171
+              ],
+              [
+                30.4975922,
+                60.0599183
+              ],
+              [
+                30.4959371,
+                60.0603408
+              ],
+              [
+                30.4957151,
+                60.060388
+              ],
+              [
+                30.4957811,
+                60.0598533
+              ],
+              [
+                30.4957995,
+                60.0594212
+              ],
+              [
+                30.4956438,
+                60.0588629
+              ],
+              [
+                30.4954599,
+                60.0584349
+              ],
+              [
+                30.4950871,
+                60.0578853
+              ],
+              [
+                30.493589,
+                60.0577072
+              ],
+              [
+                30.4932561,
+                60.057712
+              ],
+              [
+                30.4930089,
+                60.0577879
+              ],
+              [
+                30.4926855,
+                60.0576598
+              ],
+              [
+                30.4923717,
+                60.0575886
+              ],
+              [
+                30.4921625,
+                60.057693
+              ],
+              [
+                30.4916679,
+                60.0576787
+              ],
+              [
+                30.4916109,
+                60.0575696
+              ],
+              [
+                30.4916869,
+                60.0574746
+              ],
+              [
+                30.4914777,
+                60.0573844
+              ],
+              [
+                30.491259,
+                60.0573749
+              ],
+              [
+                30.4912114,
+                60.0572515
+              ],
+              [
+                30.4916204,
+                60.0571898
+              ],
+              [
+                30.4915633,
+                60.0570759
+              ],
+              [
+                30.491316,
+                60.0569477
+              ],
+              [
+                30.4910878,
+                60.0569477
+              ],
+              [
+                30.4910212,
+                60.0568575
+              ],
+              [
+                30.4911734,
+                60.0567911
+              ],
+              [
+                30.4911448,
+                60.0566771
+              ],
+              [
+                30.4909871,
+                60.0565412
+              ],
+              [
+                30.4907932,
+                60.056405
+              ],
+              [
+                30.4904326,
+                60.0562184
+              ],
+              [
+                30.4900285,
+                60.0558372
+              ],
+              [
+                30.4898646,
+                60.0556443
+              ],
+              [
+                30.4897691,
+                60.0554908
+              ],
+              [
+                30.4869,
+                60.0538699
+              ],
+              [
+                30.4868948,
+                60.0538643
+              ],
+              [
+                30.4868776,
+                60.0538509
+              ],
+              [
+                30.4868138,
+                60.0537426
+              ],
+              [
+                30.4868421,
+                60.0536372
+              ],
+              [
+                30.4871871,
+                60.0533727
+              ],
+              [
+                30.4872898,
+                60.0532553
+              ],
+              [
+                30.4873499,
+                60.0531865
+              ],
+              [
+                30.487304,
+                60.0530852
+              ],
+              [
+                30.4872994,
+                60.053075
+              ],
+              [
+                30.4871276,
+                60.0526956
+              ],
+              [
+                30.4866582,
+                60.0524653
+              ],
+              [
+                30.486111,
+                60.0522577
+              ],
+              [
+                30.4854834,
+                60.0521654
+              ],
+              [
+                30.4847646,
+                60.0523528
+              ],
+              [
+                30.4839224,
+                60.0524519
+              ],
+              [
+                30.4835335,
+                60.0521931
+              ],
+              [
+                30.4831066,
+                60.0516016
+              ],
+              [
+                30.4829759,
+                60.0514232
+              ],
+              [
+                30.4827973,
+                60.0513232
+              ],
+              [
+                30.4825272,
+                60.0512884
+              ],
+              [
+                30.4824618,
+                60.0511905
+              ],
+              [
+                30.4824009,
+                60.0510883
+              ],
+              [
+                30.482244,
+                60.0510579
+              ],
+              [
+                30.4820175,
+                60.0510318
+              ],
+              [
+                30.481987,
+                60.0509296
+              ],
+              [
+                30.4823181,
+                60.050786
+              ],
+              [
+                30.482109,
+                60.0505859
+              ],
+              [
+                30.4817777,
+                60.0504673
+              ],
+              [
+                30.4815498,
+                60.0504335
+              ],
+              [
+                30.4813447,
+                60.0503016
+              ],
+              [
+                30.4809337,
+                60.0502243
+              ],
+              [
+                30.4806441,
+                60.0501936
+              ],
+              [
+                30.4800958,
+                60.0502797
+              ],
+              [
+                30.4792087,
+                60.0502551
+              ],
+              [
+                30.478186,
+                60.0500952
+              ],
+              [
+                30.4774221,
+                60.0498553
+              ],
+              [
+                30.4768799,
+                60.0497384
+              ],
+              [
+                30.4766828,
+                60.0493324
+              ],
+              [
+                30.4761283,
+                60.0490802
+              ],
+              [
+                30.4755369,
+                60.0487541
+              ],
+              [
+                30.4751549,
+                60.0485081
+              ],
+              [
+                30.4744033,
+                60.0482251
+              ],
+              [
+                30.4740829,
+                60.0479482
+              ],
+              [
+                30.4729786,
+                60.0468013
+              ],
+              [
+                30.4707037,
+                60.0470652
+              ],
+              [
+                30.468607,
+                60.0472972
+              ],
+              [
+                30.4679458,
+                60.0473685
+              ],
+              [
+                30.4677755,
+                60.0473869
+              ],
+              [
+                30.467617,
+                60.047405
+              ],
+              [
+                30.467518,
+                60.0474163
+              ],
+              [
+                30.4674931,
+                60.0474196
+              ],
+              [
+                30.4664398,
+                60.047561
+              ],
+              [
+                30.4662315,
+                60.047589
+              ],
+              [
+                30.465631,
+                60.0476698
+              ],
+              [
+                30.4651581,
+                60.0478157
+              ],
+              [
+                30.4647317,
+                60.047936
+              ],
+              [
+                30.4645289,
+                60.0479904
+              ],
+              [
+                30.4643459,
+                60.0480366
+              ],
+              [
+                30.4642387,
+                60.0480637
+              ],
+              [
+                30.4646756,
+                60.0483408
+              ],
+              [
+                30.4649683,
+                60.0485696
+              ],
+              [
+                30.4650867,
+                60.0486839
+              ],
+              [
+                30.4652471,
+                60.0488487
+              ],
+              [
+                30.4653412,
+                60.0489771
+              ],
+              [
+                30.4653658,
+                60.0490107
+              ],
+              [
+                30.4654179,
+                60.049101
+              ],
+              [
+                30.4654845,
+                60.0492164
+              ],
+              [
+                30.4655605,
+                60.0494173
+              ],
+              [
+                30.465581,
+                60.0495115
+              ],
+              [
+                30.4656021,
+                60.0496087
+              ],
+              [
+                30.4656292,
+                60.0500464
+              ],
+              [
+                30.4656411,
+                60.0502713
+              ],
+              [
+                30.4648269,
+                60.0502715
+              ],
+              [
+                30.463741,
+                60.0501577
+              ],
+              [
+                30.4627078,
+                60.0500993
+              ],
+              [
+                30.4625964,
+                60.050093
+              ],
+              [
+                30.4619983,
+                60.0500592
+              ],
+              [
+                30.4613816,
+                60.0499161
+              ],
+              [
+                30.4597235,
+                60.0496976
+              ],
+              [
+                30.4594439,
+                60.0498908
+              ],
+              [
+                30.4594322,
+                60.0499243
+              ],
+              [
+                30.4590642,
+                60.0501825
+              ],
+              [
+                30.4589885,
+                60.0503001
+              ],
+              [
+                30.4589551,
+                60.0504189
+              ],
+              [
+                30.4590101,
+                60.0506204
+              ],
+              [
+                30.4590371,
+                60.0508402
+              ],
+              [
+                30.45898,
+                60.0510064
+              ],
+              [
+                30.4588108,
+                60.0511621
+              ],
+              [
+                30.4587096,
+                60.0513137
+              ],
+              [
+                30.4586842,
+                60.0514125
+              ],
+              [
+                30.4586908,
+                60.0515119
+              ],
+              [
+                30.4587383,
+                60.0516073
+              ],
+              [
+                30.4587941,
+                60.0517385
+              ],
+              [
+                30.4588533,
+                60.0520302
+              ],
+              [
+                30.4587336,
+                60.0523484
+              ],
+              [
+                30.4585383,
+                60.0526037
+              ],
+              [
+                30.4583441,
+                60.0528412
+              ],
+              [
+                30.4581103,
+                60.0530649
+              ],
+              [
+                30.4578688,
+                60.0532442
+              ],
+              [
+                30.4572457,
+                60.0534031
+              ],
+              [
+                30.4569419,
+                60.0535169
+              ],
+              [
+                30.4567765,
+                60.0535843
+              ],
+              [
+                30.4566602,
+                60.0536666
+              ],
+              [
+                30.4566206,
+                60.0537389
+              ],
+              [
+                30.4566085,
+                60.0538007
+              ],
+              [
+                30.4566448,
+                60.0538515
+              ],
+              [
+                30.4567219,
+                60.0539149
+              ],
+              [
+                30.4568736,
+                60.053974
+              ],
+              [
+                30.4570514,
+                60.0540517
+              ],
+              [
+                30.4572871,
+                60.0541939
+              ],
+              [
+                30.4575834,
+                60.054335
+              ],
+              [
+                30.4576948,
+                60.0544449
+              ],
+              [
+                30.4579204,
+                60.0545494
+              ],
+              [
+                30.4585397,
+                60.054691
+              ],
+              [
+                30.458695,
+                60.0547027
+              ],
+              [
+                30.4590538,
+                60.0547217
+              ],
+              [
+                30.4594199,
+                60.0547146
+              ],
+              [
+                30.4597806,
+                60.0547045
+              ],
+              [
+                30.4604901,
+                60.0546531
+              ],
+              [
+                30.4609093,
+                60.0546957
+              ],
+              [
+                30.4612892,
+                60.0547397
+              ],
+              [
+                30.461659,
+                60.0548281
+              ],
+              [
+                30.4620698,
+                60.0549334
+              ],
+              [
+                30.4623664,
+                60.0551335
+              ],
+              [
+                30.4626729,
+                60.0553801
+              ],
+              [
+                30.4627908,
+                60.0555327
+              ],
+              [
+                30.4631392,
+                60.0557871
+              ],
+              [
+                30.4634658,
+                60.0561175
+              ],
+              [
+                30.4636463,
+                60.0563942
+              ],
+              [
+                30.4639362,
+                60.0566349
+              ],
+              [
+                30.4642379,
+                60.0570813
+              ],
+              [
+                30.4644483,
+                60.057448
+              ],
+              [
+                30.4646869,
+                60.057778
+              ],
+              [
+                30.464932,
+                60.0579438
+              ],
+              [
+                30.4653958,
+                60.0580787
+              ],
+              [
+                30.4658052,
+                60.058245
+              ],
+              [
+                30.4662692,
+                60.0584108
+              ],
+              [
+                30.4665614,
+                60.0585252
+              ],
+              [
+                30.4668535,
+                60.0586052
+              ],
+              [
+                30.4671628,
+                60.0587396
+              ],
+              [
+                30.467329,
+                60.0588626
+              ],
+              [
+                30.4675484,
+                60.0592761
+              ],
+              [
+                30.4675598,
+                60.0596136
+              ],
+              [
+                30.467518,
+                60.0600519
+              ],
+              [
+                30.4673118,
+                60.0608353
+              ],
+              [
+                30.4665372,
+                60.0620985
+              ],
+              [
+                30.4666287,
+                60.0661349
+              ],
+              [
+                30.4642747,
+                60.068389
+              ],
+              [
+                30.4608314,
+                60.0699051
+              ],
+              [
+                30.4597127,
+                60.0701243
+              ],
+              [
+                30.4563564,
+                60.0688769
+              ],
+              [
+                30.4561669,
+                60.068869
+              ],
+              [
+                30.4545843,
+                60.0704937
+              ],
+              [
+                30.4518276,
+                60.0706954
+              ],
+              [
+                30.4479238,
+                60.0720053
+              ],
+              [
+                30.4451996,
+                60.0715577
+              ],
+              [
+                30.4437482,
+                60.0716713
+              ],
+              [
+                30.4428923,
+                60.071942
+              ],
+              [
+                30.4442634,
+                60.0736319
+              ],
+              [
+                30.4424951,
+                60.074503
+              ],
+              [
+                30.4382811,
+                60.0765183
+              ],
+              [
+                30.4372191,
+                60.0769929
+              ],
+              [
+                30.4275684,
+                60.0813053
+              ],
+              [
+                30.4220093,
+                60.0804796
+              ],
+              [
+                30.4232218,
+                60.0742106
+              ],
+              [
+                30.4238624,
+                60.070898
+              ],
+              [
+                30.4234712,
+                60.070564
+              ],
+              [
+                30.4241734,
+                60.0697359
+              ],
+              [
+                30.4240792,
+                60.0697329
+              ],
+              [
+                30.4240022,
+                60.0697336
+              ],
+              [
+                30.4238106,
+                60.0682511
+              ],
+              [
+                30.4234746,
+                60.0665267
+              ],
+              [
+                30.4221216,
+                60.0598189
+              ],
+              [
+                30.422111,
+                60.0597654
+              ],
+              [
+                30.4220894,
+                60.0593161
+              ],
+              [
+                30.4213155,
+                60.0570755
+              ],
+              [
+                30.4212511,
+                60.0569003
+              ],
+              [
+                30.421186,
+                60.0566838
+              ],
+              [
+                30.4210827,
+                60.0563706
+              ],
+              [
+                30.4205034,
+                60.0547571
+              ],
+              [
+                30.4204303,
+                60.054534
+              ],
+              [
+                30.4200045,
+                60.0532742
+              ],
+              [
+                30.4199414,
+                60.0530944
+              ],
+              [
+                30.4191042,
+                60.0506664
+              ],
+              [
+                30.4189427,
+                60.0505503
+              ],
+              [
+                30.4186042,
+                60.0497071
+              ],
+              [
+                30.4184151,
+                60.0495468
+              ],
+              [
+                30.417048,
+                60.0481373
+              ],
+              [
+                30.4156491,
+                60.0467092
+              ]
+            ]
+          ]
+        ],
+        "bounds": [
+          30.4156491,
+          60.0318143,
+          30.5010529,
+          60.0813053
+        ],
+        "size": 0.004226719465799758,
+        "recordId": "relation/1657571",
+        "timestamp": "2026-06-07T23:05:03Z",
+        "tags": {
+          "addr:country": "RU",
+          "addr:district": "Всеволожский район",
+          "addr:postcode": "188662",
+          "addr:region": "Ленинградская область",
+          "name": "Мурино",
+          "name:en": "Murino",
+          "name:fi": "Muurola",
+          "name:ru": "Мурино",
+          "place": "town",
+          "wikidata": "Q1978797",
+          "wikipedia": "ru:Мурино"
+        }
+      },
+      "candidates": [
+        {
+          "type": "node",
+          "id": 4419998097,
+          "lon": 30.4531918,
+          "lat": 60.0464983,
+          "timestamp": "2023-10-28T12:41:21Z",
+          "tags": {
+            "addr:housenumber": "1",
+            "addr:street": "Английская улица",
+            "contact:vk": "https://vk.com/club129254653",
+            "email": "spb.kafeldom@mail.ru",
+            "name": "КафельДом",
+            "name:ru": "КафельДом",
+            "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 11:00-18:00",
+            "phone": "+7 812 9860542",
+            "shop": "tiles",
+            "website": "https://kafeldom.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 2418663746,
+          "lon": 30.4631434,
+          "lat": 60.0453966,
+          "timestamp": "2026-07-16T16:07:58Z",
+          "tags": {
+            "addr:housenumber": "14",
+            "addr:street": "Оборонная улица",
+            "alt_name": "Пятерочка",
+            "alt_name:ru": "Пятерочка",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:ru": "Пятёрочка",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "check_date": "2024-08-26",
+            "contact:email": "vopros@5ka.ru",
+            "contact:ok": "pyaterochka",
+            "contact:phone": "+7 800 5555505",
+            "contact:telegram": "ks5_bot",
+            "contact:vk": "pyaterochka",
+            "contact:website": "https://5ka.ru",
+            "contact:whatsapp": "79865555505",
+            "int_name": "Pyaterochka",
+            "internet_access": "no",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "name:ru": "Пятёрочка",
+            "opening_hours": "08:00-22:00",
+            "operator": "ООО \"Агроторг\"",
+            "operator:ref:inn": "7825706086",
+            "payment:cash": "yes",
+            "payment:coins": "yes",
+            "payment:credit_cards": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "ref": "13023",
+            "shop": "supermarket",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7804778018,
+          "lon": 30.4635927,
+          "lat": 60.0446509,
+          "timestamp": "2024-08-26T17:52:30Z",
+          "tags": {
+            "addr:housenumber": "14",
+            "addr:street": "Оборонная улица",
+            "brand": "Магнит",
+            "brand:en": "Magnit",
+            "brand:ru": "Магнит",
+            "brand:wikidata": "Q940518",
+            "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+            "check_date": "2024-08-26",
+            "contact:email": "info@magnit.ru",
+            "contact:facebook": "magnitretail",
+            "contact:instagram": "magnitkrd",
+            "contact:ok": "magnitinfo",
+            "contact:phone": "+7 800 2009002",
+            "contact:telegram": "magnit_retail",
+            "contact:twitter": "magnitretail",
+            "contact:vk": "magnitretail",
+            "contact:website": "https://magnit.ru",
+            "contact:youtube": "https://www.youtube.com/channel/UCoWX1GhHlSJGwKpCEJitsoA",
+            "internet_access": "no",
+            "name": "Магнит",
+            "name:de": "Magnit",
+            "name:en": "Magnit",
+            "name:ru": "Магнит",
+            "opening_hours": "08:30-22:30",
+            "operator:wikidata": "Q940518",
+            "operator:wikipedia": "ru:Магнит",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "shop": "supermarket",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7804073639,
+          "lon": 30.4635997,
+          "lat": 60.0446149,
+          "timestamp": "2024-08-27T10:01:27Z",
+          "tags": {
+            "addr:housenumber": "14",
+            "addr:street": "Оборонная улица",
+            "name": "Невис",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "phone": "+7 911 2420303",
+            "shop": "chemist"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7985180903,
+          "lon": 30.4492903,
+          "lat": 60.0457181,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "42",
+            "addr:postcode": "188669",
+            "addr:street": "Центральная улица",
+            "description": "Наши услуги: • Сезонная замена шин: Легковые, внедорожники, малотоннажный транспорт; От R12 до R22; Низкопрофильная резина; Ranflat • Балансировка колес • Ремонт шин и дисков: Вулканизация, Аргон, Правка дисков • Ошиповка зимних шин • Хранение колес • Пр",
+            "email": "lenshinrem@yandex.ru",
+            "image": "https://sun9-72.userapi.com/XSUejit90_tHLOUthPEdj9WiemgxWmWxEiAQbQ/jw29JLdVzyQ.jpg",
+            "name": "ЛенШинРем",
+            "name:en": "LenShinRem",
+            "opening_hours": "24/7",
+            "operator": "ЛенШинРем",
+            "payment:american_express": "yes",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_debit": "yes",
+            "phone": "+7 931 9991067",
+            "shop": "tyres",
+            "website": "https://леншинрем.рф",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7757116395,
+          "lon": 30.4522286,
+          "lat": 60.041636,
+          "timestamp": "2023-08-26T20:54:46Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:postcode": "188662",
+            "addr:street": "Садовая улица",
+            "amenity": "cafe",
+            "name": "Мангал на даче",
+            "opening_hours": "Mo-Su 12:00-00:00",
+            "outdoor_seating": "yes",
+            "phone": "+7 931 3713141",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12873449401,
+          "lon": 30.4532155,
+          "lat": 60.0410997,
+          "timestamp": "2026-10-07T10:45:06Z",
+          "tags": {
+            "addr:housenumber": "1Г",
+            "addr:street": "Садовая улица",
+            "amenity": "bar",
+            "name": "Высокий градус",
+            "opening_hours": "24/7",
+            "website": "https://vgfood.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7804802067,
+          "lon": 30.4487824,
+          "lat": 60.0417738,
+          "timestamp": "2023-08-26T20:51:14Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7 к3",
+            "addr:street": "Новая улица",
+            "beauty": "nails;tanning;hair;hair_removal;laser_hair_removal;skin_care;pedicure;massage",
+            "name": "Блисс",
+            "name:en": "Bliss",
+            "opening_hours": "Mo-Su 10:00-21:00",
+            "phone": "+7 900 6252233",
+            "shop": "beauty",
+            "website": "http://bliss-spb.ru/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7761413410,
+          "lon": 30.447526,
+          "lat": 60.0416208,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:housenumber": "7",
+            "addr:street": "Новая улица",
+            "name": "Новый салончик на Новой",
+            "opening_hours": "Mo-Su 10:00-20:00",
+            "phone": "+7 996 7890688",
+            "shop": "hairdresser",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7768094961,
+          "lon": 30.4473678,
+          "lat": 60.0415983,
+          "timestamp": "2024-10-16T09:59:12Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:postcode": "188669",
+            "addr:street": "Новая улица",
+            "name": "Градусы",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "payment:cash": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "shop": "alcohol",
+            "website": "https://gradusi.net/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7321553497,
+          "lon": 30.4463326,
+          "lat": 60.0422121,
+          "timestamp": "2023-10-30T13:08:49Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "2",
+            "addr:postcode": "188669",
+            "addr:street": "Новая улица",
+            "brand": "Дикси",
+            "brand:en": "Dixy",
+            "brand:ru": "Дикси",
+            "brand:wikidata": "Q4161561",
+            "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+            "contact:email": "dixy@dixy.ru",
+            "contact:facebook": "Dixyclub",
+            "contact:instagram": "dixy.channel",
+            "contact:ok": "dixyclub",
+            "contact:phone": "+7 800 1011001",
+            "contact:vk": "dixyclub",
+            "contact:website": "https://dixy.ru",
+            "contact:youtube": "https://www.youtube.com/user/DixyChannel",
+            "name": "Дикси",
+            "name:en": "Dixy",
+            "name:ru": "Дикси",
+            "opening_hours": "24/7",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 7740075337,
+          "lon": 30.4530698,
+          "lat": 60.0387921,
+          "timestamp": "2023-08-26T20:51:14Z",
+          "tags": {
+            "addr:housenumber": "13 литА",
+            "addr:postcode": "188669",
+            "addr:street": "Новая улица",
+            "brand": "Магнит",
+            "brand:en": "Magnit",
+            "brand:ru": "Магнит",
+            "brand:wikidata": "Q940518",
+            "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+            "contact:email": "info@magnit.ru",
+            "contact:facebook": "magnitretail",
+            "contact:instagram": "magnitkrd",
+            "contact:ok": "magnitinfo",
+            "contact:phone": "+7 800 2009002",
+            "contact:telegram": "magnit_retail",
+            "contact:twitter": "magnitretail",
+            "contact:vk": "magnitretail",
+            "contact:website": "https://magnit.ru",
+            "contact:youtube": "https://www.youtube.com/channel/UCoWX1GhHlSJGwKpCEJitsoA",
+            "name": "Магнит",
+            "name:de": "Magnit",
+            "name:en": "Magnit",
+            "name:ru": "Магнит",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "operator:wikidata": "Q940518",
+            "operator:wikipedia": "ru:Магнит",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "shop": "supermarket"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8639706003,
+          "lon": 30.4469074,
+          "lat": 60.0409221,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:housenumber": "7",
+            "addr:street": "Новая улица",
+            "amenity": "pharmacy",
+            "brand": "Планета здоровья",
+            "brand:wikidata": "Q109732844",
+            "contact:phone": "+7 800 7550500",
+            "contact:website": "https://planetazdorovo.ru/",
+            "healthcare": "pharmacy",
+            "name": "Планета здоровья",
+            "opening_hours": "Mo-Su 08:00-22:00",
+            "operator": "ООО \"Карсилс\""
+          }
+        },
+        {
+          "type": "node",
+          "id": 7775117106,
+          "lon": 30.446912,
+          "lat": 60.0408259,
+          "timestamp": "2023-08-26T20:33:24Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:postcode": "188669",
+            "addr:street": "Новая улица",
+            "amenity": "pharmacy",
+            "dispensing": "yes",
+            "drive_through": "no",
+            "healthcare": "pharmacy",
+            "name": "Имбирь",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "operator": "Вотоня",
+            "website": "https://www.votonia.ru/adresa-magazinov/murino-g-novaya-ul-d-7-apteka/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 12159729115,
+          "lon": 30.447175,
+          "lat": 60.0499168,
+          "timestamp": "2024-12-02T15:21:55Z",
+          "tags": {
+            "addr:housenumber": "18",
+            "addr:street": "Тихая улица",
+            "email": "5502096@mail.ru",
+            "name": "Нотариус Сенникова Ольга Юрьевна",
+            "office": "lawyer",
+            "opening_hours": "Mo-Th 10:00-13:00, 14:00-18:00; Fr 10:00-13:00, 14:00-16:00; Sa 10:00-13:00, 14:00-15:00",
+            "phone": "+7 921 5502096",
+            "website": "http://1notary.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10695499180,
+          "lon": 30.4446977,
+          "lat": 60.041086,
+          "timestamp": "2024-12-26T09:23:52Z",
+          "tags": {
+            "addr:housenumber": "7 к1",
+            "addr:postcode": "188661",
+            "addr:street": "проспект Авиаторов Балтики",
+            "air_conditioning": "yes",
+            "amenity": "restaurant",
+            "contact:email": "info@tokyo-city.ru",
+            "contact:phone": "+7 812 6771000",
+            "contact:vk": "https://vk.com/club10958821",
+            "contact:website": "https://www.tokyo-city.ru",
+            "cuisine": "asian;italian;japanese;sushi",
+            "diet:vegetarian": "yes",
+            "name": "Токио-Express",
+            "opening_hours": "12:00-20:00",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5367152273,
+          "lon": 30.4500804,
+          "lat": 60.0513589,
+          "timestamp": "2025-12-23T18:44:00Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "3 к4",
+            "addr:postcode": "188678",
+            "addr:street": "Привокзальная площадь",
+            "amenity": "fast_food",
+            "check_date": "2025-12-23",
+            "contact:email": "info@shaverland.ru",
+            "contact:phone": "+7 906 2509527;+7 964 3369000",
+            "contact:website": "https://shaverland.ru/cb956e0c-3598-4c48-958b-ae24bbdc30d1",
+            "cuisine": "kebab",
+            "name": "Шаверлэнд",
+            "name:en": "Shaverland",
+            "name:ru": "Шаверлэнд",
+            "opening_hours": "Mo-Su 05:00-04:00",
+            "takeaway": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9488769644,
+          "lon": 30.450318,
+          "lat": 60.0514921,
+          "timestamp": "2023-08-28T14:33:53Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "3/4",
+            "addr:street": "Привокзальная площадь",
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "contact:phone": "+7 495 2321000",
+            "contact:website": "https://www.ozon.ru",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "Ozon",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4352204389,
+          "lon": 30.4481962,
+          "lat": 60.0511501,
+          "timestamp": "2026-09-21T17:44:47Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "5А к6",
+            "addr:postcode": "188661",
+            "addr:street": "Привокзальная площадь",
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Bon Clinique",
+            "opening_hours": "Tu-Su 10:00-21:00",
+            "phone": "+7 812 6475547",
+            "website": "http://bonclinique.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4426267425,
+          "lon": 30.4447481,
+          "lat": 60.0495991,
+          "timestamp": "2025-12-23T18:44:00Z",
+          "tags": {
+            "addr:housenumber": "1А",
+            "addr:postcode": "188661",
+            "addr:street": "Привокзальная площадь",
+            "amenity": "bank",
+            "atm": "yes",
+            "check_date": "2025-12-23",
+            "contact:email": "info@bspb.ru",
+            "contact:facebook": "https://www.facebook.com/bspb/",
+            "contact:instagram": "https://instagram.com/bank_spb",
+            "contact:ok": "https://ok.ru/bspb",
+            "contact:phone": "+7 812 3295050;+7 812 3327878",
+            "contact:twitter": "https://twitter.com/bank_spb",
+            "contact:vk": "https://vk.com/bspb",
+            "contact:website": "https://www.bspb.ru/",
+            "drive_through": "no",
+            "name": "Санкт-Петербург",
+            "opening_hours": "Mo-Fr 10:00-20:00",
+            "operator": "Санкт Петербург",
+            "telegram": "mybspb",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 2000192776,
+          "lon": 30.4449327,
+          "lat": 60.0520817,
+          "timestamp": "2023-08-26T23:47:11Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "3Л",
+            "addr:street": "Привокзальная площадь",
+            "contact:instagram": "https://www.instagram.com/praktik.sada",
+            "contact:vk": "https://vk.com/magazinpraktiksada",
+            "description": "В Практике сада мы предлагаем мицелий грибов и семена овощей, качественные удобрения, корни цветов (роз, георгинов, ирисов и тд) грунты, химию для растений, плодовые деревья, рассаду клубники.",
+            "email": "pr.sada@yandex.ru",
+            "name": "Практик сада",
+            "opening_hours": "Mo-Su 09:30-18:30",
+            "payment:cash": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:mir": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "phone": "+7 (812) 243 12 73",
+            "shop": "garden_centre",
+            "website": "https://praktik_sada_23454.pinbox.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10759020067,
+          "lon": 30.4470781,
+          "lat": 60.0532801,
+          "timestamp": "2025-12-23T18:44:00Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "2",
+            "addr:street": "Скандинавский проезд",
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "check_date": "2025-12-23",
+            "contact:phone": "+7 495 2321000",
+            "contact:website": "https://www.ozon.ru/",
+            "name": "Ozon",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost",
+            "stroller": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4532171893,
+          "lon": 30.4382493,
+          "lat": 60.0515736,
+          "timestamp": "2026-05-13T15:57:32Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:street": "проспект Авиаторов Балтики",
+            "brand": "Питер Оптика",
+            "check_date": "2026-05-13",
+            "contact:phone": "+7 800 6007280,235",
+            "contact:website": "https://piteroptika.ru",
+            "mobile": "+7 (963) 321 54 83",
+            "name": "Питер Оптика",
+            "opening_hours": "Mo-Su 10:00-21:00",
+            "operator": "ООО \"Питер Оптика\"",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "shop": "optician"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4425629026,
+          "lon": 30.4377202,
+          "lat": 60.0516369,
+          "timestamp": "2026-03-22T13:39:14Z",
+          "tags": {
+            "addr:housenumber": "7 к1",
+            "addr:postcode": "188661",
+            "addr:street": "проспект Авиаторов Балтики",
+            "air_conditioning": "yes",
+            "alt_name": "Токио-Сити",
+            "amenity": "restaurant",
+            "brand": "Токио-Сити",
+            "brand:wikidata": "Q62758690",
+            "check_date": "2026-03-22",
+            "contact:email": "info@tokyo-city.ru",
+            "contact:phone": "+7 812 6777401",
+            "contact:vk": "https://vk.com/club10958821",
+            "contact:website": "https://www.tokyo-city.ru",
+            "cuisine": "asian;italian;japanese;sushi",
+            "delivery": "yes",
+            "diet:vegetarian": "yes",
+            "indoor_seating": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Токио-333",
+            "name:en": "Tokyo-333",
+            "name:ru": "Токио-333",
+            "opening_hours": "Fr-Sa 12:00-02:00; Mo-Th,Su 12:00-01:00",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "reservation": "yes",
+            "smoking": "no",
+            "takeaway": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6831634467,
+          "lon": 30.4373496,
+          "lat": 60.0514705,
+          "timestamp": "2026-09-16T15:49:25Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "1/2",
+            "addr:street": "бульвар Менделеева",
+            "amenity": "cafe",
+            "check_date": "2026-09-16",
+            "cuisine": "coffee_shop",
+            "diet:vegetarian": "yes",
+            "entrance": "yes",
+            "internet_access": "wlan",
+            "name": "Mr.Black Coffee",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00",
+            "phone": "+7 931 0008800",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6521871151,
+          "lon": 30.438963,
+          "lat": 60.0526717,
+          "timestamp": "2026-08-16T16:39:13Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:street": "проспект Авиаторов Балтики",
+            "amenity": "cafe",
+            "check_date": "2026-08-16",
+            "check_date:opening_hours": "2021-05-12",
+            "contact:instagram": "#mrblack_coffee",
+            "cuisine": "coffee_shop",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "Mr.Black Coffee",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00",
+            "operator": "Нилов Кирилл Викторович",
+            "operator:ref:inn": "780540656453",
+            "payment:cash": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "takeaway": "yes",
+            "website": "https://mrblackcoffee.ru/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4509253190,
+          "lon": 30.4389015,
+          "lat": 60.0527465,
+          "timestamp": "2026-05-13T15:57:32Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:street": "проспект Авиаторов Балтики",
+            "brand": "Дикси",
+            "brand:en": "Dixy",
+            "brand:ru": "Дикси",
+            "brand:wikidata": "Q4161561",
+            "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+            "check_date": "2026-05-13",
+            "contact:email": "dixy@dixy.ru",
+            "contact:facebook": "Dixyclub",
+            "contact:instagram": "dixy.channel",
+            "contact:ok": "dixyclub",
+            "contact:phone": "+7 800 1011001",
+            "contact:vk": "dixyclub",
+            "contact:website": "https://dixy.ru",
+            "contact:youtube": "https://www.youtube.com/user/DixyChannel",
+            "level": "0",
+            "name": "Дикси",
+            "name:en": "Dixy",
+            "name:ru": "Дикси",
+            "opening_hours": "24/7",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "shop": "supermarket",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 3699134203,
+          "lon": 30.4317335,
+          "lat": 60.0520122,
+          "timestamp": "2026-03-21T13:02:41Z",
+          "tags": {
+            "addr:housenumber": "7 к2",
+            "addr:street": "бульвар Менделеева",
+            "check_date": "2026-03-21",
+            "drive_through": "no",
+            "internet_access": "no",
+            "level": "1",
+            "name": "Градусы",
+            "opening_hours": "9:00-22:00",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "shop": "alcohol",
+            "website": "https://gradusi.net/",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5572225109,
+          "lon": 30.4310423,
+          "lat": 60.0522863,
+          "timestamp": "2026-03-21T13:02:41Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7/2",
+            "addr:postcode": "188662",
+            "addr:street": "бульвар Менделеева",
+            "check_date": "2026-03-21",
+            "contact:vk": "jl_service_official",
+            "craft": "electronics_repair",
+            "email": "9222035@gmail.com",
+            "name": "JL-SERVICE",
+            "opening_hours": "Mo-Sa 11:30-20:00",
+            "phone": "+7 812 9222035",
+            "website": "https://jl-service.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10281360860,
+          "lon": 30.4300201,
+          "lat": 60.0524007,
+          "timestamp": "2026-03-21T13:02:41Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "9 к1",
+            "addr:street": "бульвар Менделеева",
+            "amenity": "cafe",
+            "check_date": "2026-03-21",
+            "contact:email": "fixfoodpanasia@mail.ru",
+            "contact:phone": "+7 966 9282814",
+            "cuisine": "asian",
+            "email": "fixfoodpanasia@mail.ru",
+            "name": "Fix food",
+            "opening_hours": "11:00-23:00",
+            "operator": "ИП \"Цивин Эдуард Евгеньевич",
+            "website": "https://fix-food.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5367152272,
+          "lon": 30.4282977,
+          "lat": 60.0522122,
+          "timestamp": "2026-05-24T12:26:21Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "11 к3",
+            "addr:street": "бульвар Менделеева",
+            "amenity": "restaurant",
+            "check_date": "2026-05-24",
+            "contact:phone": "+78129048248",
+            "contact:vk": "https://vk.com/monkeybrewspb",
+            "cuisine": "georgian;japanese;sushi",
+            "diet:meat": "yes",
+            "diet:vegetarian": "yes",
+            "level": "2",
+            "name": "BBQ",
+            "opening_hours": "Mo-Th,Su 11:00-23:00; Fr-Sa 11:00-01:00",
+            "operator": "ООО \"Бревери\"",
+            "smoking": "outside",
+            "website": "https://reca.rest/restaurants/bbqmendeleeva"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11526604369,
+          "lon": 30.4346502,
+          "lat": 60.0573067,
+          "timestamp": "2026-05-06T16:29:30Z",
+          "tags": {
+            "addr:housenumber": "3/4",
+            "addr:street": "Екатерининская улица",
+            "amenity": "bar",
+            "check_date": "2026-05-06",
+            "contact:vk": "restobar1715",
+            "name": "1715",
+            "opening_hours": "Su-Th 12:00-01:00; Fr-Sa 12:00-02:00",
+            "phone": "+79119991715"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4209244795,
+          "lon": 30.4239629,
+          "lat": 60.0522131,
+          "timestamp": "2026-11-08T15:21:29Z",
+          "tags": {
+            "addr:housenumber": "3",
+            "addr:street": "улица Шувалова",
+            "alt_name": "Пятерочка",
+            "alt_name:ru": "Пятерочка",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:ru": "Пятёрочка",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "check_date": "2026-11-08",
+            "contact:email": "vopros@5ka.ru",
+            "contact:facebook": "pyaterochka",
+            "contact:instagram": "pyaterochka_official",
+            "contact:ok": "pyaterochka",
+            "contact:phone": "+7 800 5555505",
+            "contact:telegram": "ks5_bot",
+            "contact:vk": "pyaterochka",
+            "contact:website": "https://5ka.ru",
+            "contact:whatsapp": "79865555505",
+            "int_name": "Pyaterochka",
+            "level": "1",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "name:ru": "Пятёрочка",
+            "opening_hours": "08:00-23:00",
+            "operator": "ООО \"Агроторг\"",
+            "operator:ref:inn": "7825706086",
+            "payment:cash": "yes",
+            "payment:coins": "yes",
+            "payment:credit_cards": "yes",
+            "payment:mastercard": "yes",
+            "payment:sbp": "yes",
+            "payment:visa": "yes",
+            "ref": "7477",
+            "shop": "supermarket",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4014140249,
+          "lon": 30.4227723,
+          "lat": 60.0507761,
+          "timestamp": "2026-11-08T15:21:29Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "1",
+            "addr:street": "улица Шувалова",
+            "branch": "Супер",
+            "brand:wikidata": "Q4258608",
+            "brand:wikipedia": "ru:Лента (сеть магазинов)",
+            "check_date": "2026-11-08",
+            "contact:email": "info@lenta.com",
+            "contact:ok": "https://ok.ru/group/53286834208943",
+            "contact:phone": "+7 800 7004111",
+            "contact:vk": "lentacom",
+            "contact:website": "https://lenta.com",
+            "delivery": "no",
+            "internet_access": "no",
+            "level": "0",
+            "name": "Супер Лента",
+            "name:ru": "Супер Лента",
+            "opening_hours": "06:00-02:00",
+            "operator": "ООО \"Лента\"",
+            "self_checkout": "yes",
+            "shop": "supermarket",
+            "toilets": "no",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9352925651,
+          "lon": 30.4368685,
+          "lat": 60.0599704,
+          "timestamp": "2026-06-02T16:12:17Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7 к1",
+            "addr:postcode": "188666",
+            "addr:street": "Екатерининская улица",
+            "amenity": "dentist",
+            "brand": "Мой Зубной",
+            "brand:wikidata": "Q110775866",
+            "check_date": "2026-06-02",
+            "healthcare": "dentist",
+            "healthcare:speciality": "dentist",
+            "image": "https://moyzubnoy.ru/d/img_6423.jpg",
+            "name": "Мой Зубной",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "ООО \"Вита\"",
+            "phone": "+7 (812) 603-71-61, +7 (812) 509-27-57, +7 (812) 676-80-00",
+            "website": "https://moyzubnoy.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 4209244796,
+          "lon": 30.4249321,
+          "lat": 60.0534543,
+          "timestamp": "2026-11-08T15:21:29Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "5",
+            "addr:street": "улица Шувалова",
+            "amenity": "pharmacy",
+            "check_date": "2026-11-08",
+            "contact:email": "spravka@lekopttorg.ru",
+            "contact:phone": "88007009300",
+            "contact:website": "https://lekopttorg.ru/",
+            "entrance": "yes",
+            "healthcare": "pharmacy",
+            "name": "ЛекОптТорг",
+            "name:ru": "ЛекОптТорг",
+            "opening_hours": "24/7",
+            "operator": "Омега",
+            "operator:ref:inn": "4710012294",
+            "payment:cash": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9868162414,
+          "lon": 30.4600875,
+          "lat": 60.0630848,
+          "timestamp": "2025-02-17T10:42:16Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "63",
+            "addr:postcode": "188678",
+            "addr:street": "шоссе в Лаврики",
+            "amenity": "dentist",
+            "brand": "Мой Зубной",
+            "brand:wikidata": "Q110775866",
+            "healthcare": "dentist",
+            "healthcare:speciality": "stomatology",
+            "name": "Мой Зубной",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "ООО \"Вита\"",
+            "phone": "+7 (812) 429-70-60",
+            "website": "https://moyzubnoy.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5367152268,
+          "lon": 30.4254784,
+          "lat": 60.0541908,
+          "timestamp": "2026-09-16T15:49:25Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "7",
+            "addr:street": "улица Шувалова",
+            "check_date": "2026-09-16",
+            "contact:email": "personal-livebeer@mail.ru",
+            "contact:phone": "+7 812 6057055;+7 911 1202023",
+            "contact:website": "https://livebeerspb.ru",
+            "name": "Live Beer",
+            "name:ru": "Live Beer",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "payment:app": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "shop": "alcohol",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "node",
+          "id": 6059966933,
+          "lon": 30.4279743,
+          "lat": 60.0571828,
+          "timestamp": "2026-04-05T11:52:35Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "11",
+            "addr:street": "улица Шувалова",
+            "check_date": "2026-04-05",
+            "name": "Первая мебельная",
+            "opening_hours": "Mo-Su 11:00-21:00",
+            "phone": "+7 800 5550646;+7 812 2443767",
+            "shop": "kitchen",
+            "website": "https://www.1mf.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8839116307,
+          "lon": 30.424488,
+          "lat": 60.0551514,
+          "timestamp": "2025-08-28T16:14:58Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "20",
+            "addr:postcode": "188677",
+            "addr:street": "бульвар Менделеева",
+            "beauty": "cosmetics;skin_care;waxing;eyelash;eyebrow;massage",
+            "check_date": "2025-08-28",
+            "contact:email": "alesya-sa83@yandex.ru",
+            "contact:phone": "+7 951 6590805",
+            "contact:website": "https://ladyestetic.ru/",
+            "name": "Леди Эстетик",
+            "opening_hours": "Mo-Fr 09:00-21:00; Sa 10:00-20:00",
+            "operator": "LadyEstetic",
+            "payment:app": "yes",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "payment:coins": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:notes": "yes",
+            "payment:visa": "yes",
+            "payment:visa_electron": "yes",
+            "shop": "beauty"
+          }
+        },
+        {
+          "type": "node",
+          "id": 5720871795,
+          "lon": 30.4200534,
+          "lat": 60.0509792,
+          "timestamp": "2026-11-08T13:39:33Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "2",
+            "addr:street": "Воронцовский бульвар",
+            "amenity": "veterinary",
+            "check_date": "2026-11-08",
+            "name": "ВетСоюз",
+            "opening_hours": "10:00-21:00",
+            "operator": "ООО «Ветсоюз Гринландия»",
+            "phone": "+7 812 9830209",
+            "website": "https://vetsouz.ru/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14106677901,
+          "lon": 30.4443777,
+          "lat": 60.0632947,
+          "timestamp": "2026-08-20T03:27:17Z",
+          "tags": {
+            "addr:housenumber": "1/24",
+            "addr:street": "Ручьевский проспект",
+            "name": "Магнит",
+            "opening_hours": "Mo-Su 08:00-23:00",
+            "phone": "88002009002",
+            "shop": "supermarket",
+            "website": "http://magnit.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11151750132,
+          "lon": 30.4291167,
+          "lat": 60.0584932,
+          "timestamp": "2026-04-27T15:39:40Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "3/10",
+            "addr:street": "улица Шувалова",
+            "check_date": "2026-04-27",
+            "contact:phone": "+7 812 6057055;+7 911 1202078",
+            "contact:website": "https://livebeerspb.ru",
+            "name": "Give beer",
+            "opening_hours": "Mo-Su 11:00-23:00",
+            "payment:app": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:visa": "yes",
+            "shop": "alcohol"
+          }
+        },
+        {
+          "type": "node",
+          "id": 9687480789,
+          "lon": 30.4359637,
+          "lat": 60.0613427,
+          "timestamp": "2026-07-16T16:07:58Z",
+          "tags": {
+            "addr:housenumber": "7 к1",
+            "addr:street": "Графская улица",
+            "alt_name": "Пятерочка",
+            "alt_name:ru": "Пятерочка",
+            "brand": "Пятёрочка",
+            "brand:en": "Pyaterochka",
+            "brand:ru": "Пятёрочка",
+            "brand:wikidata": "Q1768969",
+            "brand:wikipedia": "ru:Пятёрочка",
+            "check_date": "2026-06-02",
+            "contact:email": "vopros@5ka.ru",
+            "contact:facebook": "pyaterochka",
+            "contact:instagram": "pyaterochka_official",
+            "contact:ok": "pyaterochka",
+            "contact:phone": "+7 800 5555505",
+            "contact:telegram": "ks5_bot",
+            "contact:vk": "pyaterochka",
+            "contact:website": "https://5ka.ru",
+            "contact:whatsapp": "79865555505",
+            "int_name": "Pyaterochka",
+            "level": "0",
+            "name": "Пятёрочка",
+            "name:en": "Pyaterochka",
+            "name:ru": "Пятёрочка",
+            "opening_hours": "08:00-23:00",
+            "operator": "ООО \"Агроторг\"",
+            "operator:ref:inn": "7825706086",
+            "payment:cash": "yes",
+            "payment:coins": "yes",
+            "payment:credit_cards": "yes",
+            "payment:mastercard": "yes",
+            "payment:sbp": "yes",
+            "payment:visa": "yes",
+            "ref": "29389",
+            "shop": "supermarket",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14264037901,
+          "lon": 30.4437474,
+          "lat": 60.0635802,
+          "timestamp": "2026-10-08T10:06:50Z",
+          "tags": {
+            "addr:housenumber": "1/24",
+            "addr:postcode": "188677",
+            "addr:street": "Ручьевский проспект",
+            "name": "Озон",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "phone": "88005558982",
+            "shop": "outpost",
+            "website": "http://ozon.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 8559451507,
+          "lon": 30.4170911,
+          "lat": 60.047396,
+          "timestamp": "2024-11-22T09:19:12Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "6",
+            "addr:street": "Транспортная территория",
+            "contact:phone": "+7 812 6058358",
+            "contact:website": "https://maximum-auto.ru/",
+            "currency:RUB": "yes",
+            "name": "Максимум Авто",
+            "name:ru": "Максимум Авто",
+            "opening_hours": "Mo-Su 09:00-22:00",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "payment:mastercard": "yes",
+            "payment:telephone_cards": "yes",
+            "payment:visa": "yes",
+            "payment:visa_debit": "yes",
+            "second_hand": "only",
+            "service:vehicle:car_repair": "yes",
+            "service:vehicle:used_car_sales": "yes",
+            "shop": "car"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14106682101,
+          "lon": 30.4426646,
+          "lat": 60.0639888,
+          "timestamp": "2026-10-08T10:06:49Z",
+          "tags": {
+            "addr:housenumber": "1/24",
+            "addr:street": "Ручьёвский проспект",
+            "name": "Озон",
+            "name:en": "Ozon",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "shop": "outpost",
+            "website": "http://ozon.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 10537470581,
+          "lon": 30.4248648,
+          "lat": 60.0619199,
+          "timestamp": "2026-03-26T10:58:22Z",
+          "tags": {
+            "addr:housenumber": "16 к1",
+            "addr:street": "Воронцовский бульвар",
+            "branch": "Супер",
+            "brand:wikidata": "Q4258608",
+            "brand:wikipedia": "ru:Лента (сеть магазинов)",
+            "check_date": "2026-03-26",
+            "name": "Супер Лента",
+            "name:ru": "Супер Лента",
+            "opening_hours": "07:00-01:00",
+            "shop": "supermarket",
+            "website": "https://lenta.com/"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11104550568,
+          "lon": 30.4269779,
+          "lat": 60.0690254,
+          "timestamp": "2026-04-20T18:22:22Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "13",
+            "addr:postcode": "188677",
+            "addr:street": "Ручьевский проспект",
+            "amenity": "dentist",
+            "check_date": "2026-04-20",
+            "healthcare": "dentist",
+            "healthcare:speciality": "stomatology",
+            "image": "https://moyzubnoy.ru/ruch13",
+            "name": "Мой Зубной",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "ООО \"Вита\"",
+            "phone": "+7 (812) 603-71-61, +7 (812) 676-80-00, +7 (812) 640-22-01",
+            "website": "https://moyzubnoy.ru"
+          }
+        },
+        {
+          "type": "node",
+          "id": 11151750131,
+          "lon": 30.4259808,
+          "lat": 60.0693444,
+          "timestamp": "2026-04-20T18:22:22Z",
+          "tags": {
+            "addr:city": "Мурино",
+            "addr:housenumber": "15",
+            "addr:street": "Ручьевский проспект",
+            "amenity": "bar",
+            "brewery": "yes;various",
+            "check_date": "2026-04-20",
+            "email": "9707088@gmail.com",
+            "mobile": "+79990364987",
+            "name": "Пьяный гриб",
+            "opening_hours": "24/7",
+            "website": "https://vysokij-gradus-food-1674639331.clients.site"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14382252601,
+          "lon": 30.4347539,
+          "lat": 60.0531492,
+          "timestamp": "2026-11-16T08:37:09Z",
+          "tags": {
+            "addr:street": "бульвар Менделеева",
+            "craft": "key_cutter",
+            "name": "Копирование домофонных ключей",
+            "opening_hours": "Mo-Su 09:00-23:00",
+            "phone": "+79218610334",
+            "website": "https://t.me/+aWsjsylQMGU4YmVi"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184813,
+          "lon": 30.4459393,
+          "lat": 60.0508584,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "brand": "Wildberries",
+            "brand:wikidata": "Q24933714",
+            "check_date": "2026-10-14",
+            "name": "Wildberries",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184814,
+          "lon": 30.4458963,
+          "lat": 60.0508571,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "check_date": "2026-10-14",
+            "name": "Ozon",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14245500963,
+          "lon": 30.4371893,
+          "lat": 60.0511471,
+          "timestamp": "2026-10-03T12:01:40Z",
+          "tags": {
+            "amenity": "fast_food",
+            "brand": "Бургер Кинг",
+            "brand:en": "Burger King",
+            "brand:ru": "Бургер Кинг",
+            "brand:wikidata": "Q177054",
+            "check_date": "2026-10-03",
+            "cuisine": "burger",
+            "name": "Бургер Кинг",
+            "name:en": "Burger King",
+            "name:ru": "Бургер Кинг",
+            "opening_hours": "07:00-01:00",
+            "takeaway": "yes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184804,
+          "lon": 30.4552494,
+          "lat": 60.0605568,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "check_date": "2026-10-14",
+            "name": "Лавка пекаря",
+            "opening_hours": "08:00-21:00",
+            "shop": "bakery"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184806,
+          "lon": 30.4549567,
+          "lat": 60.0606784,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "check_date": "2026-10-14",
+            "name": "Мясо&Молоко",
+            "opening_hours": "10:00-21:00",
+            "shop": "convenience"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184807,
+          "lon": 30.4549219,
+          "lat": 60.0606826,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "amenity": "dentist",
+            "check_date": "2026-10-14",
+            "healthcare": "dentist",
+            "name": "Перспектива",
+            "opening_hours": "10:00-21:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14359341470,
+          "lon": 30.4261218,
+          "lat": 60.0483631,
+          "timestamp": "2026-11-08T14:40:57Z",
+          "tags": {
+            "check_date": "2026-11-08",
+            "level": "0",
+            "name": "LS",
+            "opening_hours": "10:00-22:00",
+            "shop": "shoes"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184808,
+          "lon": 30.4545115,
+          "lat": 60.0607507,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "brand": "ВкусВилл",
+            "brand:en": "VkusVill",
+            "brand:ru": "ВкусВилл",
+            "brand:wikidata": "Q57271676",
+            "check_date": "2026-10-14",
+            "name": "ВкусВилл",
+            "name:en": "VkusVill",
+            "name:ru": "ВкусВилл",
+            "opening_hours": "08:00-14:00,14:30-22:00",
+            "shop": "convenience"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184810,
+          "lon": 30.4540728,
+          "lat": 60.0607323,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "amenity": "fast_food",
+            "check_date": "2026-10-14",
+            "cuisine": "pizza",
+            "name": "Nove Pizza",
+            "opening_hours": "12:00-22:00"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184809,
+          "lon": 30.4541268,
+          "lat": 60.0608171,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "brand": "Ozon",
+            "brand:wikidata": "Q2365235",
+            "check_date": "2026-10-14",
+            "name": "Ozon",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14359341473,
+          "lon": 30.4253528,
+          "lat": 60.0481609,
+          "timestamp": "2026-11-08T14:40:57Z",
+          "tags": {
+            "check_date": "2026-11-08",
+            "level": "1",
+            "name": "Fun&Sun",
+            "shop": "travel_agency"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184811,
+          "lon": 30.4518484,
+          "lat": 60.0611884,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "brand": "Магнит",
+            "brand:en": "Magnit",
+            "brand:ru": "Магнит",
+            "brand:wikidata": "Q940518",
+            "check_date": "2026-10-14",
+            "name": "Магнит",
+            "name:en": "Magnit",
+            "name:ru": "Магнит",
+            "opening_hours": "08:00-23:00",
+            "shop": "convenience"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14285184812,
+          "lon": 30.4514374,
+          "lat": 60.0612485,
+          "timestamp": "2026-10-14T22:10:25Z",
+          "tags": {
+            "brand": "Wildberries",
+            "brand:wikidata": "Q24933714",
+            "check_date": "2026-10-14",
+            "name": "Wildberries",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14359341471,
+          "lon": 30.4245735,
+          "lat": 60.0485478,
+          "timestamp": "2026-11-14T11:39:15Z",
+          "tags": {
+            "check_date": "2026-11-08",
+            "level": "0",
+            "name": "Шаробум",
+            "shop": "gift"
+          }
+        },
+        {
+          "type": "node",
+          "id": 14359159193,
+          "lon": 30.4211619,
+          "lat": 60.053967,
+          "timestamp": "2026-11-08T13:39:33Z",
+          "tags": {
+            "brand": "Lamoda",
+            "brand:wikidata": "Q97658635",
+            "check_date": "2026-11-08",
+            "name": "Lamoda",
+            "opening_hours": "10:00-22:00",
+            "shop": "outpost"
+          }
+        }
+      ]
+    }
+  ]
+}

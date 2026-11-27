@@ -1,0 +1,20 @@
+{
+  "name": "@ryadom/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": { ".": "./src/index.ts", "./compiled": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.js" } },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "migrate": "tsx src/cli.ts migrate",
+    "seed": "tsx src/cli.ts seed",
+    "grant-runtime": "tsx src/cli.ts grant-runtime",
+    "test": "tsx --test test/unit.test.ts",
+    "test:integration": "tsx --test test/integration.test.ts test/admin.integration.test.ts"
+  },
+  "dependencies": { "@ryadom/types": "0.1.0", "@ryadom/accounts-types": "0.1.0", "pg": "8.23.1" },
+  "devDependencies": { "@types/pg": "8.23.1", "tsx": "4.23.15" }
+}

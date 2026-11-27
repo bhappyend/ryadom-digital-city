@@ -1,0 +1,12 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/volga_federal_district/mari_el_republic-latest.osm.pbf",
+  "resolvedUrl": "https://download.openstreetmap.fr/extracts/russia/volga_federal_district/mari_el_republic-latest.osm.pbf",
+  "fetchedAt": "2026-11-27T00:03:01.415Z",
+  "sourceLastModified": "Wed, 25 Nov 2026 00:03:44 GMT",
+  "bytes": 27982706,
+  "sha256": "b52131e208f816f4352bd5add704771821dac40f8dc0748fcea14e94bda5a382",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

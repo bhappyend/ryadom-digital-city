@@ -1,0 +1,12 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/northwestern_federal_district/novgorod_oblast-latest.osm.pbf",
+  "resolvedUrl": "https://download.openstreetmap.fr/extracts/russia/northwestern_federal_district/novgorod_oblast-latest.osm.pbf",
+  "fetchedAt": "2026-11-27T00:03:36.166Z",
+  "sourceLastModified": "Wed, 25 Nov 2026 00:03:45 GMT",
+  "bytes": 29753804,
+  "sha256": "75c8a64ae9aedb596a8dd9da25b6e1639c907eb42558cf952c55f06e0dfa1940",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

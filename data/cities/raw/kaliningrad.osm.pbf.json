@@ -1,0 +1,12 @@
+{
+  "url": "https://download.geofabrik.de/russia/kaliningrad-latest.osm.pbf",
+  "resolvedUrl": "https://download.geofabrik.de/russia/kaliningrad/kaliningrad-261125.osm.pbf",
+  "fetchedAt": "2026-11-26T23:56:40.347Z",
+  "sourceLastModified": "Thu, 26 Nov 2026 17:37:55 GMT",
+  "bytes": 29349241,
+  "sha256": "08fc13c2588addb6e4c779821e6bf720fb34a41a7545e6f96c64b6263b232e45",
+  "tlsVerified": true,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "transform": "PBF source; metadata dates read individually, never inferred from HTTP date"
+}

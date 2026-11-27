@@ -1,0 +1,21 @@
+{
+  "name": "@ryadom/importer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "exports": {
+    "./normalize": "./src/normalize.ts",
+    "./apply": "./src/apply.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "tsx --test test/unit.test.ts",
+    "test:integration": "tsx --test test/integration.test.ts",
+    "import": "tsx src/cli.ts",
+    "fetch:initial": "tsx src/fetch-initial.ts",
+    "prepare:replay": "tsx src/prepare-replay.ts",
+    "verify:catalog": "tsx src/verify-catalog.ts"
+  },
+  "dependencies": { "@ryadom/types": "0.1.0", "@ryadom/db": "0.1.0" },
+  "devDependencies": { "tsx": "4.23.15" }
+}

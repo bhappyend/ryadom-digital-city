@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-11-27T00:06:42.772Z",
+  "usedByRegistryOrImport": false,
+  "sources": [
+    {
+      "file": "quarantine/oktmo-20261001.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20261001T1010-structure-20260210T1102.csv",
+      "bytes": 20125676,
+      "sha256": "2e3f1d24ebfcbcf050a1a706a77e7e9639a686749194bf5c6a8200ba598cf37a",
+      "tlsVerified": false,
+      "transport": "One-off PowerShell SkipCertificateCheck after UntrustedRoot; source authenticity not established",
+      "status": "quarantined_not_import_authority",
+      "officialDenominatorUsable": false
+    },
+    {
+      "file": "quarantine/meta.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/meta.csv",
+      "bytes": 15369,
+      "sha256": "58e453c14f85d726f7d818200b2f65d435cc5e542fad68eb76a3c845ca45fe26",
+      "tlsVerified": false,
+      "transport": "One-off PowerShell SkipCertificateCheck after UntrustedRoot; source authenticity not established",
+      "status": "quarantined_not_import_authority",
+      "officialDenominatorUsable": false
+    },
+    {
+      "file": "quarantine/rosstat-classification.html",
+      "url": "https://rosstat.gov.ru/classification?print=1",
+      "bytes": 236862,
+      "sha256": "ee8dfbea76eb3baef92117644d7283919ef1c8d2b1f0617c9d2fbf856c8ff6e2",
+      "tlsVerified": false,
+      "transport": "One-off PowerShell SkipCertificateCheck after UntrustedRoot; source authenticity not established",
+      "status": "quarantined_not_import_authority",
+      "officialDenominatorUsable": false
+    },
+    {
+      "file": "quarantine/rosstat-oktmo-page.html",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo",
+      "bytes": 851399,
+      "sha256": "fbd30d8c72282c1be5278f49a004f8773d25c2a9d1609b3ecbfa1d526701d128",
+      "tlsVerified": false,
+      "transport": "One-off PowerShell SkipCertificateCheck after UntrustedRoot; source authenticity not established",
+      "status": "quarantined_not_import_authority",
+      "officialDenominatorUsable": false
+    }
+  ]
+}
